@@ -1,9 +1,9 @@
 {
-  "name"              : "CSClubPlan",
-  "short_name"        : "CSClubP",
+  "name"              : "CSClubPlan.io",
+  "short_name"        : "CSClubP.io",
   "description"       : "長野創造科学クラブのホームページ案です",
   "start_url"         : "https://pp-pixel.github.io/csclub/index.html",
-  "id"         : "/ngn-CSClub.hp",
+  "id"         : "csclub",
   "display"           : "standalone",
   "background_color"  : "#023f65",
   "theme_color"       : "#023f65",
