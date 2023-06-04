@@ -1,0 +1,19 @@
+{
+  "name"              : "CSClubPlan",
+  "short_name"        : "CSClubP",
+  "description"       : "長野創造科学クラブのホームページ案です",
+  "start_url"         : "https://ngn-creative-science-club.on.drv.tw/ngn-CSClub.hp/index.html",
+  "id"         : "/ngn-CSClub.hp",
+  "display"           : "standalone",
+  "background_color"  : "#023f65",
+  "theme_color"       : "#023f65",
+  "icons": [{
+      "src"           : "https://lh3.googleusercontent.com/fife/APg5EOa9TC3Hyz1vYzEE8pE-6l_8hX76ksb36yhgh3PhWiDcxLIQO9qH7WjpjSzVAjYcUa4z8QzHp6DAgO-F2xMNgES-duVFQ5nKiAfZjS85d8BbeqdqByiiJdc4iCEwij85EgtqaLokjnTaRxXpeWggmP4BLh2r6FYuugNZPhPJO5n5xWr2Xo_7ScOFxQw9qBTNqgoPj4ufFTLCdPJfft_H-YkHEah-UuAwcZZQeQwxaTApb1829DZy1GvLPvZrQnJK98fiHBcv_R6lxqVU0JzdW7VSfOIgfm8pRa328tL8sjRfVi1lgkycBh8suBJ6J-XqVYEwIH8vEzzoosRrRxXKOGnBtkrZn7QtJg3FYnsCRtjOK9X3N2-znxPG-3mNsosqgHWWE7gRcU9FGbTvrySqxk65BA-1lyBATJYJBCAybIROkuE2HbwJdsa-Di_oLG32QMKajLMfLHd-XdiZOzUm0W9ZWZlIVOQeptqbqJ7vwYmsdocFaP562bq5wm3RSAaB0ImyN5lI8xE6TZmG0wlEtMExA_hZM7aYzXgp_4LvTUnjnzMzIVjWXmCcKF1Vg5ngmJIg0pRLetePfBVIaQZWs-v-66kLtA14USRJuwnorXxIbrZja8_2-muasvedSF_0wRPKDnH5-S_RtctZL2iQZPNzpu_jpXD2iv11AHVymx_5b1ymKSClxDx2pAf7BNDuG8P4Nrqx0VoBqkYj7MNqJIOi0VeUSMFdv73r7ZYmiF0KFuNFQCjfPeQciYNpbqfbfqnuMXr_nVX9c39yNwl8JL5c1cSbrGEjod6QvTVA20_yA8II1nLKf1zxxbEnbpO5ewr21NblkCseGXll1hAaAe6HML1rksN6W6eYQxXMX18vJGEieKxZlpVVxElZck0tsu2Cb2JmbFJFFbOTgJ-uCbMf6lR18bV4esnylVHwoRD6-GXJA6REGnVBTNwTuuVe7pT9B42xipaEWs6sQWyCaPfmGk7JGeNwGTZ0pofWrx2fwnRFt7I2d6_k_UqEorzBofdOeNe3BbZ8UWXVdrUGycS-T8b_OXdqrmkYisFIrIzB-7_UehL621xB7OZqzxHQV8Wyb9l8yDD55Sey8Jn6tS26X-8WmswYSZGruC3WEw3MZg7b071VRI5trmIvmNJXnn-OH3iPYuG9MNgUbjrB4kLokr0ocVRCjdnO8Yo5nVRoPv3a7Fj2pDVoCNqQ-6TLE8_SrCN_jI7OqUr7smLj6zWHq7NZQuGfDODMUzQkXjkL08sILMBCVW0kN3MkS0wVlYxL12edjdI_wR7ZrVfxHFtPDPUre_eHcaM8NL4FaZe4x9EfdJKPau6Gq2FMx8a_l8ectqb_TSnJujFpLi1GlIAsfuHANxSBhuOGw5JjE8MyauCdeCI6gTuBIrcac3sDT9FeLzrt6c4n3mhjUbJmiQfGKCvEeUCLlmIwf-70Yc_CVFg9kbEJ28mPXx8NlFpsZ-Plq8mfQ6v_PLMOtEfCpGiEieOZ=w2880-h1793",
+      "sizes"         : "192x192",
+      "type"          : "image/png"
+    }, {
+      "src"           : "https://lh3.googleusercontent.com/fife/APg5EObDwBQg1ZBvczEY8I0gdj3dXaR5g77zASK9CP2UUKfGQuKG727d0kkCiVboFBq8UTYkGCHN-Eg61cU118sacIzAd6rsq-twXipNvtAV1AxCuDC_Ogm-qjPFV32_hh-_GsJjF5HgaUhmptLkf4tTbvGv7E1U0m0mMlUXxLU2z0SF7ykYXtxrAFXi0Zj2XRnqfXky5FEtApAr8Y8EqpHZTnxUrjxP5RuzZx1gSTP0ZpjjR6n_iWDiGOl2b_e9CGEZx7bZwJfDghyfScGD6A6m0IDbD3aIqRDnENKlI_hDFoEQhumyzYA2dx-_YoTh1KHUcxVISw-ReQAHrVUZp0htl3A5oeS-XFb9RD4bhTYQ7vbDQLioz9_JS-tqHXKMWdF6Q4fAdKJpupH1KMrRjdyV48MWGvrKF5lhYC7bEascyjpulrgPP3-d71fHU-VJEQrKIrz-kR2San9iqpfhjo6yeA8lV_ahflrKMTxdwgjRHH6D16B0nygjjsih_wylkxmk51C6hpmnlBYpfbq6Mc0ke175EJM-qee5rzRZOPwr9RNGwPN5d_BAa36jDUDA_BKBnZQ3wl5DYwdOLUe5z7YekNjBLdirO7opOwC2bnQps5_vx7Orp3YznoZciqSQjR0U6VzwPm2UlBCywyugg2aoT_GHSt5neEmXlhxdnJ6_Le1cvZlwuvAx5cU4gyYJTOPaGUHQsMj77QnTLN78Il6V5-BSMKW7r8GkltDmDstF8JgyNTepujHcVtvUAaMCDqliVt5WIrWL1lQhuVvPHUMkP_VCCVBSsl1o9IyU-6rAIF4ReUD9TwnaMiWSqYOjlKn9FDIQx7yfM2OZ0DKr89ytZEd1846_UPO1MImra_JsoMrS5SPEAni7DxNe59fdOV3t9DtEjKBiqJK6ZIncnhqKFvxgiooWkeXacl8lxnkbDOmmId3vWxk0sAkq1nwE_zgk7VbcqFjjqts1ydEHe1Tv88nS8ekL9xeU6R8rHD7o2EaiLToYVUUqj2siwdFo_G_FsgT4Bxv1BI5eoxJn1UnU_-mEzygsUg5Y86P7IosQQaooKj-KleCgyTa5DO9xkN2WCYDJ_yVJx1t9wuDnoklDzc5_oqmnYzQJhyiQBeAgoJTgMLFnSRgjEynZsX6n0neEW4GeJvZtsCP1I_Wl51y4MXyO9Llly_R8TWzXVwIZjvK2THMTEPhNJCAkFIWJddhoaK2kzbdndRw0qDuxa7nnJ0c8YMUxZSV9379932KetEX-Ho2lkVsVPmkzWTDLllkpvnbED5q8rWhJKAx0FHP6MpHQdhmMj6Ry7dH8sWr25Vsf5YNuo2LwL2nk4KgUZOCk3NZzEl2zCNeDz2ldmanuGImtVdmeRjHu33UN_d-hmdGt0ayXiMtScbfA5mr6JA-G7p9cLlrA9IUgxY248jjub4HWZHjk-UzateZch8zkS2g1qa9VFPS-N7oHP2PGEcJxodBgRHLOcrTHtnUN2jrqhCg1-k8L=w1909-h1793",
+      "sizes"         : "256x256",
+      "type"          : "image/png"
+  }]
+}
