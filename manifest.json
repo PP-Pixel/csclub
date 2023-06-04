@@ -2,7 +2,7 @@
   "name"              : "CSClubPlan",
   "short_name"        : "CSClubP",
   "description"       : "長野創造科学クラブのホームページ案です",
-  "start_url"         : "https://ngn-creative-science-club.on.drv.tw/ngn-CSClub.hp/index.html",
+  "start_url"         : "https://pp-pixel.github.io/csclub/index.html",
   "id"         : "/ngn-CSClub.hp",
   "display"           : "standalone",
   "background_color"  : "#023f65",
