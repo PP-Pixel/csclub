@@ -10,35 +10,35 @@
 </url>
 <url>
   <loc>https://pp-pixel.github.io/csclub/index.html</loc>
-  <priority>0.8</priority>
+  <priority>1.0</priority>
   <lastmod>2023-06-04T17:03:41+09:00</lastmod>
   <changefreq>always</changefreq>
   <mobile:mobile />
 </url>
 <url>
   <loc>https://pp-pixel.github.io/csclub/company.html</loc>
-  <priority>0.8</priority>
+  <priority>0.9</priority>
   <lastmod>2023-06-04T17:03:41+09:00</lastmod>
   <changefreq>always</changefreq>
   <mobile:mobile />
 </url>
 <url>
   <loc>https://pp-pixel.github.io/csclub/activity.html</loc>
-  <priority>0.8</priority>
+  <priority>0.9</priority>
   <lastmod>2023-06-04T17:03:41+09:00</lastmod>
   <changefreq>always</changefreq>
   <mobile:mobile />
 </url>
 <url>
   <loc>https://pp-pixel.github.io/csclub/faq.html</loc>
-  <priority>0.8</priority>
+  <priority>0.7</priority>
   <lastmod>2023-06-04T17:03:41+09:00</lastmod>
   <changefreq>always</changefreq>
   <mobile:mobile />
 </url>
 <url>
   <loc>https://pp-pixel.github.io/csclub/contact.html</loc>
-  <priority>0.8</priority>
+  <priority>0.7</priority>
   <lastmod>2023-06-04T17:03:41+09:00</lastmod>
   <changefreq>always</changefreq>
   <mobile:mobile />
@@ -48,6 +48,14 @@
   <priority>0.8</priority>
   <lastmod>2023-06-04T17:03:41+09:00</lastmod>
   <changefreq>always</changefreq>
+  <mobile:mobile />
+</url>
+<url>
+  <loc>https://ngn-creative-science-club.on.drv.tw/ngn-CSClub.hp/</loc>
+  <priority>0.5</priority>
+  <lastmod>2023-06-06T21:23:41+09:00</lastmod>
+  <changefreq>always</changefreq>
+  <mobile:mobile />
 </url>
 
 </urlset>
