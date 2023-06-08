@@ -3,7 +3,7 @@
   URLは https://csclub.page.link/io-hp です。
 - 公式サイトはこちら( http://4d3.gmobb.jp/dcm8wdyx8bibu/ )です。
 - このサイトのみで使用するために最適化されている為、このコードを丸コピするとバグります。
- - reCAPCHA , Google Search ,Yahoo!Japan Search , Bing Search , Progressive Web Apps など
+  - reCAPCHA , Google Search ,Yahoo!Japan Search , Bing Search , Progressive Web Apps など
 
 # Google Search（Yahoo!Japan Search）
 ただいま、Google , Yahoo!Japan 検索で公式HPサイト( http://4d3.gmobb.jp/dcm8wdyx8bibu/ )とHP案サイト( https://csclub.page.link/io-hp )がいい勝負をしています。
