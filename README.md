@@ -1,5 +1,6 @@
 # 長野創造科学クラブのホームページ案
 長野創造科学クラブのHP案です。
+  URLは https://csclub.page.link/io-hp です。
 - 公式サイトはこちら( http://4d3.gmobb.jp/dcm8wdyx8bibu/ )です。
   - このサイトのみで使用するために最適化されている為、このコードを丸コピするとバグります。
    - reCAPCHA , Google Search , Progressive Web Apps など
