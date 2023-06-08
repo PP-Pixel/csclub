@@ -11,3 +11,5 @@
 
 # Bing Search
 Google Search への登録だけでなく、Microsoft Bing の検索にも申請しています。
+  ※まだ、検索結果に表示されていません。
+- https://www.bing.com/search?q=長野創造科学クラブ
