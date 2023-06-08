@@ -5,7 +5,7 @@
   - このサイトのみで使用するために最適化されている為、このコードを丸コピするとバグります。
    - reCAPCHA , Google Search , Progressive Web Apps など
 
-# Google Yahoo!Japan Search
+# Google Search（Yahoo!Japan Search）
 ただいま、Google , Yahoo!Japan 検索で公式HPサイト( http://4d3.gmobb.jp/dcm8wdyx8bibu/ )とHP案サイト( https://pp-pixel.github.io/csclub/ )がいい勝負をしています。
 - https://www.google.com/search?q=長野創造科学クラブ
 - https://search.yahoo.co.jp/search?p=長野創造科学クラブ
