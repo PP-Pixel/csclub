@@ -6,6 +6,21 @@
   <title>404 Error｜長野創造科学クラブのHP案</title>
   <link rel="icon" href="favicon.ico" />
   <link rel="apple-touch-icon-precomposed" href="favicon.png" />
+  <link rel="manifest" href="https://pp-pixel.github.io/csclub/manifest.json">
+  <link rel="icon" href="favicon.ico">
+  <script>
+	  function onSubmit(token) {
+	  document.getElementById("demo-form").submit();
+	  }
+  </script>
+  <script>
+	  if ("serviceWorker" in navigator) {
+	  window.addEventListener("load", function () {
+	  navigator.serviceWorker.register("sw.js").then(
+	  function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ",registration.scope);},
+	  function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err);});});
+	  }
+  </script>
   <script src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
   <style>
   body {
