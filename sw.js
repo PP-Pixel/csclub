@@ -55,7 +55,7 @@ workbox.routing.registerRoute(
 );
 //font
 workbox.routing.registerRoute(
-  new RegExp(''),
+  new RegExp('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap'),
   new workbox.strategies.NetworkFirst()
 );
 
