@@ -6,8 +6,8 @@
   - reCAPCHA , Google Search ,Yahoo!Japan Search , Bing Search , Progressive Web Apps など
 
 # Google Search（Yahoo!Japan Search）
-~~ただいま、Google , Yahoo!Japan 検索で公式HPサイト( http://4d3.gmobb.jp/dcm8wdyx8bibu/ )とHP案サイト( https://csclub.page.link/io-hp )がいい勝負をしています。~~
- ただいま、本サイトの更新やサイトマップの更新をし過ぎて、検索結果から外れてしまっています…
+~~ただいま、Google , Yahoo!Japan 検索で公式HPサイト( http://4d3.gmobb.jp/dcm8wdyx8bibu/ )とHP案サイト( https://pp-pixel.github.io/csclub/ )がいい勝負をしています。~~<br>
+ ただいま、本サイトの更新やサイトマップの更新をし過ぎて、検索結果から外れてしまっています…<br>
  表示されることもありますが、本サイトのホームではなく、活動内容の方が表示されるのはサイトマップのバグで修正しましたが、まだ反映されていません。
 - https://www.google.com/search?q=長野創造科学クラブ
 - https://search.yahoo.co.jp/search?p=長野創造科学クラブ
