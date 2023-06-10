@@ -53,6 +53,11 @@ workbox.routing.registerRoute(
   new RegExp('http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi'),
   new workbox.strategies.NetworkFirst()
 );
+//font
+workbox.routing.registerRoute(
+  new RegExp(''),
+  new workbox.strategies.NetworkFirst()
+);
 
 
 
