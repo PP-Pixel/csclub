@@ -1,4 +1,4 @@
-# 長野創造科学クラブのHP案
+# 長野創造科学クラブのホームページ案
 長野創造科学クラブのHP案です。
   URLは https://pp-pixel.github.io/csclub/ です。
 - 公式サイトはこちら( http://4d3.gmobb.jp/dcm8wdyx8bibu/ )です。
