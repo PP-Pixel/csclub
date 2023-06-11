@@ -71,11 +71,9 @@ iframe.font {
 /*ul,olタグ*/
 ul, ol {margin-bottom: 30px;}
 
-/*g-recaptchaのbuttonを目だたなく*/
+/*g-recaptchaのbuttonを見えなく*/
 .g-recaptcha {
-	color: #023f65;
-	border: #023f6500;
-	background-color: #023f65;
+	display: none;
 }
 
 /*リンクテキスト全般の設定
