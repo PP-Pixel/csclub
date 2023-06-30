@@ -90,12 +90,12 @@ workbox.routing.registerRoute(
     'ogp-mage.png',
     'ogp-mage.webp',
     //css
-    'style.css',
-    'animation.css',
-    'inview.css',
+    'css/style.css',
+    'css/animation.css',
+    'css/inview.css',
     //javaScript
-    'main.js',
-    'jquery.inview_set.js',
+    'js/main.js',
+    'js/jquery.inview_set.js',
     'https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js',
     'https://www.google.com/recaptcha/api.jp',
