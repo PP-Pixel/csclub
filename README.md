@@ -6,7 +6,7 @@
   - reCAPCHA , Google Search ,Yahoo!Japan Search , Bing Search , Progressive Web Apps など
 
 # Google Search（Yahoo!Japan Search）
-※検索結果に表示されません
+※検索結果に表示されません<br>
 ~~ただいま、Google , Yahoo!Japan 検索で公式HPサイト( http://4d3.gmobb.jp/dcm8wdyx8bibu/ )とHP案サイト( https://pp-pixel.github.io/csclub/ )がいい勝負をしています。<br>
 &emsp;ただいま、本サイトの更新やサイトマップの更新をし過ぎて、検索結果から外れてしまっています…<br>
 &emsp;表示されることもありますが、本サイトのホームではなく、活動内容の方が表示されるのはサイトマップのバグで修正しましたが、まだ反映されていません。~~
