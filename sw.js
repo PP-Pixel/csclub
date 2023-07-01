@@ -77,18 +77,18 @@ workbox.routing.registerRoute(
     //404
     '404.html',
     //images
-    'activity-room.png',
-    'logo.png',
-    'logo.psd',
-    'logo.webp',
-    'mainimg_simple.mp4',
+    'images/activity-room.png',
+    'images/logo.png',
+    'images/logo.psd',
+    'images/logo.webp',
+    'images/mainimg_simple.webm',
     //icon,ogp
-    'favicon.ico',
-    'favicon.png',
-    'icon-192.png',
-    'icon-256.png',
-    'ogp-mage.png',
-    'ogp-mage.webp',
+    'favicon/favicon.ico',
+    'favicon/favicon.png',
+    'favicon/icon-192.png',
+    'favicon/icon-256.png',
+    'images/ogp-mage.png',
+    'images/ogp-mage.webp',
     //css
     'css/style.css',
     'css/animation.css',
@@ -99,9 +99,10 @@ workbox.routing.registerRoute(
     'https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js',
     'https://www.google.com/recaptcha/api.jp',
-    'https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl'.
+    'https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl',
     //pdf
-    'r5-recruitment.pdf',
+    'download/r5-recruitment.pdf',
+    'download/r5-recruitment_notLink.pdf',
     //other
     'manifest.json',
    OFFLINE_PAGE,  
