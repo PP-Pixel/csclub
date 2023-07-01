@@ -5,12 +5,12 @@
 - このサイトのみで使用するために最適化されている為、このコードを外部へフォークするとバグります。
   - reCAPCHA , Google Search ,Yahoo!Japan Search , Bing Search , Progressive Web Apps など
 
-https://pp-pixel.github.io/csclub/ <br>
-https://pp-pixel.github.io/csclub/company.html <br>
-https://pp-pixel.github.io/csclub/activity.html <br>
-https://pp-pixel.github.io/csclub/download/r5-recruitment.pdf <br>
-https://pp-pixel.github.io/csclub/faq.html <br>
-https://pp-pixel.github.io/csclub/contact.html <br>
+- https://pp-pixel.github.io/csclub/ <br>
+- https://pp-pixel.github.io/csclub/company.html <br>
+- https://pp-pixel.github.io/csclub/activity.html <br>
+- https://pp-pixel.github.io/csclub/download/r5-recruitment.pdf <br>
+- https://pp-pixel.github.io/csclub/faq.html <br>
+- https://pp-pixel.github.io/csclub/contact.html <br>
 
 # Google Search（Yahoo!Japan Search）
 ※検索結果に表示されません<br>
