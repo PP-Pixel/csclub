@@ -5,15 +5,13 @@
 - このサイトのみで使用するために最適化されている為、このコードを外部へフォークするとバグります。
   - reCAPCHA , Google Search ,Yahoo!Japan Search , Bing Search , Progressive Web Apps など
 <br>
-- https://pp-pixel.github.io/csclub/
-- https://pp-pixel.github.io/csclub/company.html
-- https://pp-pixel.github.io/csclub/activity.html
-- https://pp-pixel.github.io/csclub/download/r5-recruitment.pdf
-- https://pp-pixel.github.io/csclub/faq.html
-- https://pp-pixel.github.io/csclub/contact.html
-<br><br>
-# -- -- -- -- -- --
-<br>
+- https://pp-pixel.github.io/csclub/ <br>
+- https://pp-pixel.github.io/csclub/company.html <br>
+- https://pp-pixel.github.io/csclub/activity.html <br>
+- https://pp-pixel.github.io/csclub/download/r5-recruitment.pdf <br>
+- https://pp-pixel.github.io/csclub/faq.html <br>
+- https://pp-pixel.github.io/csclub/contact.html <br>
+
 # Google Search（Yahoo!Japan Search）
 ※検索結果に表示されません<br>
 ~~ただいま、Google , Yahoo!Japan 検索で公式HPサイト( http://4d3.gmobb.jp/dcm8wdyx8bibu/ )とHP案サイト( https://pp-pixel.github.io/csclub/ )がいい勝負をしています。<br>
