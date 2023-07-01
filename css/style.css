@@ -159,6 +159,7 @@ header #logo p {
 	display: block;text-decoration: none;
 	text-align: center;	/*テキストを中央に*/
 	padding: 14px 0;	/*上下、左右へのメニュー内の余白*/
+	border-radius: 0px 0px 20px 20px;    /* 角丸指定 */
 }
 
 /*マウスオン時*/
