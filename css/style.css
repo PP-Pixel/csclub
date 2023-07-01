@@ -40,7 +40,7 @@ body {
 	font-family: 'Zen Kaku Gothic New', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 	-webkit-text-size-adjust: none;
 	background: #fff;	/*背景色*/
-	color: #393939;		/*全体の文字色*/
+	color: #666;		/*全体の文字色*/
 	line-height: 2;		/*行間*/
 	overflow-x: hidden;
 }
@@ -76,10 +76,11 @@ ul, ol {margin-bottom: 30px;}
 	display: none;
 }
 
+
 /*リンクテキスト全般の設定
 ---------------------------------------------------------------------------*/
 a {
-	color: #666;	/*文字色*/
+	color: #2a2a2a;	/*文字色*/
 	transition: 0.3s;
 }
 
@@ -132,14 +133,14 @@ header #logo {
 /*トップページのロゴ画像*/
 .home header #logo {
 	position: absolute; z-index: 1;
-	width: 80%;		/*ロゴの幅*/
+	width: 75%;		/*ロゴの幅*/
 	left: 15%;		/*headerに対して、左からの配置場所*/
 	top: 0px;		/*headerに対して、上からの配置場所*/
 }
 
 /*トップページのロゴ下に書いている説明文*/
 header #logo p {
-	font-size: 1em;
+	font-size: 0.8em;
 }
 
 
@@ -159,8 +160,7 @@ header #logo p {
 	display: block;text-decoration: none;
 	text-align: center;	/*テキストを中央に*/
 	padding: 14px 0;	/*上下、左右へのメニュー内の余白*/
-	border-radius: 0px 0px 20px 20px;    /* 角丸指定 */
-	box-shadow: 1px 1px 0 #01375840;
+	border-radius: 20px 20px 20px 20px;    /* 角丸指定 */
 }
 
 /*マウスオン時*/
@@ -175,12 +175,13 @@ header #logo p {
 ---------------------------------------------------------------------------*/
 /*メニューブロック設定*/
 .p #menubar {
-	border-bottom: 0px solid #ccc;	/*下線の幅、線種、色*/
+	border-bottom: 1px solid #ccc;	/*下線の幅、線種、色*/
 }
 
 /*メニュー１個あたりの設定*/
 .p #menubar a {
 	background: #fff;	/*背景色*/
+	border-radius: 0px 0px 20px 20px;		/*角丸*/
 }
 
 
@@ -205,7 +206,6 @@ header #logo p {
 	text-align: center;		/*テキストを中央に*/
 	color: #fff;	/*文字色*/
 	padding: 20px;	/*メニュー内の余白*/
-	border-radius:20px;		/*角丸*/
 }
 
 
@@ -393,12 +393,12 @@ ul.submenu {
 
 /*メニュー１個あたりの設定*/
 ul.submenu li {
-	display: block;margin: 0;margin-left: 10px;margin-right: 10px;
+	display: block;margin: 0;margin-left: 15px;margin-right: 15px;
 	border-bottom: solid 1px #ccc;	/*下線の幅、線種、色*/
 }
 ul.submenu li a {
 	text-decoration: none;display: block;
-	padding: 5px 12px;	/*上下、左右へとる余白*/
+	padding: 5px 10px;	/*上下、左右へとる余白*/
 	border-radius:20px;		/*角丸*/
 }
 
@@ -506,7 +506,7 @@ footer a {text-decoration: none;color: #fff;}
 
 /*list内のNEWマーク*/
 .list .new {
-	font-size: 1em;		/*文字サイズ*/
+	font-size: 0.6em;		/*文字サイズ*/
 	background: #ff0000;	/*背景色*/
 	color: #fff;			/*文字色*/
 	width: 50px;			/*幅*/
