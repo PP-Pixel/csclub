@@ -40,7 +40,7 @@ body {
 	font-family: 'Zen Kaku Gothic New', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 	-webkit-text-size-adjust: none;
 	background: #fff;	/*背景色*/
-	color: #666;		/*全体の文字色*/
+	color: #393939;		/*全体の文字色*/
 	line-height: 2;		/*行間*/
 	overflow-x: hidden;
 }
