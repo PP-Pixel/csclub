@@ -132,14 +132,14 @@ header #logo {
 /*トップページのロゴ画像*/
 .home header #logo {
 	position: absolute; z-index: 1;
-	width: 75%;		/*ロゴの幅*/
+	width: 80%;		/*ロゴの幅*/
 	left: 15%;		/*headerに対して、左からの配置場所*/
 	top: 0px;		/*headerに対して、上からの配置場所*/
 }
 
 /*トップページのロゴ下に書いている説明文*/
 header #logo p {
-	font-size: 0.8em;
+	font-size: 1em;
 }
 
 
