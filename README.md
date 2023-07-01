@@ -14,6 +14,6 @@
 - https://search.yahoo.co.jp/search?p=長野創造科学クラブ
 
 # Bing Search
-~~Google Search への登録だけでなく、Microsoft Bing の検索にも申請しています。<br>~~
+Google Search への登録だけでなく、Microsoft Bing の検索にも申請しています。<br>
 &emsp;※検索結果に表示されていません。
 - https://www.bing.com/search?q=長野創造科学クラブ
