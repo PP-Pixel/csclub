@@ -386,17 +386,17 @@ ul.submenu {
 	list-style: none;
 	padding: 0;margin: 0;
 	margin-bottom: 20px;		/*メニューブロックの下に空けるスペース*/
-	border-top: solid 1px #ccc;	/*上の線の幅、線種、色*/
+	/* border-top: solid 1px #ccc;	上の線の幅、線種、色 */
 }
 
 /*メニュー１個あたりの設定*/
 ul.submenu li {
-	display: block;margin: 0;
+	display: block;margin: 0;margin-left: 10px;margin-right: 10px;
 	border-bottom: solid 1px #ccc;	/*下線の幅、線種、色*/
 }
 ul.submenu li a {
 	text-decoration: none;display: block;
-	padding: 5px 10px;	/*上下、左右へとる余白*/
+	padding: 5px 12px;	/*上下、左右へとる余白*/
 	border-radius:20px;		/*角丸*/
 }
 
