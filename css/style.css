@@ -64,8 +64,8 @@ iframe {
 	width: 100%;
 	border-radius: 10px;    /* 角丸指定 */
 }
-iframe.font {
-	font-family: 'Zen Kaku Gothic New' "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;;
+iframe.calendar {
+	border-radius: 0px 0px 10px 10px;
 }
 
 
