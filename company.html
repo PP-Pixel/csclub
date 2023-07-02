@@ -38,12 +38,14 @@
 	border-radius: 10px;    /* 角丸指定 */
 	}
 </style>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+        <script>
+            function onSubmit(token) {
+            document.getElementById("demo-form").submit();
+            }
+        </script>
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
 <link rel="manifest" href="https://pp-pixel.github.io/csclub/manifest.json">
-<script>
-	function onSubmit(token) {
-	document.getElementById("demo-form").submit();
-	}
-</script>
 <script>
 	if ("serviceWorker" in navigator) {
 	window.addEventListener("load", function () {
@@ -52,7 +54,6 @@
 	function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err);});});
 	}
 </script>
-<script src="https://www.google.com/recaptcha/enterprise.js?render=6LexWggmAAAAAJTfumoo_IFEaC8bCoHrgpkI66_T"></script>
 </head>
 
 <body>
