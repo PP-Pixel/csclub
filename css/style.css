@@ -39,8 +39,8 @@ html,body {
 body {
 	font-family: 'Zen Kaku Gothic New', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 	-webkit-text-size-adjust: none;
-	background: #28292a;	/*背景色*/
-	color: #666;		/*全体の文字色*/
+	background-color: #28292a;	/*背景色*/
+	color: #343434;		/*全体の文字色*/
 	line-height: 2;		/*行間*/
 	overflow-x: hidden;
 }
@@ -48,7 +48,7 @@ body {
 /*リセット*/
 figure {margin: 0;}
 dd {margin: 0;}
-nav {margin: 0;padding: 0;}
+nav {margin: 0;padding: 0;background-color: #35353500;}
 
 /*table全般の設定*/
 table {border-collapse:collapse;}
@@ -167,7 +167,7 @@ header #logo p {
 /*マウスオン時*/
 #menubar ul li a:hover {
 	opacity: 1;
-	background: #004067d2;	/*背景色*/
+	background: #00619dd2;	/*背景色*/
 	color: #fff;			/*文字色*/
 }
 
@@ -181,11 +181,12 @@ header #logo p {
 
 /*メニュー１個あたりの設定*/
 .p #menubar a {
-	border-bottom: 1px solid #ccc;	/*下線の幅、線種、色*/
-	background: #fff;	/*背景色*/
-	border-radius: 0px 0px 20px 20px;		/*角丸*/
+	/*border-bottom: 1px solid #ccc;	下線の幅、線種、色*/
+	background-color: #ffffff;	/*背景色*/
+	border-radius: 20px 20px 20px 20px;		/*角丸*/
+	margin: 3px;
+	margin-left: 3px;margin-right: 3px;
 }
-
 
 /*小さな端末用の設定（開閉ブロック）
 ---------------------------------------------------------------------------*/
@@ -196,7 +197,7 @@ header #logo p {
 	width: 100%;
 	height: 100%;
 	padding: 70px 0;	/*上下、左右へのブロック内の余白*/
-	background: rgba(0,0,0,0.9);		/*背景色。0,0,0は黒の事で0.9は色が90%出た状態の事。*/
+	background: rgba(0, 0, 0, 0.8);		/*背景色。0,0,0は黒の事で0.9は色が90%出た状態の事。*/
 	color: #fff;						/*文字色*/
 	animation: animation1 0.2s both;	/*animation.cssの、animation1を実行する。0.2sは0.2秒の事。*/
 	text-align: center;
@@ -211,7 +212,6 @@ header #logo p {
 	width: 80%;
 	margin-left: auto;margin-right: auto;
 }
-
 
 /*ドロップダウンメニュー
 ---------------------------------------------------------------------------*/
@@ -808,6 +808,7 @@ html, body {
 /*メニュー１個あたりの設定*/
 #menubar ul li {
 	flex: 1;
+	background-color: #353535;
 }
 
 
