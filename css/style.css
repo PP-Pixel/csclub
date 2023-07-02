@@ -162,8 +162,6 @@ header #logo p {
 	text-align: center;	/*テキストを中央に*/
 	padding: 14px 0;	/*上下、左右へのメニュー内の余白*/
 	border-radius: 20px 20px 20px 20px;    /* 角丸指定 */
-	width: 80%;
-	margin-left: auto;margin-right: auto;
 }
 
 /*マウスオン時*/
@@ -171,7 +169,6 @@ header #logo p {
 	opacity: 1;
 	background: #004067d2;	/*背景色*/
 	color: #fff;			/*文字色*/
-
 }
 
 
@@ -179,11 +176,12 @@ header #logo p {
 ---------------------------------------------------------------------------*/
 /*メニューブロック設定*/
 .p #menubar {
-	border-bottom: 1px solid #ccc;	/*下線の幅、線種、色*/
+	background-color: white;
 }
 
 /*メニュー１個あたりの設定*/
 .p #menubar a {
+	border-bottom: 1px solid #ccc;	/*下線の幅、線種、色*/
 	background: #fff;	/*背景色*/
 	border-radius: 0px 0px 20px 20px;		/*角丸*/
 }
@@ -202,6 +200,8 @@ header #logo p {
 	color: #fff;						/*文字色*/
 	animation: animation1 0.2s both;	/*animation.cssの、animation1を実行する。0.2sは0.2秒の事。*/
 	text-align: center;
+	width: 80%;
+	margin-left: auto;margin-right: auto;
 }
 
 /*メニュー１個あたりの設定*/
