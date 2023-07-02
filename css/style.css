@@ -200,8 +200,6 @@ header #logo p {
 	color: #fff;						/*文字色*/
 	animation: animation1 0.2s both;	/*animation.cssの、animation1を実行する。0.2sは0.2秒の事。*/
 	text-align: center;
-	width: 80%;
-	margin-left: auto;margin-right: auto;
 }
 
 /*メニュー１個あたりの設定*/
@@ -210,6 +208,8 @@ header #logo p {
 	text-align: center;		/*テキストを中央に*/
 	color: #fff;	/*文字色*/
 	padding: 20px;	/*メニュー内の余白*/
+	width: 80%;
+	margin-left: auto;margin-right: auto;
 }
 
 
