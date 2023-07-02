@@ -1,6 +1,6 @@
 ## ⚠ フォーク禁止 🚫 Forks are prohibited ⚠
 # 長野創造科学クラブのHP案
-## **Nagano Creative Science Club HP Draft**<br>
+## Nagano Creative Science Club HP Draft
 
 長野創造科学クラブのHP案です。
   URLは https://pp-pixel.github.io/csclub/ です。
