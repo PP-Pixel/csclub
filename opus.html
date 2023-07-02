@@ -24,7 +24,7 @@
 <!-- SNSに埋め込みしたときのイメージ画像 -->
 <meta property="og:image" content="https://pp-pixel.github.io/csclub/images/ogp-image.png" />
 <meta name=”twitter:card” content="summary" />
-<title>過去作品｜長野創造科学クラブのHP案</title>
+<title>作品集｜長野創造科学クラブのHP案</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="長野創造科学クラブで実際に作ったものを紹介するページです。">
 <script src="https://www.google.com/recaptcha/api.js"></script>
@@ -47,6 +47,19 @@
 <link rel="stylesheet" href="css/style.css">
 <style>
 	footer {margin-top: 10px;}
+	main {margin-top: 10px;}
+	.opus {
+		background-color: white;width: 95%;margin: auto;border-radius: 20px;
+	}
+	.list .btn a {
+		border-radius: 20px;
+	}
+	.btn a {
+		background-color: #003f67;
+	}
+	.btn a:hover {
+		background-color: #3b6985;
+	}
 </style>
 </head>
 
@@ -57,7 +70,7 @@
 <header>
 
 <div id="logo">
-<h1><a href="index.html"><img src="images/logo.png" alt="SAMPLE COMPANY"></a></h1>
+<h1><a href="index.html"><img src="logo/logo.webp" alt="長野創造科学クラブ"></a></h1>
 </div>
 
 </header>
@@ -65,103 +78,107 @@
 <!--開閉ブロック-->
 <div id="menubar">
 
-<nav>
-<ul>
-<li><a href="index.html">ホーム</a></li>
-<li><a href="company.html">会社概要</a></li>
-<li><a href="">サービス紹介</a>
-	<ul>
-	<li><a href="service.html">メニュー</a></li>
-	<li><a href="service.html">メニュー</a></li>
-	<li><a href="service.html">メニュー</a></li>
-	</ul>
-</li>
-<li><a href="faq.html">FAQ</a></li>
-<li><a href="contact.html">お問い合わせ</a></li>
-</ul>
-</nav>
-
-<div class="sh">
-<p>※800px以下のメニュー開閉時にのみ表示させたい情報があればここ（shボックスの中）に入れて下さい。<br>
-サンプルテキスト。サンプルテキスト。<br>
-サンプルテキスト。サンプルテキスト。<br>
-サンプルテキスト。サンプルテキスト。</p>
-</div>
-<!--/.sh-->
-
-</div>
-<!--/#menubar-->
+	<nav>
+		<ul>
+			<li><a href="index.html">ホーム</a></li>
+			<li><a href="company.html">クラブ概要</a></li>
+			<li><a href="activity.html">活動内容</a></li>
+			<li><a href="opus.html">作品集</a></li>
+			<li><a href="download/r5-recruitment.pdf">募集要項</a></li>
+			<!--
+			<li><a href="">サービス紹介</a>
+				<ul>
+					<li><a href="service.html">メニュー</a></li>
+					<li><a href="service.html">メニュー</a></li>
+					<li><a href="service.html">メニュー</a></li>
+				</ul>
+			</li>-->
+			<li><a href="faq.html">FAQ</a></li>
+			<li><a href="contact.html">お問い合わせ</a></li>
+		</ul>
+	</nav>
+	<div class="sh">
+		<p>長野創造科学クラブのHP案<br>
+			&copy; 2023 Nagano Creative Science Club HP Draft.
+		</p>
+	</div>
+	<!--/.sh-->
+	
+	</div>
+	<!--/#menubar-->
 
 <main>
 
-<section>
+<section class="opus">
 
-<h2>Service</h2>
-<p>ブロック全体を囲んでいる「list-container」タグを入れ忘れないで下さい。これがないとレイアウトが崩れます。<br>
-出現してくるアニメーションは他にも色々ご用意しております。テンプレート内の<a href="sample_inview.html">sample_inview.htmlをお読み下さい。</a></p>
+<h2>作品集</h2>
+<p>過去に発明くふう展に出品した作品集です。</p>
 
 <div class="list-container">
 
 <div class="list blur">
-<figure><img src="images/sample1.jpg" alt=""></figure>
+<figure><img src="images/No-Image.webp" alt=""></figure>
 <div class="text">
 <h4>Sample Title</h4>
 <p>ここに説明を入れます。サンプルテキスト。</p>
 </div>
-<p class="btn"><a href="service2.html">詳しくみる</a></p>
+<p class="btn"><a href="#">詳しくみる</a></p>
+<span class="new">2022</span>
 </div>
 
 <div class="list blur">
-<figure><img src="images/sample1.jpg" alt=""></figure>
+<figure><img src="images/No-Image.webp" alt=""></figure>
 <div class="text">
 <h4>Sample Title</h4>
 <p>ここに説明を入れます。サンプルテキスト。</p>
 </div>
-<p class="btn"><a href="service2.html">詳しくみる</a></p>
+<p class="btn"><a href="#">詳しくみる</a></p>
+<span class="new">2022</span>
 </div>
 
 <div class="list blur">
-<figure><img src="images/sample1.jpg" alt=""></figure>
+<figure><img src="images/No-Image.webp" alt=""></figure>
+<div class="text">
+<h4>Sample Title</h4>
+<p>ここに説明を入れます。サンプルテキスト。</p>
+</div>
+<p class="btn"><a href="#">詳しくみる</a></p>
+<span class="new">2022</span>
+</div>
+
+<div class="list blur">
+<figure><img src="images/No-Image.webp" alt=""></figure>
+<div class="text">
+<h4>Sample Title</h4>
+<p>ここに説明を入れます。サンプルテキスト。</p>
+</div>
+<p class="btn"><a href="#">詳しくみる</a></p>
+<span class="new">2021</span>
+</div>
+
+<div class="list blur">
+<figure><img src="images/No-Image.webp" alt=""></figure>
+<div class="text">
+<h4>Sample Title</h4>
+<p>ここに説明を入れます。サンプルテキスト。</p>
+</div>
+<p class="btn"><a href="#">詳しくみる</a></p>
+</div>
+
+<div class="list blur">
+<figure><img src="images/No-Image.webp" alt=""></figure>
 <div class="text">
 <h4>Sample Title</h4>
 <p>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</p>
 </div>
-<p class="btn"><a href="service2.html">詳しくみる</a></p>
-</div>
-
-<div class="list blur">
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<div class="text">
-<h4>Sample Title</h4>
-<p>ここに説明を入れます。サンプルテキスト。</p>
-</div>
-<p class="btn"><a href="service2.html">詳しくみる</a></p>
-<span class="new">NEW</span>
-</div>
-
-<div class="list blur">
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<div class="text">
-<h4>Sample Title</h4>
-<p>ここに説明を入れます。サンプルテキスト。</p>
-</div>
-<p class="btn"><a href="service2.html">詳しくみる</a></p>
-</div>
-
-<div class="list blur">
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<div class="text">
-<h4>Sample Title</h4>
-<p>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</p>
-</div>
-<p class="btn"><a href="service2.html">詳しくみる</a></p>
+<p class="btn"><a href="#">詳しくみる</a></p>
 </div>
 
 </div>
 <!--/.list-container-->
-
+<p class="c"><a href="javascript:history.back()">&lt;&lt; 前のページに戻る</a></p>
 </section>
-
+<!--
 <section class="bg1">
 
 <h2>Service</h2>
@@ -225,27 +242,31 @@
 </div>
 
 </div>
-<!--/.list-container-->
+/.list-container
 
 </section>
-
+-->
 </main>
 
 <footer>
 
-<ul id="footermenu">
-<li><a href="#">フッターメニュー</a></li>
-<li><a href="#">フッターメニュー</a></li>
-<li><a href="#">フッターメニュー</a></li>
-<li><a href="#">フッターメニュー</a></li>
-<li><a href="#">フッターメニュー</a></li>
-</ul>
-
-<div class="copy">
-<small>Copyright&copy; <a href="index.html">SAMPLE COMPANY</a> All Rights Reserved.</small>
-<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
-</div>
-
+	<ul id="footermenu">
+	<li><a href="index.html">ホーム</a></li>
+	<li><a href="company.html">クラブ概要</a></li>
+	<li><a href="activity.html">活動内容</a></li>
+	<li><a href="opus.html">作品集</a></li>
+	<li><a href="download/r5-recruitment.pdf">募集要項</a></li>
+	<li><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi" target="_blank">掲示板</a></li>
+	<li><a href="faq.html">FAQ</a></li>
+	<li><a href="contact.html">お問い合わせ</a></li>
+	</ul>&#010;
+	<!--reCAPTCHA-->
+	<button class="g-recaptcha" data-sitekey="6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl" data-callback='onSubmit' data-action='submit'></button>
+	<div class="copy">
+	<small>Copyright&copy; 2023 <a href="index.html">Nagano Creative Science Club HP Draft</a>. All Rights Reserved.</small>
+	<span class="pr">《Web Design:Template-Party》</span>
+	</div>
+	
 </footer>
 
 <!--開閉ボタン（ハンバーガーアイコン）-->
