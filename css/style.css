@@ -39,7 +39,7 @@ html,body {
 body {
 	font-family: 'Zen Kaku Gothic New', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
 	-webkit-text-size-adjust: none;
-	background: #fff;	/*背景色*/
+	background: #28292a;	/*背景色*/
 	color: #666;		/*全体の文字色*/
 	line-height: 2;		/*行間*/
 	overflow-x: hidden;
@@ -162,13 +162,16 @@ header #logo p {
 	text-align: center;	/*テキストを中央に*/
 	padding: 14px 0;	/*上下、左右へのメニュー内の余白*/
 	border-radius: 20px 20px 20px 20px;    /* 角丸指定 */
+	width: 80%;
+	margin-left: auto;margin-right: auto;
 }
 
 /*マウスオン時*/
 #menubar ul li a:hover {
 	opacity: 1;
-	background: #003f67;	/*背景色*/
+	background: #004067d2;	/*背景色*/
 	color: #fff;			/*文字色*/
+
 }
 
 
@@ -347,6 +350,8 @@ main p + p {
 	display: flex;			/*flexボックスを使う指定*/
 	flex-direction: column;	/*子要素を縦並びにする*/
 	padding: 5%;			/*ボックス内の余白*/
+	background-color: #fff;
+	border-radius: 0px 0px 20px 20px;
 }
 
 /*.mainのsectionのpaddingを一旦リセット*/
@@ -418,6 +423,7 @@ footer {
 	text-align: center;		/*内容をセンタリング*/
 	background: #003f67;	/*背景色*/
 	color: #fff;			/*文字色*/
+	border-radius: 20px 20px 0px 0px;
 }
 
 /*リンクテキスト*/
@@ -507,8 +513,22 @@ footer a {text-decoration: none;color: #fff;}
 
 /*list内のNEWマーク*/
 .list .new {
-	font-size: 0.6em;		/*文字サイズ*/
-	background: #ff0000;	/*背景色*/
+	font-size: 1em;		/*文字サイズ*/
+	background: #ed5f5f;	/*背景色*/
+	color: #fff;			/*文字色*/
+	width: 50px;			/*幅*/
+	line-height: 50px;		/*高さ*/
+	border-radius: 50%;		/*角丸のサイズ。円形になります。*/
+	text-align: center;		/*テキストをセンタリング*/
+	position: absolute;
+	left: -10px;			/*listブロックに対して左からの配置場所の指定*/
+	top: -10px;				/*listブロックに対して上からの配置場所の指定*/
+	transform: rotate(-30deg);	/*回転。まっすぐ表示させたいならこの１行を削除。*/
+}
+/*list内のPOSTマーク*/
+.list .post {
+	font-size: 1em;		/*文字サイズ*/
+	background: #3e7845;	/*背景色*/
 	color: #fff;			/*文字色*/
 	width: 50px;			/*幅*/
 	line-height: 50px;		/*高さ*/
@@ -662,8 +682,9 @@ p.btn {margin: 0;}
 /*bg1（背景に色がついたタイプ）
 ---------------------------------------------------------------------------*/
 .bg1 {
-	background: #111;	/*背景色*/
+	background: #343536;	/*背景色*/
 	color: #fff;		/*文字色*/
+	border-radius: 20px;		/*角丸*/
 }
 .bg1 a {
 	color: #fff;		/*リンクテキストの文字色*/
