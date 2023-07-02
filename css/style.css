@@ -60,12 +60,12 @@ img {border: none;max-width: 100%;height: auto;vertical-align: middle;border-rad
 video {max-width: 100%;}
 
 /*iframeタグ*/
-iframe {
+iframe.round {
 	width: 100%;
 	border-radius: 10px;    /* 角丸指定 */
 }
 iframe.calendar {
-	border-radius: 0px 0px 10px 10px;
+	border-radius: 0px 0px 10px 10px;		/* UIが削れないように角丸指定 */
 }
 
 
@@ -423,7 +423,7 @@ footer {
 	text-align: center;		/*内容をセンタリング*/
 	background: #003f67;	/*背景色*/
 	color: #fff;			/*文字色*/
-	border-radius: 20px 20px 0px 0px;
+	border-radius: 20px 20px 0px 0px;width: 95%;margin: auto;margin-top: 10px;
 }
 
 /*リンクテキスト*/
@@ -684,7 +684,7 @@ p.btn {margin: 0;}
 .bg1 {
 	background: #343536;	/*背景色*/
 	color: #fff;		/*文字色*/
-	border-radius: 20px;		/*角丸*/
+	border-radius: 20px;width: 95%;margin: auto;margin-top: 10px;
 }
 .bg1 a {
 	color: #fff;		/*リンクテキストの文字色*/
