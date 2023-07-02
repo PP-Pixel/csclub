@@ -30,7 +30,10 @@
 <meta name="description" content="クラブ概要,アクセス,所在地,場所,カレンダー,活動日">
 <link rel="stylesheet" href="css/style.css">
 <style>
-	body {background-color: white;} 
+	body {background-color: #28292a;} 
+	.c2 {width: 95%;margin: auto;}
+	main {margin-top: 10px;}
+	.activity {background-color: white;width: 95%;margin-top: 10px;margin: auto;border-radius: 20px;}
 	/* article {background-color: white;border-radius: 20px;width: 95%;margin: auto;margin-top: 10px;}
 	footer {margin-top: 10px;}*/
 	iframe.round {
@@ -59,7 +62,6 @@
 <body>
 
 <div id="container">
-
 <header>
 
 <div id="logo">
@@ -67,7 +69,6 @@
 </div>
 
 </header>
-
 <!--開閉ブロック-->
 <div id="menubar">
 
@@ -101,7 +102,7 @@
 
 <main>
 
-<section>
+<section class="activity">
 
 <h2>クラブ概要</h2>
 
@@ -134,265 +135,9 @@
 	安茂里駅から４５０㍍、国道１９号経由 徒歩８分、車２分</td>
 	</tr>
 </table>
+<p class="c"><a href="javascript:history.back()" style="color: #343434;">&lt;&lt; 前のページに戻る</a></p>
+</section><!--./activity-->
 
-</section>
-<!--
-<section>
-
-<h2 id="about">2021年10月「以前」にテンプレートを利用した事のあるお客様へ</h2>
-<p>2021年11月以降からの配布テンプレートについて、かなり仕様が変更されましたので、メインとなる内容のみピックアップさせて頂きます。<br>
-今後しばらく新作テンプレートの手直しが入るかもしれません。</p>
-<ul>
-<li><span class="color-check">モバイルファースト</span>のcssに変更しました。小さな端末からの設定になるのでご注意下さい。</li>
-<li>floatでのレイアウトから、主にflexボックスを使ったレイアウトへ変更されました。</li>
-<li>2022年6月でMicrosoftのIEサポートが終了したのに伴い、弊社テンプレートも<span class="color-check">IE対応(バグ対応など)を終了</span>しました。</li>
-</ul>
-
-</section>
-
-<section>
-
-<h2>当テンプレートの使い方</h2>
-
-<h3>初心者向けマニュアル公開中</h3>
-<p>画像加工やテンプレートの編集方法、無料サーバーを使ってサイトを公開するなど動画をまじえてわかりやすく解説しています。<br>
-<a href="https://template-party.com/file/" target="_blank">初心者向けマニュアルはこちら。</a></p>
-
-<h3>titleタグ、copyright、metaタグ、他の設定</h3>
-<p><strong class="color-theme">titleタグの設定はとても重要です。念入りにワードを選んで適切に入力しましょう。</strong><br>
-まず、htmlソースが見れる状態にして、<br>
-<span class="look">&lt;title&gt;企業・ビジネスサイト向け 無料ホームページテンプレート tp_biz60&lt;/title&gt;</span><br>
-を編集しましょう。<br>
-あなたのホームページ名が「SAMPLE COMPANY」だとすれば、<br>
-<span class="look">&lt;title&gt;SAMPLE COMPANY&lt;/title&gt;</span><br>
-とすればＯＫです。SEO対策もするなら冒頭に重要なワードを入れておきましょう。</p>
-<p><strong class="color-theme">copyrightを変更しましょう。</strong><br>
-続いてhtmlの下の方にある、<br>
-<span class="look">Copyright&copy; SAMPLE COMPANY All Rights Reserved.</span><br>
-の部分もあなたのサイト名に変更します。</p>
-<p><strong class="color-theme">metaタグを変更しましょう。</strong><br>
-htmlソースが見える状態にしてmetaタグを変更しましょう。</p>
-<p>ソースの上の方に、<br>
-<span class="look">content=&quot;ここにサイト説明を入れます&quot;</span><br>
-という部分がありますので、テキストをサイトの説明文に入れ替えます。検索結果の文面に使われる場合もありますので、見た人が来訪したくなるような説明文を簡潔に書きましょう。</p>
-<p><strong class="color-theme">h1ロゴのaltタグも変更しましょう。</strong><br>
-html側に、<br>
-<span class="look">alt=&quot;SAMPLE COMPANY&quot;</span><br>
-となっている箇所があるので、この部分もあなたのサイト名に変更しましょう。</p>
-
-<h3>アイコン画像について（Font Awesomeの解説）</h3>
-<p>imagesフォルダに入っていない画像（アイコン）は全てFont Awesomeの素材です。<br>
-<a href="https://fontawesome.com/" target="_blank">Font Awesome 公式サイト</a><br>
-<a href="https://fontawesome.com/v5.15/icons?d=gallery&p=2">Font Awesome アイコン一覧</a></p>
-<p>iタグを使ってhtmlに直接アイコンを読み込む場合と、cssの擬似要素を使って読み込む場合があります。<br>
-それぞれ他のアイコンに置き換えたい場合は、当サイトの<a href="https://template-party.com/tips/tips20211126_font_awesome.html">マニュアル</a>をお読み下さい。</p>
-<p>Font Awesomeを使う為に必要なタグ、ファイル類。<br>
-cssフォルダのstyle.css冒頭で読み込んでいる「Font Awesomeの読み込み」のブロック。</p>
-<p>何年も経過した場合、動作に問題が出てくる可能性があります。<br>
-テンプレートを編集していないのに突然動きがおかしくなった場合は、style.cssの冒頭でCDNから読み込んでいるFont Awesome関連のファイルのバージョンを変更して動作するか確認してみて下さい。</p>
-
-<h3>トップページの「News」ブロックのアイコンについて</h3>
-<p>「その他」「サービス」など、テキスト部分はhtml側で直接入力されていますので必要に応じて編集して下さい。<br>
-アイコン用の文字数が増えすぎるとレイアウトが崩れます。ご注意下さい。</p>
-<p>背景色は、cssフォルダのstyle.cssの、<br>
-<span class="look">#new dt span</span><br>
-や、<br>
-<span class="look">#new dt span.icon-bg1</span><br>
-のbackgroundでそれぞれ変更できます。</p>
-<p>新しいアイコンを追加したい場合、上記の「#new dt span.icon-bg1」ブロックをコピペし、<span class="color-check">.icon-bg1</span>部分を<span class="color-check">.icon-bg2</span>などに変更し、backgroundに好きな色を設定します。<br>
-後はhtml側で、<br>
-<span class="look">&lt;span class=&quot;<span class="color-check">icon-bg2</span>&quot;&gt;〜〜〜&lt;/span&gt;</span><br>
-などとすればOKです。</p>
-
-<h3>「FAQ」ページで使っている開閉ブロックについて</h3>
-<p>汎用的な開閉ブロックなので、どこにでも使えます。<br>
-クリック対象としたいブロックに<span class="look"><span class="color-check">class=&quot;openclose&quot;</span></span>とつければ、続く要素が自動的に開閉ブロックになります。<br>
-もしすでにclass指定がある場合は、半角スペースで区切って追加すればOKです。<br>
-<span class="look">例：class=&quot;sample <span class="color-check">openclose</span>&quot;</span></p>
-
-</section>-->
-
-<div class="c2">
-
-<div class="main">
-
-<section>
-<!--
-<h2>おしらせ</h2>
-
-<div class="list-container">
-
-<div class="list blur">
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<div class="text">
-<h4>Sample Title</h4>
-<p>ここに説明を入れます。サンプルテキスト。</p>
-</div>
-<span class="new">NEW</span>
-</div>
-
-<div class="list blur">
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<div class="text">
-<h4>Sample Title</h4>
-<p>ここに説明を入れます。サンプルテキスト。</p>
-</div>
-</div>
-
-<div class="list blur">
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<div class="text">
-<h4>Sample Title</h4>
-<p>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</p>
-</div>
-</div>
-
-</div>-->
-<!--/.list-container
-
-<h3>２カラムを使う際の解説</h3>
-<p>まず、２カラムにしたいブロックの外枠として、<span class="color-check">c2</span>ブロックを作ります。<br>
-その中に、<span class="color-check">main</span>ブロックと<span class="color-check">sub</span>ブロックを入れて下さい。<br>
-ここのmainブロックというのは、classでつけた名前で、main要素とは異なります。（.mainとmainの違い。）</p>
-
-<pre class="look" style="margin-left: 20px;">&lt;div class=&quot;<span class="color-check">c2</span>&quot;&gt;<br>
-	&lt;div class=&quot;<span class="color-check">main</span>&quot;&gt;
-	※ここにメインコンテンツの内容を入れます。
-	&lt;/div&gt;<br>
-	&lt;div class=&quot;<span class="color-check">sub</span>&quot;&gt;
-	※ここにサブコンテンツの内容を入れます。
-	&lt;/div&gt;<br>
-&lt;/div&gt;</pre>
-
-<h3>画面幅が800px未満の小さな端末での閲覧時は</h3>
-<p>サブメニューが上で、メインコンテンツがその下に配置されます。順番を逆にしたい場合（メインコンテンツを上にしたい場合）、cssフォルダのstyle.cssの「.main」と「.sub」にある「order」の数字を入れ替えて下さい。<br>
-入れ替えた場合、大きな端末でも順番(左右ブロック)が入れ替わってしまうので、大きな端末だけは今のままがいいなら、style.cssの下の方にある、<br>
-<span class="look">@media screen and (min-width:800px) {</span><br>
-の中にある、<br>
-「.main」に「order: 2;」を、「.sub」に「order: 1;」を新規で追加して下さい。</p>
-
-<h3>小さな端末時にサブブロックなど任意の情報を非表示にして、開閉ブロック内に表示させる方法</h3>
-<p>現状のままだと、800px未満で見た際にサブメニューが結構場所をとるので、それを非表示にして代わりに開閉ブロック内に表示させる方法の紹介です。<br>
-既存のサブメニューをそのまま開閉ブロック内に表示させる事はできないので、手作業で別途用意します。</p>
-<p>まず、html側の開閉ブロック内にある、<br>
-<span class="look">&lt;div class=&quot;sh&quot;&gt;<br>
-・・・<br>
-&lt;/div&gt;</span><br>
-の中に、小さな端末時にのみ表示させたいサブブロック情報などをあらかじめ入力しておきます。</p>
-<p>次に、小さな端末時で非表示にしたいサブブロック情報などに、<br>
-<span class="look">class=&quot;pc&quot;</span><br>
-と指定しておきましょう。<br>
-既にclassばある場合は半角スペースで区切って追加します。<br>
-例：<span class="look">&lt;div class=&quot;sub <span class="color-check">pc</span>&quot;&gt;</span></p>
-<p>注意点ですが、sh内に追加する際、&lt;div class=&quot;sub&quot;&gt;ごと入れてしまうとレイアウトが崩れる可能性があるので、subは含めず中身だけ入れて下さい。</p>
-
-</section>-->
-
-</div>
-<!--/.main-->
-
-<div class="sub">
-<!--
-<h3>Menu</h3>
-<ul class="submenu">
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-</ul>-->
-<!--
-<h3>Menu</h3>
-<ul class="submenu">
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-<li><a href="#">メニューサンプル</a></li>
-</ul>-->
-
-</div>
-<!--/.sub-->
-
-</div>
-<!--/.c2-->
-<!--
-<section class="bg1">
-
-<h2>背景に色をつけたタイプ</h2>
-<p>&lt;section&gt;を&lt;section class=&quot;<span class="color-check">bg1</span>&quot;&gt;にするとこのブロックのように背景に色がつきます。</p>
-
-<div class="list-container">
-
-<div class="list blur">
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<div class="text">
-<h4>Sample Title</h4>
-<p>ここに説明を入れます。サンプルテキスト。</p>
-</div>
-<span class="new">NEW</span>
-</div>
-
-<div class="list blur">
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<div class="text">
-<h4>Sample Title</h4>
-<p>ここに説明を入れます。サンプルテキスト。</p>
-</div>
-</div>
-
-<div class="list blur">
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<div class="text">
-<h4>Sample Title</h4>
-<p>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</p>
-</div>
-</div>
-
-</div>-->
-<!--/.list-container
-
-</section>
-
-<section>
-<h2>トップページの動画について</h2>
-
-<h3>無料で動画をダウンロードできるサイトのご紹介</h3>
-<p>高品質な動画が無料でダウンロードできるvideo ACさん。<br>
-お手持ちの動画がない場合におすすめです。<br>
-<a href="https://video-ac.com/#a_aid=60e590da89d1f&amp;a_bid=53df825e" target="_blank"><img src="//www.ac-associate.com/accounts/default1/banners/53df825e.jpg" alt="4Kも無料の動画素材サイト【動画AC】" title="4Kも無料の動画素材サイト【動画AC】" width="728" height="90" /></a><img style="border:0" src="https://acworks.postaffiliatepro.com/scripts/g5iueh?a_aid=60e590da89d1f&amp;a_bid=53df825e" width="1" height="1" alt="" /></p>
-
-<h3>動画を入れ替える場合</h3>
-<p>動画を入れ替える場合、ロゴの配置バランスが崩れると思うので、その場合はcssフォルダのstyle.cssの<br>
-<span class="look">.home header #logo {</span><br>
-の中にある、<br>
-<span class="look">padding-top</span><br>
-の数値を調整してみて下さい。ブレイクポイントごとに設定がある場合があるのでチェックをお忘れなく。</p>
-
-<h3>固定画像に入れ替えたい場合</h3>
-<p>html側の&lt;video src〜〜&gt;の１行を削除し、代わりにimgタグを入れて下さい。<br>
-この場合も画像サイズによってロゴの配置バランスが崩れるかもしれないので、その際は上で解説しているpadding-topを調整して下さい。</p>
-
-<h3>地球の動画のaep（After Effects）ファイルも梱包しています</h3>
-<p class="color-check">※ここで解説していない部分についてのaepファイルのサポートは行っておりませんのであらかじめご了承下さい。</p>
-<p>「_aep」フォルダにaepファイルと地球のpng画像を梱包していますので、After Effectsを使える場合は直接編集してご利用頂く事が可能です。</p>
-<p>タイムラインパネルには、以下の３つレイヤーがあります。</p>
-<ul>
-<li>「bg」…地球を除く背景部分のモヤモヤ映像。</li>
-<li>「アクセント」…地球が一瞬拡大して現れるアクセント用映像。</li>
-<li>「地球」…回る地球映像。</li>
-</ul>
-<p>それぞれのレイヤーを選択した状態で、「エフェクトコントロールパネル」を開くと、設定している色など含めエフェクトを変更できます。<br>
-プロジェクトパネルの「プリコンポジション１」をダブルクリックすると、地球のベースを編集できます。（ドット具合や色の変更。）２枚あるglobe.pngのレイヤーにそれぞれ、ドット(エフェクトで)と枠線(レイヤースタイルで)が設定されています。</p>
-
-<h3>地球のないシンプルタイプも梱包しました。</h3>
-<p>このタイプのトップページサンプルは<a href="index_simple.html">index_simple.html</a>です。<br>
-既存のトップページ（index.html）のファイル名を「mainimg_simple.mp4」に書き換えればOKです。<br>
-aepが編集できる場合は、「bg」レイヤーのみでレンダリングしたものがこれになります。エフェクトコントロールパネルで色調整など可能です。</p>
-<p><video src="images/mainimg_simple.mp4" autoplay loop muted playsinline></p>
-
-</section>-->
-<p class="c"><a href="javascript:history.back()">&lt;&lt; 前のページに戻る</a></p>
 </main>
 
 <footer>

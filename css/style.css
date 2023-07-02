@@ -682,7 +682,7 @@ p.btn {margin: 0;}
 /*bg1（背景に色がついたタイプ）
 ---------------------------------------------------------------------------*/
 .bg1 {
-	background: #343536;	/*背景色*/
+	background: #353535;	/*背景色*/
 	color: #fff;		/*文字色*/
 	border-radius: 20px;width: 95%;margin: auto;margin-top: 10px;
 }
