@@ -14,17 +14,17 @@
 >      など
 ## Pages
 ### ホーム
-- https://pp-pixel.github.io/csclub/ <br>
+> https://pp-pixel.github.io/csclub/ <br>
 ### 概要
-- https://pp-pixel.github.io/csclub/company.html <br>
+> https://pp-pixel.github.io/csclub/company.html <br>
 ### 活動内容
-- https://pp-pixel.github.io/csclub/activity.html <br>
+> https://pp-pixel.github.io/csclub/activity.html <br>
 ### 募集要項
-- https://pp-pixel.github.io/csclub/download/r5-recruitment.pdf <br>
+> https://pp-pixel.github.io/csclub/download/r5-recruitment.pdf <br>
 ### FAQ
-- https://pp-pixel.github.io/csclub/faq.html <br>
+> https://pp-pixel.github.io/csclub/faq.html <br>
 ### お問い合わせ
-- https://pp-pixel.github.io/csclub/contact.html <br>
+> https://pp-pixel.github.io/csclub/contact.html <br>
 
 # Google Search（Yahoo!Japan Search）
 ※検索結果に表示されません<br>
