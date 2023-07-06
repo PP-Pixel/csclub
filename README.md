@@ -19,6 +19,8 @@
 > https://pp-pixel.github.io/csclub/company.html <br>
 ### 活動内容
 > https://pp-pixel.github.io/csclub/activity.html <br>
+### 作品集
+> https://pp-pixel.github.io/csclub/opus.html
 ### 募集要項
 > https://pp-pixel.github.io/csclub/download/r5-recruitment.pdf <br>
 ### FAQ
@@ -38,3 +40,5 @@
 Google Search への登録だけでなく、Microsoft Bing の検索にも申請しています。<br>
 &emsp;※検索結果に表示されていません。
 - https://www.bing.com/search?q=長野創造科学クラブ
+
+### Copyright© 2023 Nagano Creative Science Club HP Draft.
