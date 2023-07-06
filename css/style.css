@@ -413,7 +413,7 @@ ul.submenu li a {
 
 /*マウスオンj時の背景色*/
 ul.submenu li a:hover {
-	background: #f0f0f0;
+	background-color: #f0f0f0;
 }
 
 
