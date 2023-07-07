@@ -11,15 +11,15 @@ li[rel=nofollow] {
     background: url(images/out_link.webp) right center/13px auto no-repeat;
 }
 a[rel="follow"] {
-    padding-right: 10px;
+    padding-right: 13px;
     background: url(images/in_link.webp) right center/18px auto no-repeat;
 }
 h4[rel="follow"] {
-    padding-right: 10px;
+    padding-right: 13px;
     background: url(images/in_link.webp) right center/18px auto no-repeat;
 }
 li[rel="follow"] {
-    padding-right: 10px;
+    padding-right: 13px;
     background: url(images/in_link.webp) right center/18px auto no-repeat;
 }
 a[rel="download"]{
