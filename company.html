@@ -41,8 +41,16 @@
 	border-radius: 10px;    /* 角丸指定 */
 	}
 	a[rel=nofollow] {
-		padding-right: 20px;
-		background: url(./images/out_link.webp) right center/11px auto no-repeat;
+		padding-right: 15px;
+		background: url(images/out_link.webp) right center/14px auto no-repeat;
+	}
+	a[rel="follow"] {
+		padding-right: 16px;
+		background: url(images/in_link.webp) right center/20px auto no-repeat;
+	}
+	a[rel=download] {
+		padding-right: 13px;
+		background: url(images/download.webp) right center/13px auto no-repeat;
 	}
 </style>
 <script src="https://www.google.com/recaptcha/api.js"></script>
@@ -115,12 +123,12 @@
 	<caption>！！新規クラブ員募集中！！</caption>
 	<tr>
 	<th>活動内容</th>
-	<td>詳しくは<a href="activity.html">こちら</a></td>
+	<td>詳しくは<a rel="follow" href="activity.html">こちら</a></td>
 	</tr>
 	<tr>
 	<th>募集要項</th>
 	<td>中学生，高校生&nbsp;ものづくりやプログラミングに対して、意欲的である人<br>
-	PDF：<a href="download/r5-recruitment_notLink.pdf" download="R5_募集要項-長野創造科学クラブ.pdf" target="_blank">こちら（PDF:467.41 KB）</a></td>
+	PDF：<a rel="download" href="download/r5-recruitment_notLink.pdf" download="R5_募集要項-長野創造科学クラブ.pdf" target="_blank">こちら（PDF:467.41 KB）</a></td>
 	</tr>
 	<tr>
 	<th>掲示板</th>
@@ -148,14 +156,14 @@
 <footer>
 
 	<ul id="footermenu">
-	<li><a href="index.html">ホーム</a></li>
-	<li><a href="company.html">クラブ概要</a></li>
-	<li><a href="activity.html">活動内容</a></li>
-	<li><a href="opus.html">作品集</a></li>
-	<li><a href="download/r5-recruitment.pdf">募集要項</a></li>
-	<li><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi" target="_blank" rel="nofollow">掲示板</a></li>
-	<li><a href="faq.html">FAQ</a></li>
-	<li><a href="contact.html">お問い合わせ</a></li>
+		<li><a rel="follow" href="index.html">ホーム</a></li>
+		<li><a rel="follow" href="company.html">クラブ概要</a></li>
+		<li><a rel="follow" href="activity.html">活動内容</a></li>
+		<li><a rel="follow" href="opus.html">作品集</a></li>
+		<li><a rel="follow" href="download/r5-recruitment.pdf">募集要項</a></li>
+		<li><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi" target="_blank" rel="nofollow">掲示板</a></li>
+		<li><a rel="follow" href="faq.html">FAQ</a></li>
+		<li><a rel="follow" href="contact.html">お問い合わせ</a></li>
 	</ul>&#010;
 	<!--reCAPTCHA-->
 		<button class="g-recaptcha" data-sitekey="6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl" data-callback='onSubmit' data-action='submit'></button>
