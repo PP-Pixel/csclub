@@ -57,7 +57,12 @@ table {border-collapse:collapse;}
 img {border: none;max-width: 100%;height: auto;vertical-align: middle;border-radius:10px;}
 
 /*videoタグ*/
-video {max-width: 100%;}
+video {
+	max-width: 100%;
+}
+#mainimg {
+	text-align: center;
+}
 
 /*iframeタグ*/
 iframe {
@@ -117,7 +122,7 @@ main > article {
 ---------------------------------------------------------------------------*/
 /*ヘッダーブロック*/
 header {
-	background: #164263;	/*背景色*/
+	background: #252525;	/*背景色*/
 	color: #fff;			/*文字色*/
 	position: relative;
 }
@@ -811,7 +816,7 @@ html, body {
 /*メニュー１個あたりの設定*/
 #menubar ul li {
 	flex: 1;
-	background-color: #353535;
+	background-color: #28292a;
 }
 
 
