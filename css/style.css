@@ -244,7 +244,7 @@ a.ddmenu::before {
 
 /*ドロップダウンメニュー全体の設定*/
 .ddmenu_parent ul {
-	border: 1px solid #ccc;	/*線の幅、線種、色*/
+	 border: 1px solid #ccc;	/*線の幅、線種、色 */
 }
 
 
