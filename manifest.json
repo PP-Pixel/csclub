@@ -5,8 +5,8 @@
   "start_url"         : "https://pp-pixel.github.io/csclub/",
   "id"         : "csclub",
   "display"           : "standalone",
-  "background_color"  : "#023f65",
-  "theme_color"       : "#023f65",
+  "background_color"  : "#164263",
+  "theme_color"       : "#164263",
   "icons": [{
       "src"           : "https://pp-pixel.github.io/csclub/favicon/icon-192.png",
       "sizes"         : "192x192",
