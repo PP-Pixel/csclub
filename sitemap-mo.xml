@@ -4,49 +4,56 @@
 <url>
   <loc>https://pp-pixel.github.io/csclub/</loc>
   <priority>1.0</priority>
-  <lastmod>2023-06-09T20:30:41+09:00</lastmod>
+  <lastmod>2023-07-08T20:30:41+09:00</lastmod>
   <changefreq>always</changefreq>
   <mobile:mobile />
 </url>
 <url>
   <loc>https://pp-pixel.github.io/csclub/index.html</loc>
   <priority>1.0</priority>
-  <lastmod>2023-06-09T20:30:41+09:00</lastmod>
+  <lastmod>2023-07-08T20:30:41+09:00</lastmod>
   <changefreq>always</changefreq>
   <mobile:mobile />
 </url>
 <url>
   <loc>https://pp-pixel.github.io/csclub/company.html</loc>
   <priority>0.8</priority>
-  <lastmod>2023-06-09T20:30:41+09:00</lastmod>
+  <lastmod>2023-07-08T20:30:41+09:00</lastmod>
   <changefreq>always</changefreq>
   <mobile:mobile />
 </url>
 <url>
   <loc>https://pp-pixel.github.io/csclub/activity.html</loc>
   <priority>0.8</priority>
-  <lastmod>2023-06-09T20:30:41+09:00</lastmod>
+  <lastmod>2023-07-08T20:30:41+09:00</lastmod>
   <changefreq>always</changefreq>
+  <mobile:mobile />
+</url>
+<url>
+  <loc>https://pp-pixel.github.io/csclub/download/opus.html</loc>
+  <priority>0.7</priority>
+  <lastmod>2023-07-08T20:30:41+09:00</lastmod>
+  <changefreq>yearly</changefreq>
   <mobile:mobile />
 </url>
 <url>
   <loc>https://pp-pixel.github.io/csclub/faq.html</loc>
   <priority>0.5</priority>
-  <lastmod>2023-06-09T20:30:41+09:00</lastmod>
+  <lastmod>2023-07-08T20:30:41+09:00</lastmod>
   <changefreq>always</changefreq>
   <mobile:mobile />
 </url>
 <url>
   <loc>https://pp-pixel.github.io/csclub/contact.html</loc>
   <priority>0.5</priority>
-  <lastmod>2023-06-09T20:30:41+09:00</lastmod>
+  <lastmod>2023-07-08T20:30:41+09:00</lastmod>
   <changefreq>always</changefreq>
   <mobile:mobile />
 </url>
 <url>
   <loc>https://pp-pixel.github.io/csclub/download/r5-recruitment.pdf</loc>
   <priority>0.7</priority>
-  <lastmod>2023-06-09T20:30:41+09:00</lastmod>
+  <lastmod>2023-07-08T20:30:41+09:00</lastmod>
   <changefreq>yearly</changefreq>
   <mobile:mobile />
 </url>
