@@ -141,3 +141,7 @@ $(function() {
 	$('main h2').wrapInner('<span class="uline">');
 });
 
+// 右クリック禁止
+document.oncontextmenu = function () {
+	return false;
+   };
