@@ -11,26 +11,26 @@ li[rel=nofollow] {
     background: url(images/out_link.webp) right center/13px auto no-repeat;
 }
 a[rel="follow"] {
-    padding-right: 15px;
+    padding-right: 13px;
     background: url(images/in_link.webp) right center/18px auto no-repeat;
 }
 h4[rel="follow"] {
-    padding-right: 15px;
+    padding-right: 13px;
     background: url(images/in_link.webp) right center/18px auto no-repeat;
 }
 li[rel="follow"] {
-    padding-right: 15px;
+    padding-right: 13px;
     background: url(images/in_link.webp) right center/18px auto no-repeat;
 }
-a[rel="nofollow"]{
+a[rel="download"]{
     padding-right: 10px;
-    background: url(images/out_link.webp) right center/11px auto no-repeat;
+    background: url(images/download.webp) right center/11px auto no-repeat;
 }
-h4[rel=nofollow] {
+h4[rel=download] {
     padding-right: 10px;
-    background: url(images/out_link.webp) right center/11px auto no-repeat;
+    background: url(images/download.webp) right center/11px auto no-repeat;
 }
-li[rel=nofollow] {
+li[rel=download] {
     padding-right: 10px;
-    background: url(images/out_link.webp) right center/11px auto no-repeat;
+    background: url(images/download.webp) right center/11px auto no-repeat;
 }
