@@ -1,0 +1,234 @@
+<!DOCTYPE html><html lang="ja">
+<head prefix="og: https://ogp.me/ns#">
+		<meta charset="UTF-8">
+		<!-- ホームページの正式なURL -->
+		<link rel="canonical" href="https://pp-pixel.github.io/csclub/home.html">
+		<!-- アイコンの設定 -->
+		<link rel="icon" href="favicon/favicon.ico">
+		<!-- スマホの待受で表示するアイコンの設定 -->
+		<link rel="apple-touch-icon" href="favicon/icon-192.png" sizes="192x192">
+		<meta name=”viewport” content=”width=device-width,initial-scale=1″ />
+		<!-- SNSに埋め込みしたときのURL -->
+		<meta property="og:url" content="https://pp-pixel.github.io/csclub/home.html" />
+		<!-- ページの種類 -->
+		<meta property="og:type" content="website" />
+		<!-- SNSに埋め込みしたときのタイトル -->
+		<meta property="og:title" content="長野創造科学クラブのHP案" />
+		<!-- SNSに埋め込みしたときの説明文 -->
+		<meta property="og:description" content="長野創造科学クラブのホームページ案です。" />
+		<!-- SNSに埋め込みしたときのサイトの名前 タイトルとはまた別で団体名みたいな -->
+		<meta property="og:site_name" content="Nagano Creative Science Club HP Draft" />
+		<!-- SNSに埋め込みしたときのイメージ画像 -->
+		<meta property="og:image" content="https://pp-pixel.github.io/csclub/images/ogp-image.png" />
+		<meta name=”twitter:card” content="summary" />
+		<title>長野創造科学クラブのHP案</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="長野創造科学クラブのHP案です。活動内容や所在地,お問い合わせ,FAQなどの概要、募集要項などを載せています。">
+		<meta name="google-site-verification" content="N9RQwarTPDjSSkKVQq9R28VHOnx6TvFhpUW6ot1II7E" />
+		<script src="https://www.google.com/recaptcha/api.js"></script>
+				<script>
+					function onSubmit(token) {
+					document.getElementById("demo-form").submit();
+					}
+				</script>
+				<script src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
+		<!-- ServiceWorker -->
+		<link rel="manifest" href="https://pp-pixel.github.io/csclub/manifest.json">
+		<script>
+			if ("serviceWorker" in navigator) {
+			window.addEventListener("load", function () {
+			navigator.serviceWorker.register("sw.js").then(
+			function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ",registration.scope);},
+			function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err);});});
+			}
+		</script>
+	<meta http-equiv="Refresh" content="3;URL=https://pp-pixel.github.io/csclub/home.html">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@800&display=swap');
+body {
+  background:#000;
+  font-size: larger;
+}
+
+#load {
+  position:absolute;
+  width:600px;
+  height:36px;
+  left:50%;
+  top:40%;
+  margin-left:-300px;
+  overflow:visible;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  cursor:default;
+}
+
+#load div {
+  position:absolute;
+  width:20px;
+  height:36px;
+  opacity:0;
+  font-family: 'Kumbh Sans', sans-serif;
+  animation:move 2s linear infinite;
+  -o-animation:move 2s linear infinite;
+  -moz-animation:move 2s linear infinite;
+  -webkit-animation:move 2s linear infinite;
+  transform:rotate(180deg);
+  -o-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+  color:#35C4F0;
+}
+
+#load div:nth-child(2) {
+  animation-delay:0.2s;
+  -o-animation-delay:0.2s;
+  -moz-animation-delay:0.2s;
+  -webkit-animation-delay:0.2s;
+}
+#load div:nth-child(3) {
+  animation-delay:0.4s;
+  -o-animation-delay:0.4s;
+  -webkit-animation-delay:0.4s;
+  -webkit-animation-delay:0.4s;
+}
+#load div:nth-child(4) {
+  animation-delay:0.6s;
+  -o-animation-delay:0.6s;
+  -moz-animation-delay:0.6s;
+  -webkit-animation-delay:0.6s;
+}
+#load div:nth-child(5) {
+  animation-delay:0.8s;
+  -o-animation-delay:0.8s;
+  -moz-animation-delay:0.8s;
+  -webkit-animation-delay:0.8s;
+}
+#load div:nth-child(6) {
+  animation-delay:1.0s;
+  -o-animation-delay:1.0s;
+  -moz-animation-delay:1.0s;
+  -webkit-animation-delay:1.0s;
+}
+#load div:nth-child(7) {
+  animation-delay:1.2s;
+  -o-animation-delay:1.2s;
+  -moz-animation-delay:1.2s;
+  -webkit-animation-delay:1.2s;
+}
+
+@keyframes move {
+  0% {
+    left:0;
+    opacity:0;
+  }
+  35% {
+    left: 41%; 
+    -moz-transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
+    -o-transform:rotate(0deg);
+    transform:rotate(0deg);
+    opacity:1;
+  }
+  65% {
+    left:59%; 
+    -moz-transform:rotate(0deg); 
+    -webkit-transform:rotate(0deg); 
+    -o-transform:rotate(0deg);
+    transform:rotate(0deg); 
+    opacity:1;
+  }
+  100% {
+    left:100%; 
+    -moz-transform:rotate(-180deg); 
+    -webkit-transform:rotate(-180deg); 
+    -o-transform:rotate(-180deg); 
+    transform:rotate(-180deg);
+    opacity:0;
+  }
+}
+
+@-moz-keyframes move {
+  0% {
+    left:0; 
+    opacity:0;
+  }
+  35% {
+    left:41%; 
+    -moz-transform:rotate(0deg); 
+    transform:rotate(0deg);
+    opacity:1;
+  }
+  65% {
+    left:59%; 
+    -moz-transform:rotate(0deg); 
+    transform:rotate(0deg);
+    opacity:1;
+  }
+  100% {
+    left:100%; 
+    -moz-transform:rotate(-180deg); 
+    transform:rotate(-180deg);
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes move {
+  0% {
+    left:0; 
+    opacity:0;
+  }
+  35% {
+    left:41%; 
+    -webkit-transform:rotate(0deg); 
+    transform:rotate(0deg); 
+    opacity:1;
+  }
+  65% {
+    left:59%; 
+    -webkit-transform:rotate(0deg); 
+    transform:rotate(0deg); 
+    opacity:1;
+  }
+  100% {
+    left:100%;
+    -webkit-transform:rotate(-180deg); 
+    transform:rotate(-180deg); 
+    opacity:0;
+  }
+}
+
+@-o-keyframes move {
+  0% {
+    left:0; 
+    opacity:0;
+  }
+  35% {
+    left:41%; 
+    -o-transform:rotate(0deg); 
+    transform:rotate(0deg); 
+    opacity:1;
+  }
+  65% {
+    left:59%; 
+    -o-transform:rotate(0deg); 
+    transform:rotate(0deg); 
+    opacity:1;
+  }
+  100% {
+    left:100%; 
+    -o-transform:rotate(-180deg); 
+    transform:rotate(-180deg); 
+    opacity:0;
+  }
+}
+    </style>
+</head>
+<body>
+    <div id="load">
+        <div>L</div><div>O</div><div>A</div><div>D</div><div>I</div><div>N</div><div>G</div>
+    </div>
+</body>
+</html>
