@@ -680,7 +680,7 @@ p.btn {margin: 0;}
 	bottom: 80px;		/*下からの配置場所指定*/
 	color: #fff;		/*文字色*/
 	font-size: 1.5em;	/*文字サイズ*/
-	background: #ffffff80;	/*背景色。ffffffは白のことで80は透明度*/
+	background: #7da4de80;	/*背景色。#7da4deは〇のことで80は透明度*/
 	width: 60px;		/*幅*/
 	line-height: 60px;	/*高さ*/
 	border-radius: 40%;	/*円形にする*/
