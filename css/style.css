@@ -676,11 +676,11 @@ p.btn {margin: 0;}
 .pagetop a {
 	display: block;text-decoration: none;text-align: center;z-index: 99;
 	position: fixed;	/*スクロールに追従しない(固定で表示)為の設定*/
-	right: 15px;		/*右からの配置場所指定*/
-	bottom: 70px;		/*下からの配置場所指定*/
+	right: 10px;		/*右からの配置場所指定*/
+	bottom: 80px;		/*下からの配置場所指定*/
 	color: #fff;		/*文字色*/
 	font-size: 1.5em;	/*文字サイズ*/
-	background: rgba(0,0,0,0.3);	/*背景色。0,0,0は黒の事で0.3は色が30%出た状態。*/
+	background: #ffffff80;	/*背景色。ffffffは白のことで80は透明度*/
 	width: 60px;		/*幅*/
 	line-height: 60px;	/*高さ*/
 	border-radius: 40%;	/*円形にする*/
