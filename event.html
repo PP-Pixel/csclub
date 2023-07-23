@@ -60,8 +60,16 @@
 	.btn a:hover {
 		background-color: #3b6985;
 	}
-    .flex {
-        display:flex
+    @media (min-width: 768px) {
+        .flex {
+            display:flex
+        }
+    }
+    @media (min-width: 1280px) {
+        .flex {
+            display: flex;
+            flex-flow: column;
+        }
     }
 </style>
 </head>
