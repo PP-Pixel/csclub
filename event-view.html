@@ -60,9 +60,22 @@
 	.btn a:hover {
 		background-color: #3b6985;
 	}
-    .room {
-        text-align: center;
-    }
+	/* 横並び */
+	.flex-event {
+	display: flex; /*横並び*/
+	}
+	.flex-event .image {
+	width: 100%; /*画像サイズ指定*/
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: relative;
+	}
+	.flex-event .text {
+	margin: 0 0 0 20px;
+	padding: 0;
+	}
+
 </style>
 </head>
 
@@ -118,20 +131,18 @@
     <p style="color: #454545;text-align: right;">2023/08/02 更新</p>
 
     <h2>出展内容</h2>
-    <p>長野創造科学クラブは<b>ブース番号7-2で「カメラ付きのラジコンロボットを操作してみよう！」</b>というテーマで出展します。<br>
-    <a href="event.pdf.html" style="color: #999999;" rel="follow">ブース番号7-2　カメラ付きのラジコンロボットを操作してみよう！</a></p>
-
-    <h2>7-2 令和五年度青少年のための科学の祭典上田大会</h2>
-    <p><b>カメラ付きのラジコンロボットを操作してみよう</b><br>
+    <p><b style="font-size: larger;">ブース番号7-2&nbsp;&nbsp;カメラ付きのラジコンロボットを操作してみよう</b><br>
     　画面を見ながら、アクセルやハンドルを操作して、まるで載って運転しているみたいにラジコン操作できます。<br>
-    障害物をよけたり、車庫に入れたり、安全運転できるかな？<br>
-    　このラジコンは、過去にクラブ生が制作し、発明くふう展で受賞した作品をもとにした手作りです。<br>
-    　興味がある方には、動作の仕組みや構造、プログラムなど、どのように制作したかも説明しますので、どんどん質問してくださいね。</p>
-    <p class="room"><img src="images/camera.radi-con.png" alt="カメラ付きのラジコン" width="50%" height="auto"></p>
-    <p><b>3Dプリンタの実演</b><br>
+    障害物をよけたり、車庫に入れたり、安全運転できるかな？</p>
+	<div class="flex-event">
+		<figure class="image"><p class="room"><img src="images/camera.radi-con.png" alt="カメラ付きのラジコン" height="auto"></p></figure>
+		　このラジコンは、過去にクラブ生が制作し、発明くふう展で受賞した作品をもとにした手作りです。<br>
+		　興味がある方には、動作の仕組みや構造、プログラムなど、どのように制作したかも説明しますので、どんどん質問してくださいね。</p>
+    </div>
+	<p><b>3Dプリンタの実演</b><br>
     　ものづくりや工作にも役立つ、3Dプリンタの動作を実演します。<br>
-    　カメラ付きのラジコンの部品も3Dプリンタを使って制作しました。</p>
-
+    　カメラ付きのラジコンの部品も3Dプリンタを使って制作しました。<br>
+	　<a href="event.pdf.html" style="color: #999999;" rel="follow">PDF</a></p>
 
     <h2>会場</h2>  
     <p>信州大学繊維学部<br>〒386-8567　長野県上田市常田3-15-1<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6423.429075150787!2d138.26251!3d36.391904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601dbcebae043d25%3A0xf9e72f4251b9902e!2z5L-h5bee5aSn5a2m57mK57at5a2m6YOo!5e0!3m2!1sja!2sus!4v1690119221413!5m2!1sja!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
