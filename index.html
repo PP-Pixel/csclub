@@ -1,91 +1,111 @@
 <!--Copyright 2023 Nagano Creative Science Club HP Draft -->
 <!DOCTYPE html>
 <html lang="ja">
+
 <head prefix="og: https://ogp.me/ns#">
-<meta charset="UTF-8">
-<!-- ホームページの正式なURL -->
-<link rel="canonical" href="https://pp-pixel.github.io/csclub/index.html">
-<!-- アイコンの設定 -->
-<link rel="icon" href="favicon/favicon.ico">
-<!-- スマホの待受で表示するアイコンの設定 -->
-<link rel="apple-touch-icon" href="favicon/icon-192.png" sizes="192x192">
-<meta name=”viewport” content=”width=device-width,initial-scale=1″ />
-<!-- SNSに埋め込みしたときのURL -->
-<meta property="og:url" content="https://pp-pixel.github.io/csclub/index.html" />
-<!-- ページの種類 -->
-<meta property="og:type" content="website" />
-<!-- SNSに埋め込みしたときのタイトル -->
-<meta property="og:title" content="長野創造科学クラブのHP案" />
-<!-- SNSに埋め込みしたときの説明文 -->
-<meta property="og:description" content="長野創造科学クラブのホームページ案です。" />
-<!-- SNSに埋め込みしたときのサイトの名前 タイトルとはまた別で団体名みたいな -->
-<meta property="og:site_name" content="Nagano Creative Science Club HP Draft" />
-<!-- SNSに埋め込みしたときのイメージ画像 -->
-<meta property="og:image" content="https://pp-pixel.github.io/csclub/images/ogp-image.png" />
-<meta name=”twitter:card” content="summary" />
-<title>長野創造科学クラブのHP案</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="長野創造科学クラブのHP案です。活動内容や所在地,お問い合わせ,FAQなどの概要、募集要項などを載せています。">
-<meta name="google-site-verification" content="N9RQwarTPDjSSkKVQq9R28VHOnx6TvFhpUW6ot1II7E" />
-<script src="https://www.google.com/recaptcha/api.js"></script>
-        <script>
-            function onSubmit(token) {
-            document.getElementById("demo-form").submit();
-            }
-        </script>
-        <script src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
-<!-- ServiceWorker -->
-<link rel="manifest" href="https://pp-pixel.github.io/csclub/manifest.json">
-<script>
-	if ("serviceWorker" in navigator) {
-	window.addEventListener("load", function () {
-	navigator.serviceWorker.register("sw.js").then(
-	function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ",registration.scope);},
-	function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err);});});
-	}
-</script>
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="link.css">
-<style>
-	.c2 {background-color: white;border-radius: 20px;width: 95%;margin: auto;margin-top: 10px;}
-	footer {margin-top: 10px;}
-	video { width:100%; height: auto; aspect-ratio: 16 / 6.8;}
-	.flex {
-        display:flex;
-		background-color: white;
-		border-radius: 20px;
-		width: 80%;
-    }
-</style>
+	<meta charset="UTF-8">
+	<!-- ホームページの正式なURL -->
+	<link rel="canonical" href="https://pp-pixel.github.io/csclub/index.html">
+	<!-- アイコンの設定 -->
+	<link rel="icon" href="favicon/favicon.ico">
+	<!-- スマホの待受で表示するアイコンの設定 -->
+	<link rel="apple-touch-icon" href="favicon/icon-192.png" sizes="192x192">
+	<meta name=”viewport” content=”width=device-width,initial-scale=1″ />
+	<!-- SNSに埋め込みしたときのURL -->
+	<meta property="og:url" content="https://pp-pixel.github.io/csclub/index.html" />
+	<!-- ページの種類 -->
+	<meta property="og:type" content="website" />
+	<!-- SNSに埋め込みしたときのタイトル -->
+	<meta property="og:title" content="長野創造科学クラブのHP案" />
+	<!-- SNSに埋め込みしたときの説明文 -->
+	<meta property="og:description" content="長野創造科学クラブのホームページ案です。" />
+	<!-- SNSに埋め込みしたときのサイトの名前 タイトルとはまた別で団体名みたいな -->
+	<meta property="og:site_name" content="Nagano Creative Science Club HP Draft" />
+	<!-- SNSに埋め込みしたときのイメージ画像 -->
+	<meta property="og:image" content="https://pp-pixel.github.io/csclub/images/ogp-image.png" />
+	<meta name=”twitter:card” content="summary" />
+	<title>長野創造科学クラブのHP案</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="長野創造科学クラブのHP案です。活動内容や所在地,お問い合わせ,FAQなどの概要、募集要項などを載せています。">
+	<meta name="google-site-verification" content="N9RQwarTPDjSSkKVQq9R28VHOnx6TvFhpUW6ot1II7E" />
+	<script src="https://www.google.com/recaptcha/api.js"></script>
+	<script>
+		function onSubmit(token) {
+			document.getElementById("demo-form").submit();
+		}
+	</script>
+	<script
+		src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
+	<!-- ServiceWorker -->
+	<link rel="manifest" href="https://pp-pixel.github.io/csclub/manifest.json">
+	<script>
+		if ("serviceWorker" in navigator) {
+			window.addEventListener("load", function () {
+				navigator.serviceWorker.register("sw.js").then(
+					function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ", registration.scope); },
+					function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err); });
+			});
+		}
+	</script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="link.css">
+	<style>
+		.c2 {
+			background-color: white;
+			border-radius: 20px;
+			width: 95%;
+			margin: auto;
+			margin-top: 10px;
+		}
+
+		footer {
+			margin-top: 10px;
+		}
+
+		video {
+			width: 100%;
+			height: auto;
+			aspect-ratio: 16 / 6.8;
+		}
+
+		.flex {
+			display: flex;
+			background-color: white;
+			border-radius: 20px;
+			width: 80%;
+		}
+	</style>
 </head>
 
 <body class="home">
-<div id="container">
+	<div id="container">
 
-<header>
+		<header>
 
-<div id="logo">
-	<h1><a href="index.html"><img src="logo/logo.webp" alt="長野創造科学クラブ"></a></h1>
-	<p>長野創造科学クラブのHP案です。<br>HP｜<a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/" target="_blank" rel="nofollow">4d3.gmobb.jp/dcm8wdyx8bibu/</a></p>
-</div>
+			<div id="logo">
+				<h1><a href="index.html"><img src="logo/logo.webp" alt="長野創造科学クラブ"></a></h1>
+				<p>長野創造科学クラブのHP案です。<br>HP｜<a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/" target="_blank"
+						rel="nofollow">4d3.gmobb.jp/dcm8wdyx8bibu/</a></p>
+			</div>
 
-<div id="mainimg">
-	<video src="images/mainimg2.mp4" autoplay loop muted playsinline controlsList="nodownload" oncontextmenu="return false;" disablePictureInPicture width="1920" height="800">
-</div>
+			<div id="mainimg">
+				<video src="images/mainimg2.mp4" autoplay loop muted playsinline controlsList="nodownload"
+					oncontextmenu="return false;" disablePictureInPicture width="1920" height="800">
+			</div>
 
-</header>
+		</header>
 
-<!--開閉ブロック-->
-<div id="menubar">
+		<!--開閉ブロック-->
+		<div id="menubar">
 
-<nav>
-	<ul>
-		<li><a href="index.html">ホーム</a></li>
-		<li><a href="company.html">クラブ概要</a></li>
-		<li><a href="activity.html">活動内容</a></li>
-		<li><a href="opus.html">作品集</a></li>
-		<li><a href="recruitment.pdf.html">募集要項</a></li>
-		<!--
+			<nav>
+				<ul>
+					<li><a href="index.html">ホーム</a></li>
+					<li><a href="company.html">クラブ概要</a></li>
+					<li><a href="activity.html">活動内容</a></li>
+					<li><a href="opus.html">作品集</a></li>
+					<li><a href="recruitment.pdf.html">募集要項</a></li>
+					<!--
 		<li><a href="">サービス紹介</a>
 			<ul>
 				<li><a href="service.html">メニュー</a></li>
@@ -93,26 +113,26 @@
 				<li><a href="service.html">メニュー</a></li>
 			</ul>
 		</li>-->
-		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="contact.html">お問い合わせ</a></li>
-	</ul>
-</nav>
-<div class="sh">
-	<p>長野創造科学クラブのHP案<br>
-		&copy; 2023 Nagano Creative Science Club HP Draft.
-	</p>
-</div>
-<!--/.sh-->
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="contact.html">お問い合わせ</a></li>
+				</ul>
+			</nav>
+			<div class="sh">
+				<p>長野創造科学クラブのHP案<br>
+					&copy; 2023 Nagano Creative Science Club HP Draft.
+				</p>
+			</div>
+			<!--/.sh-->
 
-</div>
-<!--/#menubar-->
+		</div>
+		<!--/#menubar-->
 
-<main>
+		<main>
 
-<div class="c2">
+			<div class="c2">
 
-<div class="main">
-<!--
+				<div class="main">
+					<!--
 <section>
 
 <h2>News</h2>
@@ -136,29 +156,30 @@
 
 </section>-->
 
-<section>
+					<section>
 
-<h2 style="font-size: xx-large;">長野創造科学クラブのコンセプト</h2>
-<p style="font-size: x-large;">自由工作を基本として、<br>意欲があればどんなに高度なテクノロジーも学べるクラブ</p>
+						<h2 style="font-size: xx-large;">長野創造科学クラブのコンセプト</h2>
+						<p style="font-size: x-large;">自由工作を基本として、<br>意欲があればどんなに高度なテクノロジーも学べるクラブ</p>
 
-</section>
+					</section>
 
-</div>
-<!--/.main-->
+				</div>
+				<!--/.main-->
 
-<div class="sub">
+				<div class="sub">
 
-	<h3>Menu</h3>
-	<ul class="submenu">
-		<li><a href="company.html">クラブ概要</a></li>
-		<li><a href="activity.html">活動内容</a></li>
-		<li><a href="opus.html">作品集</a></li>
-		<li><a href="recruitment.pdf.html">募集要項</a></li>
-		<li rel="nofollow"><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi" target="_blank">掲示板</a></li>
-		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="contact.html">お問い合わせ</a></li>
-	</ul>
-	<!--
+					<h3>Menu</h3>
+					<ul class="submenu">
+						<li><a href="company.html">クラブ概要</a></li>
+						<li><a href="activity.html">活動内容</a></li>
+						<li><a href="opus.html">作品集</a></li>
+						<li><a href="recruitment.pdf.html">募集要項</a></li>
+						<li rel="nofollow"><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi"
+								target="_blank">掲示板</a></li>
+						<li><a href="faq.html">FAQ</a></li>
+						<li><a href="contact.html">お問い合わせ</a></li>
+					</ul>
+					<!--
 	<h3>Menu</h3>
 	<ul class="submenu">
 		<li><a href="#">メニューサンプル</a></li>
@@ -168,136 +189,173 @@
 		<li><a href="#">メニューサンプル</a></li>
 	</ul>-->
 
-</div>
-<!--/.sub-->
+				</div>
+				<!--/.sub-->
 
-</div>
-<!--/.c2-->
+			</div>
+			<!--/.c2-->
 
-<section class="bg1">
+			<section class="bg1">
 
-<h2>Topics</h2>
+				<h2>Topics</h2>
 
-<div class="list-container">
+				<div class="list-container">
 
-<div class="list blur">
-	<figure><a href="activity.html"><img src="images/ogp-image_Touka.webp" alt="新規クラブ員募集中"></a></figure>
-	<div class="text"><a href="recruitment.pdf.html">
-		<h4>新規クラブ員募集中</h4></a>
-		<a href="recruitment.pdf.html" style="text-decoration: none;color: #999999;">
-		<p>2023年度の新規クラブ員を募集しています。</p></a>
-	</div>
-	<span class="new">NEW</span>
-	</div>
+					<div class="list blur">
+						<figure><a href="activity.html"><img src="images/ogp-image_Touka.webp" alt="新規クラブ員募集中"></a>
+						</figure>
+						<div class="text"><a href="recruitment.pdf.html">
+								<h4>新規クラブ員募集中</h4>
+							</a>
+							<a href="recruitment.pdf.html" style="text-decoration: none;color: #999999;">
+								<p>2023年度の新規クラブ員を募集しています。</p>
+							</a>
+						</div>
+						<span class="new">NEW</span>
+					</div>
 
-	<div class="list blur">
-	<figure><a href="event-view.html"><img src="images/camera.radi-con.png" alt="科学の祭典"></a></figure>
-	<div class="text"><a href="event-view.html">
-		<h4>科学の祭典&nbsp;へ出展します&nbsp;</h4></a>
-		<a href="event-view.html" style="color: #999999;text-decoration: none;">
-		<p>科学の祭典&nbsp;８月９日（水）<br>カメラ付きのラジコンロボットを操作してみよう！</a><br>
-		<a href="https://ftst.jp/ysf/2023" style="color: #999999;" rel="nofollow" target="_blank">科学の祭典上田大会 ホームページ</a>&nbsp;&nbsp;&nbsp;
-		<a href="event.html" style="color: #999999;" rel="follow">(クラブ員向け)</a></p>
-	</div>
-	<span class="new">NEW</span>
-	</div>
+					<div class="list blur">
+						<figure><a href="event-view.html"><img src="images/camera.radi-con.png" alt="科学の祭典"></a>
+						</figure>
+						<div class="text"><a href="event-view.html">
+								<h4>科学の祭典&nbsp;へ出展します&nbsp;</h4>
+							</a>
+							<a href="event-view.html" style="color: #999999;text-decoration: none;">
+								<p>科学の祭典&nbsp;８月９日（水）<br>カメラ付きのラジコンロボットを操作してみよう！
+							</a><br>
+							<a href="https://ftst.jp/ysf/2023" style="color: #999999;" rel="nofollow"
+								target="_blank">科学の祭典上田大会 ホームページ</a>&nbsp;&nbsp;&nbsp;
+							<a href="event.html" style="color: #999999;" rel="follow">(クラブ員向け)</a></p>
+						</div>
+						<span class="new">NEW</span>
+					</div>
 
-	<div class="list blur">
-	<figure><a href="http://n-hatsumei.jp/#:~:text=＜第５０回長野県発明くふう展＞" target="_blank"><img src="images/No-Image.webp" alt="長野県発明くふう展"></a></figure>
-	<div class="text"><a href="http://n-hatsumei.jp/#:~:text=＜第５０回長野県発明くふう展＞" target="_blank">
-		<h4 rel="nofollow">第50回&nbsp;長野県発明くふう展&nbsp;があります</h4></a>
-		<a href="http://n-hatsumei.jp/#:~:text=＜第５０回長野県発明くふう展＞" style="color: #999999;text-decoration: none;" target="_blank">
-		<p>募集期間：令和5年7月3日(月)～9月8日(金)<br>
-			表彰式：令和5年10月28日(土)<br>
-			展示：令和5年10月27日(金)～28日(土)<br></a>
-			<a href="pamphlet.pdf.html" style="color: #999999;" rel="follow">パンフレット</a></p>
-	</div>
-	<span class="new">NEW</span>
-	</div>
+					<div class="list blur">
+						<figure><a href="http://n-hatsumei.jp/#:~:text=＜第５０回長野県発明くふう展＞" target="_blank"><img
+									src="images/No-Image.webp" alt="長野県発明くふう展"></a></figure>
+						<div class="text"><a href="http://n-hatsumei.jp/#:~:text=＜第５０回長野県発明くふう展＞" target="_blank">
+								<h4 rel="nofollow">第50回&nbsp;長野県発明くふう展&nbsp;があります</h4>
+							</a>
+							<a href="http://n-hatsumei.jp/#:~:text=＜第５０回長野県発明くふう展＞"
+								style="color: #999999;text-decoration: none;" target="_blank">
+								<p>募集期間：令和5年7月3日(月)～9月8日(金)<br>
+									表彰式：令和5年10月28日(土)<br>
+									展示：令和5年10月27日(金)～28日(土)<br>
+							</a>
+							<a href="pamphlet.pdf.html" style="color: #999999;" rel="follow">パンフレット</a></p>
+						</div>
+						<span class="new">NEW</span>
+					</div>
 
-	
-<div class="list blur">
-	<figure><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/index.html#:~:text=クラブ員の方への連絡はSlackでお知らせしますが、外部の方も見られる情報は掲示板でお知らせします。" target="_blank"><img src="images/No-Image.webp" alt=""></a></figure>
-	<div class="text"><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/index.html#:~:text=クラブ員の方への連絡はSlackでお知らせしますが、外部の方も見られる情報は掲示板でお知らせします。" target="_blank">
-		<h4 rel="nofollow">お知らせ</h4></a>
-		<a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/index.html#:~:text=クラブ員の方への連絡はSlackでお知らせしますが、外部の方も見られる情報は掲示板でお知らせします。" style="text-decoration: none;color: #999999;" target="_blank">
-		<p>クラブ員の方への連絡はSlackでお知らせしますが、外部の方も見られる情報は掲示板でお知らせします。<br></a>
-		<a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi" rel="nofollow" target="_blank" style="color: #999999;">掲示板</a></p>
-	</div>
-	<span class="post">POST</span>
-	</div>
 
-	<div class="list-container">
-		<div class="list blur">
-			<figure><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi#:~:text=%E2%96%A0%20%E2%96%A0%20%E2%96%A0-,%E5%85%89%E9%80%A0%E5%BD%A2%EF%BC%93D%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E5%B0%8E%E5%85%A5,-%E5%85%89%E9%80%A0%E5%BD%A23D" target="_blank"><img src="images/5.jpg" alt="光造形３Dプリンタ"></a></figure>
-			<div class="text"><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi#:~:text=%E2%96%A0%20%E2%96%A0%20%E2%96%A0-,%E5%85%89%E9%80%A0%E5%BD%A2%EF%BC%93D%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E5%B0%8E%E5%85%A5,-%E5%85%89%E9%80%A0%E5%BD%A23D" target="_blank">
-			<h4 rel="nofollow">光造形３Dプリンタ導入</h4></a>
-			<a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi#:~:text=%E2%96%A0%20%E2%96%A0%20%E2%96%A0-,%E5%85%89%E9%80%A0%E5%BD%A2%EF%BC%93D%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E5%B0%8E%E5%85%A5,-%E5%85%89%E9%80%A0%E5%BD%A23D" style="text-decoration: none;color: #999999;" target="_blank">
-			<p>光造形3Dプリンタが使えるようになりました。<small>（2023/04/16(Sun)&nbsp;13:39）</small></p></a>
-		</div>
-		<span class="post">POST</span>
-	</div>
-	<div class="list blur">
-		<figure><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi#:~:text=42%20No.6-,%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF%E3%83%86%E3%82%B9%E3%83%88,-%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF%E3%83%86%E3%82%B9%E3%83%88" target="_blank"><img src="images/No-Image.webp" alt="書き込みテスト"></a></figure>
-		<div class="text"><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi#:~:text=42%20No.6-,%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF%E3%83%86%E3%82%B9%E3%83%88,-%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF%E3%83%86%E3%82%B9%E3%83%88" target="_blank">
-			<h4 rel="nofollow">書き込みテスト</h4></a>
-			<a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi#:~:text=42%20No.6-,%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF%E3%83%86%E3%82%B9%E3%83%88,-%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF%E3%83%86%E3%82%B9%E3%83%88" style="text-decoration: none;color: #999999;" target="_blank">
-			<p>書き込みテスト<small>（2023/04/16(San)&nbsp;12:18）</small></p></a>
-		</div>
-		<span class="post">POST</span>
-	</div>
+					<div class="list blur">
+						<figure><a
+								href="http://4d3.gmobb.jp/dcm8wdyx8bibu/index.html#:~:text=クラブ員の方への連絡はSlackでお知らせしますが、外部の方も見られる情報は掲示板でお知らせします。"
+								target="_blank"><img src="images/No-Image.webp" alt=""></a></figure>
+						<div class="text"><a
+								href="http://4d3.gmobb.jp/dcm8wdyx8bibu/index.html#:~:text=クラブ員の方への連絡はSlackでお知らせしますが、外部の方も見られる情報は掲示板でお知らせします。"
+								target="_blank">
+								<h4 rel="nofollow">お知らせ</h4>
+							</a>
+							<a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/index.html#:~:text=クラブ員の方への連絡はSlackでお知らせしますが、外部の方も見られる情報は掲示板でお知らせします。"
+								style="text-decoration: none;color: #999999;" target="_blank">
+								<p>クラブ員の方への連絡はSlackでお知らせしますが、外部の方も見られる情報は掲示板でお知らせします。<br>
+							</a>
+							<a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi" rel="nofollow"
+								target="_blank" style="color: #999999;">掲示板</a></p>
+						</div>
+						<span class="post">POST</span>
+					</div>
 
-	</div>
-<!--/.list-container-->
-<!--
+					<div class="list-container">
+						<div class="list blur">
+							<figure><a
+									href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi#:~:text=%E2%96%A0%20%E2%96%A0%20%E2%96%A0-,%E5%85%89%E9%80%A0%E5%BD%A2%EF%BC%93D%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E5%B0%8E%E5%85%A5,-%E5%85%89%E9%80%A0%E5%BD%A23D"
+									target="_blank"><img src="images/5.jpg" alt="光造形３Dプリンタ"></a></figure>
+							<div class="text"><a
+									href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi#:~:text=%E2%96%A0%20%E2%96%A0%20%E2%96%A0-,%E5%85%89%E9%80%A0%E5%BD%A2%EF%BC%93D%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E5%B0%8E%E5%85%A5,-%E5%85%89%E9%80%A0%E5%BD%A23D"
+									target="_blank">
+									<h4 rel="nofollow">光造形３Dプリンタ導入</h4>
+								</a>
+								<a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi#:~:text=%E2%96%A0%20%E2%96%A0%20%E2%96%A0-,%E5%85%89%E9%80%A0%E5%BD%A2%EF%BC%93D%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E5%B0%8E%E5%85%A5,-%E5%85%89%E9%80%A0%E5%BD%A23D"
+									style="text-decoration: none;color: #999999;" target="_blank">
+									<p>光造形3Dプリンタが使えるようになりました。<small>（2023/04/16(Sun)&nbsp;13:39）</small></p>
+								</a>
+							</div>
+							<span class="post">POST</span>
+						</div>
+						<div class="list blur">
+							<figure><a
+									href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi#:~:text=42%20No.6-,%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF%E3%83%86%E3%82%B9%E3%83%88,-%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF%E3%83%86%E3%82%B9%E3%83%88"
+									target="_blank"><img src="images/No-Image.webp" alt="書き込みテスト"></a></figure>
+							<div class="text"><a
+									href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi#:~:text=42%20No.6-,%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF%E3%83%86%E3%82%B9%E3%83%88,-%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF%E3%83%86%E3%82%B9%E3%83%88"
+									target="_blank">
+									<h4 rel="nofollow">書き込みテスト</h4>
+								</a>
+								<a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi#:~:text=42%20No.6-,%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF%E3%83%86%E3%82%B9%E3%83%88,-%E6%9B%B8%E3%81%8D%E8%BE%BC%E3%81%BF%E3%83%86%E3%82%B9%E3%83%88"
+									style="text-decoration: none;color: #999999;" target="_blank">
+									<p>書き込みテスト<small>（2023/04/16(San)&nbsp;12:18）</small></p>
+								</a>
+							</div>
+							<span class="post">POST</span>
+						</div>
+
+					</div>
+					<!--/.list-container-->
+					<!--
 <p class="btn mt30"><a href="service.html" class="ws">一覧へ</a></p>
 -->
-</section>
+			</section>
 
-</main>
+		</main>
 
-<footer>
+		<footer>
 
-<ul id="footermenu">
-	<li><a href="index.html">ホーム</a></li>
-	<li><a href="company.html">クラブ概要</a></li>
-	<li><a href="activity.html">活動内容</a></li>
-	<li><a href="opus.html">作品集</a></li>
-	<li><a href="recruitment.pdf.html">募集要項</a></li>
-	<li><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi" target="_blank" rel="nofollow">掲示板</a></li>
-	<li><a href="faq.html">FAQ</a></li>
-	<li><a href="contact.html">お問い合わせ</a></li>
-</ul>&#010;
-<!--reCAPTCHA-->
-	<button class="g-recaptcha" data-sitekey="6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl" data-callback='onSubmit' data-action='submit'></button>
-<div class="copy">
-	<small>Copyright&copy; 2023 <a href="index.html">Nagano Creative Science Club HP Draft</a>. All Rights Reserved.</small>
-	<span class="pr">《Web Design:Template-Party》</span>
-</div>
-</footer>
+			<ul id="footermenu">
+				<li><a href="index.html">ホーム</a></li>
+				<li><a href="company.html">クラブ概要</a></li>
+				<li><a href="activity.html">活動内容</a></li>
+				<li><a href="opus.html">作品集</a></li>
+				<li><a href="recruitment.pdf.html">募集要項</a></li>
+				<li><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi" target="_blank"
+						rel="nofollow">掲示板</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+				<li><a href="contact.html">お問い合わせ</a></li>
+			</ul>&#010;
+			<!--reCAPTCHA-->
+			<button class="g-recaptcha" data-sitekey="6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl" data-callback='onSubmit'
+				data-action='submit'></button>
+			<div class="copy">
+				<small>Copyright&copy; 2023 <a href="index.html">Nagano Creative Science Club HP Draft</a>. All Rights
+					Reserved.</small>
+				<span class="pr">《Web Design:Template-Party》</span>
+			</div>
+		</footer>
 
-<!--開閉ボタン（ハンバーガーアイコン）-->
-<div id="menubar_hdr">
-	<span></span><span></span><span></span>
-</div>
+		<!--開閉ボタン（ハンバーガーアイコン）-->
+		<div id="menubar_hdr">
+			<span></span><span></span><span></span>
+		</div>
 
-</div>
-<!--/#container-->
+	</div>
+	<!--/#container-->
 
-<!--jQueryの読み込み-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!--jQueryの読み込み-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-<!--パララックス（inview）-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
-<script src="js/jquery.inview_set.js"></script>
+	<!--パララックス（inview）-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+	<script src="js/jquery.inview_set.js"></script>
 
-<!--このテンプレート専用のスクリプト-->
-<script src="js/main.js"></script>
+	<!--このテンプレート専用のスクリプト-->
+	<script src="js/main.js"></script>
 
-<!--ページの上部へ戻るボタン-->
-<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+	<!--ページの上部へ戻るボタン-->
+	<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
 
 </body>
+
 </html>
 <!--
 <h2>テンプレートのご利用前に必ずお読み下さい</h2>

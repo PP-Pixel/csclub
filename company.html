@@ -4,83 +4,104 @@
 <!-- ---------------------------------------------------- -->
 <!DOCTYPE html>
 <html lang="ja">
+
 <head prefix="og: https://ogp.me/ns#">
-<meta charset="UTF-8">
-<!-- ホームページの正式なURL -->
-<link rel="canonical" href="https://pp-pixel.github.io/csclub/">
-<!-- アイコンの設定 -->
-<link rel="icon" href="favicon/favicon.ico">
-<!-- スマホの待受で表示するアイコンの設定 -->
-<link rel="apple-touch-icon" href="favicon/icon-192.png" sizes="192x192">
-<meta name=”viewport” content=”width=device-width,initial-scale=1″ />
-<!-- SNSに埋め込みしたときのURL -->
-<meta property="og:url" content="https://pp-pixel.github.io/csclub/company.html" />
-<!-- ページの種類 -->
-<meta property="og:type" content="website" />
-<!-- SNSに埋め込みしたときのタイトル -->
-<meta property="og:title" content="概要｜長野創造科学クラブのHP案" />
-<!-- SNSに埋め込みしたときの説明文 -->
-<meta property="og:description" content="長野創造科学クラブのホームページ案です。" />
-<!-- SNSに埋め込みしたときのサイトの名前 タイトルとはまた別で団体名みたいな -->
-<meta property="og:site_name" content="Nagano Creative Science Club HP Draft" />
-<!-- SNSに埋め込みしたときのイメージ画像 -->
-<meta property="og:image" content="https://pp-pixel.github.io/csclub/images/ogp-image.png" />
-<title>概要｜長野創造科学クラブのHP案</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="クラブ概要,アクセス,所在地,場所,カレンダー,活動日">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="link.css">
-<style>
-	body {background-color: #28292a;} 
-	.c2 {width: 95%;margin: auto;}
-	main {margin-top: 10px;}
-	.activity {background-color: white;width: 95%;margin-top: 10px;margin: auto;border-radius: 20px;}
-	/* article {background-color: white;border-radius: 20px;width: 95%;margin: auto;margin-top: 10px;}
+	<meta charset="UTF-8">
+	<!-- ホームページの正式なURL -->
+	<link rel="canonical" href="https://pp-pixel.github.io/csclub/">
+	<!-- アイコンの設定 -->
+	<link rel="icon" href="favicon/favicon.ico">
+	<!-- スマホの待受で表示するアイコンの設定 -->
+	<link rel="apple-touch-icon" href="favicon/icon-192.png" sizes="192x192">
+	<meta name=”viewport” content=”width=device-width,initial-scale=1″ />
+	<!-- SNSに埋め込みしたときのURL -->
+	<meta property="og:url" content="https://pp-pixel.github.io/csclub/company.html" />
+	<!-- ページの種類 -->
+	<meta property="og:type" content="website" />
+	<!-- SNSに埋め込みしたときのタイトル -->
+	<meta property="og:title" content="概要｜長野創造科学クラブのHP案" />
+	<!-- SNSに埋め込みしたときの説明文 -->
+	<meta property="og:description" content="長野創造科学クラブのホームページ案です。" />
+	<!-- SNSに埋め込みしたときのサイトの名前 タイトルとはまた別で団体名みたいな -->
+	<meta property="og:site_name" content="Nagano Creative Science Club HP Draft" />
+	<!-- SNSに埋め込みしたときのイメージ画像 -->
+	<meta property="og:image" content="https://pp-pixel.github.io/csclub/images/ogp-image.png" />
+	<title>概要｜長野創造科学クラブのHP案</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="クラブ概要,アクセス,所在地,場所,カレンダー,活動日">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="link.css">
+	<style>
+		body {
+			background-color: #28292a;
+		}
+
+		.c2 {
+			width: 95%;
+			margin: auto;
+		}
+
+		main {
+			margin-top: 10px;
+		}
+
+		.activity {
+			background-color: white;
+			width: 95%;
+			margin-top: 10px;
+			margin: auto;
+			border-radius: 20px;
+		}
+
+		/* article {background-color: white;border-radius: 20px;width: 95%;margin: auto;margin-top: 10px;}
 	footer {margin-top: 10px;}*/
-	iframe.round {
-	width: 100%;
-	border-radius: 10px;    /* 角丸指定 */
-	}
-</style>
-<script src="https://www.google.com/recaptcha/api.js"></script>
-        <script>
-            function onSubmit(token) {
-            document.getElementById("demo-form").submit();
-            }
-        </script>
-    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
-<link rel="manifest" href="https://pp-pixel.github.io/csclub/manifest.json">
-<script>
-	if ("serviceWorker" in navigator) {
-	window.addEventListener("load", function () {
-	navigator.serviceWorker.register("sw.js").then(
-	function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ",registration.scope);},
-	function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err);});});
-	}
-</script>
+		iframe.round {
+			width: 100%;
+			border-radius: 10px;
+			/* 角丸指定 */
+		}
+	</style>
+	<script src="https://www.google.com/recaptcha/api.js"></script>
+	<script>
+		function onSubmit(token) {
+			document.getElementById("demo-form").submit();
+		}
+	</script>
+	<script
+		src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
+	<link rel="manifest" href="https://pp-pixel.github.io/csclub/manifest.json">
+	<script>
+		if ("serviceWorker" in navigator) {
+			window.addEventListener("load", function () {
+				navigator.serviceWorker.register("sw.js").then(
+					function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ", registration.scope); },
+					function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err); });
+			});
+		}
+	</script>
 </head>
 
 <body>
 
-<div id="container">
-<header>
+	<div id="container">
+		<header>
 
-<div id="logo">
-<h1><a href="index.html"><img src="logo/logo.webp" alt="長野創造科学クラブ"></a></h1>
-</div>
+			<div id="logo">
+				<h1><a href="index.html"><img src="logo/logo.webp" alt="長野創造科学クラブ"></a></h1>
+			</div>
 
-</header>
-<!--開閉ブロック-->
-<div id="menubar">
+		</header>
+		<!--開閉ブロック-->
+		<div id="menubar">
 
-	<nav>
-		<ul>
-			<li><a href="index.html">ホーム</a></li>
-			<li><a href="company.html">クラブ概要</a></li>
-			<li><a href="activity.html">活動内容</a></li>
-			<li><a href="opus.html">作品集</a></li>
-			<li><a href="recruitment.pdf.html">募集要項</a></li>
-			<!--
+			<nav>
+				<ul>
+					<li><a href="index.html">ホーム</a></li>
+					<li><a href="company.html">クラブ概要</a></li>
+					<li><a href="activity.html">活動内容</a></li>
+					<li><a href="opus.html">作品集</a></li>
+					<li><a href="recruitment.pdf.html">募集要項</a></li>
+					<!--
 			<li><a href="">サービス紹介</a>
 				<ul>
 					<li><a href="service.html">メニュー</a></li>
@@ -88,100 +109,114 @@
 					<li><a href="service.html">メニュー</a></li>
 				</ul>
 			</li>-->
-			<li><a href="faq.html">FAQ</a></li>
-			<li><a href="contact.html">お問い合わせ</a></li>
-		</ul>
-	</nav>
-	<div class="sh">
-		<p>長野創造科学クラブのHP案<br>
-			&copy; 2023 Nagano Creative Science Club HP Draft.
-		</p>
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="contact.html">お問い合わせ</a></li>
+				</ul>
+			</nav>
+			<div class="sh">
+				<p>長野創造科学クラブのHP案<br>
+					&copy; 2023 Nagano Creative Science Club HP Draft.
+				</p>
+			</div>
+			<!--/.sh-->
+
+		</div>
+		<!--/#menubar-->
+
+		<main>
+
+			<section class="activity">
+
+				<h2>クラブ概要</h2>
+
+				<table class="ta1">
+					<caption style="font-size: large;">自由工作を基本として、意欲があればどんなに高度なテクノロジーも学べるクラブ</caption>
+					<tr>
+						<th>活動内容</th>
+						<td>詳しくは<a href="activity.html">こちら</a></td>
+					</tr>
+					<tr>
+						<th>募集要項</th>
+						<td>中学生，高校生&nbsp;ものづくりやプログラミングに対して、意欲的である人<br>
+							PDF：<a rel="download" href="download/r5-recruitment_notLink.pdf"
+								download="R5_募集要項-長野創造科学クラブ.pdf" target="_blank">こちら（PDF:467.41 KB）</a></td>
+					</tr>
+					<tr>
+						<th>掲示板</th>
+						<td>最新情報は<a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi" target="_blank"
+								rel="nofollow">こちら（公式HP）</a></td>
+					</tr>
+					<tr>
+						<th>予定表</th>
+						<td><iframe
+								src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTokyo&showTitle=0&showPrint=0&showCalendars=0&showTabs=0&showTz=0&src=YWp0cXNoajY5NXI1b2lyNTN1ZTdobnE2cW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=amEuamFwYW5lc2UjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23E4C441&color=%23D50000"
+								style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"
+								class="calendar"></iframe><br>
+							一ヶ月に２回（第２・第４日曜日）に９時から１２時まで活動しています。<br>
+							<!--<a href="https://calendar.google.com/calendar/ical/ajtqshj695r5oir53ue7hnq6qo%40group.calendar.google.com/public/basic.ics" target="_blank">お使いのカレンダーアプリに追加</a><br>-->
+							<a href="https://calendar.google.com/calendar/u/0/r?cid=ajtqshj695r5oir53ue7hnq6qo@group.calendar.google.com&cid=ja.japanese%23holiday@group.v.calendar.google.com&pli=1"
+								targr="_blank" rel="nofollow">Google カレンダーに追加</a>
+						</td>
+					</tr>
+					<tr>
+						<th>所在地</th>
+						<td><iframe
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3201.7360435301125!2d138.16577990000002!3d36.63273980000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d8707957a2ce5%3A0x4c4c2e6ef3d8e994!2z6ZW36YeO5Ym16YCg56eR5a2m44Kv44Op44OW!5e0!3m2!1sja!2sjp!4v1684473985599!5m2!1sja!2sjp"
+								width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe><br>
+							長野創造科学クラブ（木工室&nbsp;コンピュータ室）<br>〒380-0941&nbsp;長野県長野市安茂里１４６８−８<br>
+							安茂里駅から４５０㍍、国道１９号経由 徒歩８分、車２分</td>
+					</tr>
+				</table>
+				<p class="c"><a href="javascript:history.back()" style="color: #343434;">&lt;&lt; 前のページに戻る</a></p>
+			</section><!--./activity-->
+
+		</main>
+
+		<footer>
+
+			<ul id="footermenu">
+				<li><a href="index.html">ホーム</a></li>
+				<li><a href="company.html">クラブ概要</a></li>
+				<li><a href="activity.html">活動内容</a></li>
+				<li><a href="opus.html">作品集</a></li>
+				<li><a href="recruitment.pdf.html">募集要項</a></li>
+				<li><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi" target="_blank"
+						rel="nofollow">掲示板</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+				<li><a href="contact.html">お問い合わせ</a></li>
+			</ul>&#010;
+			<!--reCAPTCHA-->
+			<button class="g-recaptcha" data-sitekey="6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl" data-callback='onSubmit'
+				data-action='submit'></button>
+			<div class="copy">
+				<small>Copyright&copy; 2023 <a href="index.html">Nagano Creative Science Club HP Draft</a>. All Rights
+					Reserved.</small>
+				<span class="pr">《Web Design:Template-Party》</span>
+			</div>
+		</footer>
+
+		<!--開閉ボタン（ハンバーガーアイコン）-->
+		<div id="menubar_hdr">
+			<span></span><span></span><span></span>
+		</div>
+
 	</div>
-	<!--/.sh-->
-	
-	</div>
-	<!--/#menubar-->
+	<!--/#container-->
 
-<main>
+	<!--jQueryの読み込み-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-<section class="activity">
+	<!--パララックス（inview）-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+	<script src="js/jquery.inview_set.js"></script>
 
-<h2>クラブ概要</h2>
+	<!--このテンプレート専用のスクリプト-->
+	<script src="js/main.js"></script>
 
-<table class="ta1">
-	<caption style="font-size: large;">自由工作を基本として、意欲があればどんなに高度なテクノロジーも学べるクラブ</caption>
-	<tr>
-	<th>活動内容</th>
-	<td>詳しくは<a  href="activity.html">こちら</a></td>
-	</tr>
-	<tr>
-	<th>募集要項</th>
-	<td>中学生，高校生&nbsp;ものづくりやプログラミングに対して、意欲的である人<br>
-	PDF：<a rel="download" href="download/r5-recruitment_notLink.pdf" download="R5_募集要項-長野創造科学クラブ.pdf" target="_blank">こちら（PDF:467.41 KB）</a></td>
-	</tr>
-	<tr>
-	<th>掲示板</th>
-	<td>最新情報は<a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi" target="_blank" rel="nofollow">こちら（公式HP）</a></td>
-	</tr>
-	<tr>
-	<th>予定表</th>
-	<td><iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTokyo&showTitle=0&showPrint=0&showCalendars=0&showTabs=0&showTz=0&src=YWp0cXNoajY5NXI1b2lyNTN1ZTdobnE2cW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=amEuamFwYW5lc2UjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23E4C441&color=%23D50000" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no" class="calendar"></iframe><br>
-	一ヶ月に２回（第２・第４日曜日）に９時から１２時まで活動しています。<br>
-	<!--<a href="https://calendar.google.com/calendar/ical/ajtqshj695r5oir53ue7hnq6qo%40group.calendar.google.com/public/basic.ics" target="_blank">お使いのカレンダーアプリに追加</a><br>-->
-	<a href="https://calendar.google.com/calendar/u/0/r?cid=ajtqshj695r5oir53ue7hnq6qo@group.calendar.google.com&cid=ja.japanese%23holiday@group.v.calendar.google.com&pli=1" targr="_blank" rel="nofollow">Google カレンダーに追加</a></td>
-	</tr>
-	<tr>
-	<th>所在地</th>
-	<td><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3201.7360435301125!2d138.16577990000002!3d36.63273980000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601d8707957a2ce5%3A0x4c4c2e6ef3d8e994!2z6ZW36YeO5Ym16YCg56eR5a2m44Kv44Op44OW!5e0!3m2!1sja!2sjp!4v1684473985599!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="maps"></iframe><br>
-	長野創造科学クラブ（木工室&nbsp;コンピュータ室）<br>〒380-0941&nbsp;長野県長野市安茂里１４６８−８<br>
-	安茂里駅から４５０㍍、国道１９号経由 徒歩８分、車２分</td>
-	</tr>
-</table>
-<p class="c"><a href="javascript:history.back()" style="color: #343434;">&lt;&lt; 前のページに戻る</a></p>
-</section><!--./activity-->
-
-</main>
-
-<footer>
-
-	<ul id="footermenu">
-		<li><a href="index.html">ホーム</a></li>
-		<li><a href="company.html">クラブ概要</a></li>
-		<li><a href="activity.html">活動内容</a></li>
-		<li><a href="opus.html">作品集</a></li>
-		<li><a href="recruitment.pdf.html">募集要項</a></li>
-		<li><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi" target="_blank" rel="nofollow">掲示板</a></li>
-		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="contact.html">お問い合わせ</a></li>
-	</ul>&#010;
-	<!--reCAPTCHA-->
-		<button class="g-recaptcha" data-sitekey="6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl" data-callback='onSubmit' data-action='submit'></button>
-	<div class="copy">
-	<small>Copyright&copy; 2023 <a href="index.html">Nagano Creative Science Club HP Draft</a>. All Rights Reserved.</small>
-	<span class="pr">《Web Design:Template-Party》</span>
-	</div>
-	</footer>
-
-<!--開閉ボタン（ハンバーガーアイコン）-->
-<div id="menubar_hdr">
-<span></span><span></span><span></span>
-</div>
-
-</div>
-<!--/#container-->
-
-<!--jQueryの読み込み-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!--パララックス（inview）-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
-<script src="js/jquery.inview_set.js"></script>
-
-<!--このテンプレート専用のスクリプト-->
-<script src="js/main.js"></script>
-
-<!--ページの上部へ戻るボタン-->
-<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+	<!--ページの上部へ戻るボタン-->
+	<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
 
 </body>
+
 </html>

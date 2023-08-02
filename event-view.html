@@ -1,107 +1,126 @@
 <!--Copyright 2023 Nagano Creative Science Club HP Draft -->
 <!DOCTYPE html>
 <html lang="ja">
-<head prefix="og: https://ogp.me/ns#">
-<meta charset="UTF-8">
-<!-- ホームページの正式なURL -->
-<link rel="canonical" href="https://pp-pixel.github.io/csclub/">
-<!-- アイコンの設定 -->
-<link rel="icon" href="favicon/favicon.ico">
-<!-- スマホの待受で表示するアイコンの設定 -->
-<link rel="apple-touch-icon" href="favicon/icon-192.png" sizes="192x192">
-<meta name=”viewport” content=”width=device-width,initial-scale=1″ />
-<!-- SNSに埋め込みしたときのURL -->
-<meta property="og:url" content="https://pp-pixel.github.io/csclub/event.html" />
-<!-- ページの種類 -->
-<meta property="og:type" content="website" />
-<!-- SNSに埋め込みしたときのタイトル -->
-<meta property="og:title" content="イベント｜長野創造科学クラブのHP案" />
-<!-- SNSに埋め込みしたときの説明文 -->
-<meta property="og:description" content="長野創造科学クラブのイベント概要ページです。クラブ員向けです。" />
-<!-- SNSに埋め込みしたときのサイトの名前 タイトルとはまた別で団体名みたいな -->
-<meta property="og:site_name" content="Nagano Creative Science Club HP Draft" />
-<!-- SNSに埋め込みしたときのイメージ画像 -->
-<meta property="og:image" content="https://pp-pixel.github.io/csclub/images/ogp-image.png" />
-<meta name=”twitter:card” content="summary" />
-<title>イベント｜長野創造科学クラブのHP案</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="長野創造科学クラブのイベント概要ページです。クラブ員向けです。">
-<script src="https://www.google.com/recaptcha/api.js"></script>
-        <script>
-            function onSubmit(token) {
-            document.getElementById("demo-form").submit();
-            }
-        </script>
-        <script src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
-<!-- ServiceWorker -->
-<link rel="manifest" href="https://pp-pixel.github.io/csclub/manifest.json">
-<script>
-	if ("serviceWorker" in navigator) {
-	window.addEventListener("load", function () {
-	navigator.serviceWorker.register("sw.js").then(
-	function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ",registration.scope);},
-	function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err);});});
-	}
-</script>
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="link.css">
-<style>
-	footer {margin-top: 10px;}
-	main {margin-top: 10px;}
-	.sf {
-		background-color: white;width: 95%;margin: auto;border-radius: 20px;
-	}
-	.list .btn a {
-		border-radius: 20px;
-	}
-	.btn a {
-		background-color: #003f67;
-	}
-	.btn a:hover {
-		background-color: #3b6985;
-	}
-	/* 横並び */
-	.flex-event {
-	display: flex; /*横並び*/
-	}
-	.flex-event .image {
-	width: 100%; /*画像サイズ指定*/
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	position: relative;
-	}
-	.flex-event .text {
-	margin: 0 0 0 20px;
-	padding: 0;
-	}
 
-</style>
+<head prefix="og: https://ogp.me/ns#">
+	<meta charset="UTF-8">
+	<!-- ホームページの正式なURL -->
+	<link rel="canonical" href="https://pp-pixel.github.io/csclub/">
+	<!-- アイコンの設定 -->
+	<link rel="icon" href="favicon/favicon.ico">
+	<!-- スマホの待受で表示するアイコンの設定 -->
+	<link rel="apple-touch-icon" href="favicon/icon-192.png" sizes="192x192">
+	<meta name=”viewport” content=”width=device-width,initial-scale=1″ />
+	<!-- SNSに埋め込みしたときのURL -->
+	<meta property="og:url" content="https://pp-pixel.github.io/csclub/event.html" />
+	<!-- ページの種類 -->
+	<meta property="og:type" content="website" />
+	<!-- SNSに埋め込みしたときのタイトル -->
+	<meta property="og:title" content="イベント｜長野創造科学クラブのHP案" />
+	<!-- SNSに埋め込みしたときの説明文 -->
+	<meta property="og:description" content="長野創造科学クラブのイベント概要ページです。クラブ員向けです。" />
+	<!-- SNSに埋め込みしたときのサイトの名前 タイトルとはまた別で団体名みたいな -->
+	<meta property="og:site_name" content="Nagano Creative Science Club HP Draft" />
+	<!-- SNSに埋め込みしたときのイメージ画像 -->
+	<meta property="og:image" content="https://pp-pixel.github.io/csclub/images/ogp-image.png" />
+	<meta name=”twitter:card” content="summary" />
+	<title>イベント｜長野創造科学クラブのHP案</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="長野創造科学クラブのイベント概要ページです。クラブ員向けです。">
+	<script src="https://www.google.com/recaptcha/api.js"></script>
+	<script>
+		function onSubmit(token) {
+			document.getElementById("demo-form").submit();
+		}
+	</script>
+	<script
+		src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
+	<!-- ServiceWorker -->
+	<link rel="manifest" href="https://pp-pixel.github.io/csclub/manifest.json">
+	<script>
+		if ("serviceWorker" in navigator) {
+			window.addEventListener("load", function () {
+				navigator.serviceWorker.register("sw.js").then(
+					function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ", registration.scope); },
+					function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err); });
+			});
+		}
+	</script>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="link.css">
+	<style>
+		footer {
+			margin-top: 10px;
+		}
+
+		main {
+			margin-top: 10px;
+		}
+
+		.sf {
+			background-color: white;
+			width: 95%;
+			margin: auto;
+			border-radius: 20px;
+		}
+
+		.list .btn a {
+			border-radius: 20px;
+		}
+
+		.btn a {
+			background-color: #003f67;
+		}
+
+		.btn a:hover {
+			background-color: #3b6985;
+		}
+
+		/* 横並び */
+		.flex-event {
+			display: flex;
+			/*横並び*/
+		}
+
+		.flex-event .image {
+			width: 100%;
+			/*画像サイズ指定*/
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			position: relative;
+		}
+
+		.flex-event .text {
+			margin: 0px 0px 0px 20px;
+			padding: 0;
+		}
+	</style>
 </head>
 
 <body>
 
-<div id="container">
+	<div id="container">
 
-<header>
+		<header>
 
-<div id="logo">
-<h1><a href="index.html"><img src="logo/logo.webp" alt="長野創造科学クラブ"></a></h1>
-</div>
+			<div id="logo">
+				<h1><a href="index.html"><img src="logo/logo.webp" alt="長野創造科学クラブ"></a></h1>
+			</div>
 
-</header>
+		</header>
 
-<!--開閉ブロック-->
-<div id="menubar">
+		<!--開閉ブロック-->
+		<div id="menubar">
 
-	<nav>
-		<ul>
-			<li><a href="index.html">ホーム</a></li>
-			<li><a href="company.html">クラブ概要</a></li>
-			<li><a href="activity.html">活動内容</a></li>
-			<li><a href="opus.html">作品集</a></li>
-			<li><a href="recruitment.pdf.html">募集要項</a></li>
-			<!--
+			<nav>
+				<ul>
+					<li><a href="index.html">ホーム</a></li>
+					<li><a href="company.html">クラブ概要</a></li>
+					<li><a href="activity.html">活動内容</a></li>
+					<li><a href="opus.html">作品集</a></li>
+					<li><a href="recruitment.pdf.html">募集要項</a></li>
+					<!--
 			<li><a href="">サービス紹介</a>
 				<ul>
 					<li><a href="service.html">メニュー</a></li>
@@ -109,110 +128,132 @@
 					<li><a href="service.html">メニュー</a></li>
 				</ul>
 			</li>-->
-			<li><a href="faq.html">FAQ</a></li>
-			<li><a href="contact.html">お問い合わせ</a></li>
-		</ul>
-	</nav>
-	<div class="sh">
-		<p>長野創造科学クラブのHP案<br>
-			&copy; 2023 Nagano Creative Science Club HP Draft.
-		</p>
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="contact.html">お問い合わせ</a></li>
+				</ul>
+			</nav>
+			<div class="sh">
+				<p>長野創造科学クラブのHP案<br>
+					&copy; 2023 Nagano Creative Science Club HP Draft.
+				</p>
+			</div>
+			<!--/.sh-->
+
+		</div>
+		<!--/#menubar-->
+
+		<main>
+
+			<section class="sf">
+
+				<h2 style="font-size: xx-large;">「青年のための科学の祭典」2023上田大会への出展します<small></small></h2>
+				<p style="color: #454545;text-align: right;">2023/08/02 更新</p>
+
+				<h2>出展内容</h2>
+				<p><b style="font-size: larger;">ブース番号7-2&nbsp;&nbsp;カメラ付きのラジコンロボットを操作してみよう</b><br>
+					　画面を見ながら、アクセルやハンドルを操作して、まるで載って運転しているみたいにラジコン操作できます。<br>
+					障害物をよけたり、車庫に入れたり、安全運転できるかな？</p>
+				<div class="flex-event">
+					<figure class="image">
+						<p class="room"><img src="images/camera.radi-con.png" alt="カメラ付きのラジコン" height="auto"></p>
+					</figure>
+					　このラジコンは、過去にクラブ生が制作し、発明くふう展で受賞した作品をもとにした手作りです。<br>
+					　興味がある方には、動作の仕組みや構造、プログラムなど、どのように制作したかも説明しますので、どんどん質問してくださいね。</p>
+				</div>
+				<p><b>3Dプリンタの実演</b><br>
+					　ものづくりや工作にも役立つ、3Dプリンタの動作を実演します。<br>
+					　カメラ付きのラジコンの部品も3Dプリンタを使って制作しました。<br>
+					　<a href="event.pdf.html" style="color: #999999;" rel="follow">PDF</a></p>
+
+				<h2>会場</h2>
+				<p>信州大学繊維学部<br>〒386-8567　長野県上田市常田3-15-1<iframe
+						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6423.429075150787!2d138.26251!3d36.391904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601dbcebae043d25%3A0xf9e72f4251b9902e!2z5L-h5bee5aSn5a2m57mK57at5a2m6YOo!5e0!3m2!1sja!2sus!4v1690119221413!5m2!1sja!2sus"
+						width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"></iframe>
+					<a href="https://ftst.jp/ysf/2023/access/" rel="nofollow"
+						target="_blank">https://ftst.jp/ysf/2023/access/</a>
+				</p>
+				<section class="bg1" style="background-color: #dcdcdc;">
+					<h2 style="color: #2f2f2f;">資料</h2>
+					<div class="list-container">
+						<div class="list blur">
+							<p></p>
+							<div class="text">
+								<p style="color: #2f2f2f;">科学の祭典上田大会 ホームページ<br>
+									<a href="https://ftst.jp/ysf/2023/" rel="nofollow" target="_blank"
+										style="color: #2f2f2f;">https://ftst.jp/ysf/2023/</a>
+								</p>
+							</div>
+						</div>
+						<div class="list blur">
+							<div class="text">
+								<p style="color: #2f2f2f;">長野創造科学クラブ ホームページ<br>
+									<a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/" rel="nofollow" target="_blank"
+										style="color: #2f2f2f;">http://4d3.gmobb.jp/dcm8wdyx8bibu/</a>
+								</p>
+							</div>
+						</div>
+						<div class="list blur">
+							<div class="text">
+								<p style="color: #2f2f2f;">長野創造科学クラブ ホームページ案<br>
+									<a href="https://pp-pixel.github.io/csclub/" rel="follow"
+										style="color: #2f2f2f;">https://csclub.page.link/io-hp/</a>
+								</p>
+							</div>
+						</div>
+					</div><!--/.list-container-->
+				</section>
+
+				<p class="c"><a href="javascript:history.back()">&lt;&lt; 前のページに戻る</a></p>
+			</section>
+
+		</main>
+
+		<footer>
+
+			<ul id="footermenu">
+				<li><a href="index.html">ホーム</a></li>
+				<li><a href="company.html">クラブ概要</a></li>
+				<li><a href="activity.html">活動内容</a></li>
+				<li><a href="opus.html">作品集</a></li>
+				<li><a href="recruitment.pdf.html">募集要項</a></li>
+				<li><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi" target="_blank"
+						rel="nofollow">掲示板</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+				<li><a href="contact.html">お問い合わせ</a></li>
+			</ul>&#010;
+			<!--reCAPTCHA-->
+			<button class="g-recaptcha" data-sitekey="6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl" data-callback='onSubmit'
+				data-action='submit'></button>
+			<div class="copy">
+				<small>Copyright&copy; 2023 <a href="index.html">Nagano Creative Science Club HP Draft</a>. All Rights
+					Reserved.</small>
+				<span class="pr">《Web Design:Template-Party》</span>
+			</div>
+
+		</footer>
+
+		<!--開閉ボタン（ハンバーガーアイコン）-->
+		<div id="menubar_hdr">
+			<span></span><span></span><span></span>
+		</div>
+
 	</div>
-	<!--/.sh-->
-	
-	</div>
-	<!--/#menubar-->
+	<!--/#container-->
 
-<main>
+	<!--jQueryの読み込み-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-<section class="sf">
+	<!--パララックス（inview）-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+	<script src="js/jquery.inview_set.js"></script>
 
-    <h2 style="font-size: xx-large;">「青年のための科学の祭典」2023上田大会への出展します<small></small></h2>
-    <p style="color: #454545;text-align: right;">2023/08/02 更新</p>
+	<!--このテンプレート専用のスクリプト-->
+	<script src="js/main.js"></script>
 
-    <h2>出展内容</h2>
-    <p><b style="font-size: larger;">ブース番号7-2&nbsp;&nbsp;カメラ付きのラジコンロボットを操作してみよう</b><br>
-    　画面を見ながら、アクセルやハンドルを操作して、まるで載って運転しているみたいにラジコン操作できます。<br>
-    障害物をよけたり、車庫に入れたり、安全運転できるかな？</p>
-	<div class="flex-event">
-		<figure class="image"><p class="room"><img src="images/camera.radi-con.png" alt="カメラ付きのラジコン" height="auto"></p></figure>
-		　このラジコンは、過去にクラブ生が制作し、発明くふう展で受賞した作品をもとにした手作りです。<br>
-		　興味がある方には、動作の仕組みや構造、プログラムなど、どのように制作したかも説明しますので、どんどん質問してくださいね。</p>
-    </div>
-	<p><b>3Dプリンタの実演</b><br>
-    　ものづくりや工作にも役立つ、3Dプリンタの動作を実演します。<br>
-    　カメラ付きのラジコンの部品も3Dプリンタを使って制作しました。<br>
-	　<a href="event.pdf.html" style="color: #999999;" rel="follow">PDF</a></p>
-
-    <h2>会場</h2>  
-    <p>信州大学繊維学部<br>〒386-8567　長野県上田市常田3-15-1<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6423.429075150787!2d138.26251!3d36.391904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601dbcebae043d25%3A0xf9e72f4251b9902e!2z5L-h5bee5aSn5a2m57mK57at5a2m6YOo!5e0!3m2!1sja!2sus!4v1690119221413!5m2!1sja!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <a href="https://ftst.jp/ysf/2023/access/" rel="nofollow" target="_blank">https://ftst.jp/ysf/2023/access/</a></p>
-    <section class="bg1" style="background-color: #dcdcdc;">
-    <h2  style="color: #2f2f2f;">資料</h2><div class="list-container">
-        <div class="list blur"><p></p>
-            <div class="text">
-                <p style="color: #2f2f2f;">科学の祭典上田大会 ホームページ<br>
-                <a href="https://ftst.jp/ysf/2023/" rel="nofollow" target="_blank" style="color: #2f2f2f;">https://ftst.jp/ysf/2023/</a></p>
-            </div></div>
-            <div class="list blur">
-            <div class="text">
-                <p style="color: #2f2f2f;">長野創造科学クラブ ホームページ<br>
-                <a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/" rel="nofollow" target="_blank" style="color: #2f2f2f;">http://4d3.gmobb.jp/dcm8wdyx8bibu/</a></p>
-            </div></div>
-            <div class="list blur">
-            <div class="text">
-                <p style="color: #2f2f2f;">長野創造科学クラブ ホームページ案<br>
-                <a href="https://pp-pixel.github.io/csclub/" rel="follow" style="color: #2f2f2f;">https://csclub.page.link/io-hp/</a></p>
-            </div></div>
-    </div><!--/.list-container-->
-    </section>
-
-<p class="c"><a href="javascript:history.back()">&lt;&lt; 前のページに戻る</a></p>
-</section>
-
-</main>
-
-<footer>
-
-	<ul id="footermenu">
-		<li><a href="index.html">ホーム</a></li>
-		<li><a href="company.html">クラブ概要</a></li>
-		<li><a href="activity.html">活動内容</a></li>
-		<li><a href="opus.html">作品集</a></li>
-		<li><a href="recruitment.pdf.html">募集要項</a></li>
-		<li><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi" target="_blank" rel="nofollow">掲示板</a></li>
-		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="contact.html">お問い合わせ</a></li>
-	</ul>&#010;
-	<!--reCAPTCHA-->
-	<button class="g-recaptcha" data-sitekey="6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl" data-callback='onSubmit' data-action='submit'></button>
-	<div class="copy">
-	<small>Copyright&copy; 2023 <a href="index.html">Nagano Creative Science Club HP Draft</a>. All Rights Reserved.</small>
-	<span class="pr">《Web Design:Template-Party》</span>
-	</div>
-	
-</footer>
-
-<!--開閉ボタン（ハンバーガーアイコン）-->
-<div id="menubar_hdr">
-<span></span><span></span><span></span>
-</div>
-
-</div>
-<!--/#container-->
-
-<!--jQueryの読み込み-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!--パララックス（inview）-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
-<script src="js/jquery.inview_set.js"></script>
-
-<!--このテンプレート専用のスクリプト-->
-<script src="js/main.js"></script>
-
-<!--ページの上部へ戻るボタン-->
-<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+	<!--ページの上部へ戻るボタン-->
+	<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
 
 </body>
+
 </html>

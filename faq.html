@@ -5,76 +5,88 @@
 <!-- ---------------------------------------------------- -->
 <!DOCTYPE html>
 <html lang="ja">
+
 <head prefix="og: https://ogp.me/ns#">
-<meta charset="UTF-8">
-<!-- ホームページの正式なURL -->
-<link rel="canonical" href="https://pp-pixel.github.io/csclub/">
-<!-- アイコンの設定 -->
-<link rel="icon" href="favicon/favicon.ico">
-<!-- スマホの待受で表示するアイコンの設定 -->
-<link rel="apple-touch-icon" href="favicon/icon-192.png" sizes="192x192">
-<meta name=”viewport” content=”width=device-width,initial-scale=1″ />
-<!-- SNSに埋め込みしたときのURL -->
-<meta property="og:url" content="https://pp-pixel.github.io/csclub/faq.html" />
-<!-- ページの種類 -->
-<meta property="og:type" content="website" />
-<!-- SNSに埋め込みしたときのタイトル -->
-<meta property="og:title" content="FAQ｜長野創造科学クラブのHP案" />
-<!-- SNSに埋め込みしたときの説明文 -->
-<meta property="og:description" content="長野創造科学クラブのホームページ案です。" />
-<!-- SNSに埋め込みしたときのサイトの名前 タイトルとはまた別で団体名みたいな -->
-<meta property="og:site_name" content="Nagano Creative Science Club HP Draft" />
-<!-- SNSに埋め込みしたときのイメージ画像 -->
-<meta property="og:image" content="https://pp-pixel.github.io/csclub/images/ogp-image.png" />
-<title>FAQ｜長野創造科学クラブのHP案</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="長野創造科学クラブのHP案のFAQ,Q&A,質問,回答を載せる為のページです。">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="link.css">
-<style>
-	article {background-color: white;border-radius: 20px;width: 95%;margin: auto;margin-top: 10px;}
-	footer {margin-top: 10px;}
-</style>
-<link rel="manifest" href="https://pp-pixel.github.io/csclub/manifest.json">
-<script>
-	function onSubmit(token) {
-	document.getElementById("demo-form").submit();
-	}
-</script>
-<script>
-	if ("serviceWorker" in navigator) {
-	window.addEventListener("load", function () {
-	navigator.serviceWorker.register("sw.js").then(
-	function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ",registration.scope);},
-	function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err);});});
-	}
-</script>
-<script src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
+	<meta charset="UTF-8">
+	<!-- ホームページの正式なURL -->
+	<link rel="canonical" href="https://pp-pixel.github.io/csclub/">
+	<!-- アイコンの設定 -->
+	<link rel="icon" href="favicon/favicon.ico">
+	<!-- スマホの待受で表示するアイコンの設定 -->
+	<link rel="apple-touch-icon" href="favicon/icon-192.png" sizes="192x192">
+	<meta name=”viewport” content=”width=device-width,initial-scale=1″ />
+	<!-- SNSに埋め込みしたときのURL -->
+	<meta property="og:url" content="https://pp-pixel.github.io/csclub/faq.html" />
+	<!-- ページの種類 -->
+	<meta property="og:type" content="website" />
+	<!-- SNSに埋め込みしたときのタイトル -->
+	<meta property="og:title" content="FAQ｜長野創造科学クラブのHP案" />
+	<!-- SNSに埋め込みしたときの説明文 -->
+	<meta property="og:description" content="長野創造科学クラブのホームページ案です。" />
+	<!-- SNSに埋め込みしたときのサイトの名前 タイトルとはまた別で団体名みたいな -->
+	<meta property="og:site_name" content="Nagano Creative Science Club HP Draft" />
+	<!-- SNSに埋め込みしたときのイメージ画像 -->
+	<meta property="og:image" content="https://pp-pixel.github.io/csclub/images/ogp-image.png" />
+	<title>FAQ｜長野創造科学クラブのHP案</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="長野創造科学クラブのHP案のFAQ,Q&A,質問,回答を載せる為のページです。">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="link.css">
+	<style>
+		article {
+			background-color: white;
+			border-radius: 20px;
+			width: 95%;
+			margin: auto;
+			margin-top: 10px;
+		}
+
+		footer {
+			margin-top: 10px;
+		}
+	</style>
+	<link rel="manifest" href="https://pp-pixel.github.io/csclub/manifest.json">
+	<script>
+		function onSubmit(token) {
+			document.getElementById("demo-form").submit();
+		}
+	</script>
+	<script>
+		if ("serviceWorker" in navigator) {
+			window.addEventListener("load", function () {
+				navigator.serviceWorker.register("sw.js").then(
+					function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ", registration.scope); },
+					function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err); });
+			});
+		}
+	</script>
+	<script
+		src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
 </head>
 
 <body>
 
-<div id="container">
+	<div id="container">
 
-<header>
+		<header>
 
-<div id="logo">
-<h1><a href="index.html"><img src="logo/logo.webp" alt="長野創造科学クラブ"></a></h1>
-</div>
+			<div id="logo">
+				<h1><a href="index.html"><img src="logo/logo.webp" alt="長野創造科学クラブ"></a></h1>
+			</div>
 
-</header>
+		</header>
 
-<!--開閉ブロック-->
-<div id="menubar">
+		<!--開閉ブロック-->
+		<div id="menubar">
 
-	<nav>
-		<ul>
-			<li><a href="index.html">ホーム</a></li>
-			<li><a href="company.html">クラブ概要</a></li>
-			<li><a href="activity.html">活動内容</a></li>
-			<li><a href="opus.html">作品集</a></li>
-			<li><a href="recruitment.pdf.html">募集要項</a></li>
-			<!--
+			<nav>
+				<ul>
+					<li><a href="index.html">ホーム</a></li>
+					<li><a href="company.html">クラブ概要</a></li>
+					<li><a href="activity.html">活動内容</a></li>
+					<li><a href="opus.html">作品集</a></li>
+					<li><a href="recruitment.pdf.html">募集要項</a></li>
+					<!--
 			<li><a href="">サービス紹介</a>
 				<ul>
 					<li><a href="service.html">メニュー</a></li>
@@ -82,28 +94,28 @@
 					<li><a href="service.html">メニュー</a></li>
 				</ul>
 			</li>-->
-			<li><a href="faq.html">FAQ</a></li>
-			<li><a href="contact.html">お問い合わせ</a></li>
-		</ul>
-	</nav>
+					<li><a href="faq.html">FAQ</a></li>
+					<li><a href="contact.html">お問い合わせ</a></li>
+				</ul>
+			</nav>
 
-<div class="sh">
-<p>長野創造科学クラブのHP案<br>
-&copy; 2023 Nagano Creative Science Club HP Draft.</p>
-</div>
-<!--/.sh-->
+			<div class="sh">
+				<p>長野創造科学クラブのHP案<br>
+					&copy; 2023 Nagano Creative Science Club HP Draft.</p>
+			</div>
+			<!--/.sh-->
 
-</div>
-<!--/#menubar-->
+		</div>
+		<!--/#menubar-->
 
-<main>
-<article>
-<section>
+		<main>
+			<article>
+				<section>
 
-<h2>よく頂く質問</h2>
+					<h2>よく頂く質問</h2>
 
-<dl class="faq">
-<!--
+					<dl class="faq">
+						<!--
 <dt class="openclose">どのような活動をしていますか？</dt>
 <dd>ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。</dd>
 
@@ -123,10 +135,10 @@
 <dd>ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。<br>
 ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。ここに回答を書きます。サンプルテキスト。</dd>
 -->
-</dl>
+					</dl>
 
-</section>
-<!--
+				</section>
+				<!--
 <section>
 
 <h2>よく頂く質問（通常タイプ）</h2>
@@ -148,50 +160,55 @@
 
 </section>
 -->
-<p class="c"><a href="javascript:history.back()">&lt;&lt; 前のページに戻る</a></p></article>
-</main>
+				<p class="c"><a href="javascript:history.back()">&lt;&lt; 前のページに戻る</a></p>
+			</article>
+		</main>
 
-<footer>
+		<footer>
 
-	<ul id="footermenu">
-		<li><a href="index.html">ホーム</a></li>
-		<li><a href="company.html">クラブ概要</a></li>
-		<li><a href="activity.html">活動内容</a></li>
-		<li><a href="opus.html">作品集</a></li>
-		<li><a href="recruitment.pdf.html">募集要項</a></li>
-		<li><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi" target="_blank" rel="nofollow">掲示板</a></li>
-		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="contact.html">お問い合わせ</a></li>
-	</ul>&#010;
-	<!--reCAPTCHA-->
-	<button class="g-recaptcha" data-sitekey="6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl" data-callback='onSubmit' data-action='submit'></button>
-	<div class="copy">
-	<small>Copyright&copy; 2023 <a href="index.html">Nagano Creative Science Club HP Draft</a>. All Rights Reserved.</small>
-	<span class="pr">《Web Design:Template-Party》</span>
+			<ul id="footermenu">
+				<li><a href="index.html">ホーム</a></li>
+				<li><a href="company.html">クラブ概要</a></li>
+				<li><a href="activity.html">活動内容</a></li>
+				<li><a href="opus.html">作品集</a></li>
+				<li><a href="recruitment.pdf.html">募集要項</a></li>
+				<li><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi" target="_blank"
+						rel="nofollow">掲示板</a></li>
+				<li><a href="faq.html">FAQ</a></li>
+				<li><a href="contact.html">お問い合わせ</a></li>
+			</ul>&#010;
+			<!--reCAPTCHA-->
+			<button class="g-recaptcha" data-sitekey="6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl" data-callback='onSubmit'
+				data-action='submit'></button>
+			<div class="copy">
+				<small>Copyright&copy; 2023 <a href="index.html">Nagano Creative Science Club HP Draft</a>. All Rights
+					Reserved.</small>
+				<span class="pr">《Web Design:Template-Party》</span>
+			</div>
+
+		</footer>
+
+		<!--開閉ボタン（ハンバーガーアイコン）-->
+		<div id="menubar_hdr">
+			<span></span><span></span><span></span>
+		</div>
+
 	</div>
-	
-</footer>
+	<!--/#container-->
 
-<!--開閉ボタン（ハンバーガーアイコン）-->
-<div id="menubar_hdr">
-<span></span><span></span><span></span>
-</div>
+	<!--jQueryの読み込み-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-</div>
-<!--/#container-->
+	<!--パララックス（inview）-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+	<script src="js/jquery.inview_set.js"></script>
 
-<!--jQueryの読み込み-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<!--このテンプレート専用のスクリプト-->
+	<script src="js/main.js"></script>
 
-<!--パララックス（inview）-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
-<script src="js/jquery.inview_set.js"></script>
-
-<!--このテンプレート専用のスクリプト-->
-<script src="js/main.js"></script>
-
-<!--ページの上部へ戻るボタン-->
-<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+	<!--ページの上部へ戻るボタン-->
+	<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
 
 </body>
+
 </html>
