@@ -1,7 +1,8 @@
 @import url("https://unpkg.com/sanitize.css");
 @import url("https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
-@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 @import url("animation.css");
 @import url("inview.css");
 
@@ -14,7 +15,7 @@ body {
 }
 
 body {
-	font-family: "Zen Kaku Gothic New", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-family: 'Comfortaa', "Zen Kaku Gothic New", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	text-size-adjust: none;
 	background-color: rgb(40, 41, 42);
 	color: rgb(52, 52, 52);
@@ -401,6 +402,7 @@ footer a {
 
 .copy {
 	padding: 1%;
+	font-family: 'Comfortaa', cursive;
 }
 
 #footermenu {
@@ -847,6 +849,7 @@ p.btn {
 
 	.sh {
 		display: none;
+		font-family: 'Comfortaa', cursive;
 	}
 
 	.pc {
