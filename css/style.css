@@ -23,6 +23,10 @@ body {
 	overflow-x: hidden;
 }
 
+.material-symbols-outlined {
+	font-size: 100%;
+}
+
 figure {
 	margin: 0px;
 }
