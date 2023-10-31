@@ -1,0 +1,384 @@
+<!--Copyright 2023 Nagano Creative Science Club HP Draft -->
+<!DOCTYPE html>
+<html lang="ja">
+
+<head prefix="og: https://ogp.me/ns#">
+	<meta charset="UTF-8">
+	<!-- ホームページの正式なURL -->
+	<link rel="canonical" href="https://pp-pixel.github.io/csclub/">
+	<!-- アイコンの設定 -->
+	<link rel="icon" href="../favicon/favicon.png" sizes="500x500" type="image/png">
+	<!-- スマホの待受で表示するアイコンの設定 -->
+	<link rel="apple-touch-icon" href="../favicon/icon-192.png" sizes="192x192">
+	<meta name=”viewport” content=”width=device-width,initial-scale=1″ />
+	<!-- SNSに埋め込みしたときのURL -->
+	<meta property="og:url" content="https://pp-pixel.github.io/csclub/opus/" />
+	<!-- ページの種類 -->
+	<meta property="og:type" content="website" />
+	<!-- SNSに埋め込みしたときのタイトル -->
+	<meta property="og:title" content="作品集｜長野創造科学クラブのHP案" />
+	<!-- SNSに埋め込みしたときの説明文 -->
+	<meta property="og:description" content="長野創造科学クラブの過去の作品集です。" />
+	<!-- SNSに埋め込みしたときのサイトの名前 タイトルとはまた別で団体名みたいな -->
+	<meta property="og:site_name" content="Nagano Creative Science Club HP Draft" />
+	<!-- SNSに埋め込みしたときのイメージ画像 -->
+	<meta property="og:image" content="https://pp-pixel.github.io/csclub/images/ogp-image.png" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<title>作品集｜長野創造科学クラブのHP案</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="長野創造科学クラブで実際に作ったものを紹介するページです。">
+	<script src="https://www.google.com/recaptcha/api.js"></script>
+	<script>
+		function onSubmit(token) {
+			document.getElementById("demo-form").submit();
+		}
+	</script>
+	<script src="https://unpkg.com/budoux/bundle/budoux-ja.min.js"></script>
+	<script
+		src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
+	<!-- ServiceWorker -->
+	<link rel="manifest" href="https://pp-pixel.github.io/csclub/manifest.json">
+	<script>
+		if ("serviceWorker" in navigator) {
+			window.addEventListener("load", function () {
+				navigator.serviceWorker.register("sw.js").then(
+					function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ", registration.scope); },
+					function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err); });
+			});
+		}
+	</script>
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="../link.css">
+	<link rel="stylesheet" href="../css/scroll-bar.css">
+	<style>
+		footer {
+			margin-top: 10px;
+		}
+
+		main {
+			margin-top: 10px;
+		}
+
+		.opus {
+			background-color: white;
+			width: 95%;
+			margin: auto;
+			border-radius: 20px;
+		}
+
+		.list .btn a {
+			border-radius: 20px;
+		}
+
+		.btn a {
+			background-color: #003f67;
+		}
+
+		.btn a:hover {
+			background-color: #3b6985;
+		}
+
+		.material-symbols-outlined {
+			font-size: 100%;
+		}
+	</style>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js"
+		type="text/javascript"></script>
+</head>
+
+<body>
+
+	<div id="container">
+
+		<header>
+
+			<div id="logo">
+				<h1><a href="../"><img src="../logo/logo.webp" alt="長野創造科学クラブ"></a></h1>
+			</div>
+
+		</header>
+
+		<!--開閉ブロック-->
+		<div id="menubar">
+
+			<nav>
+				<ul>
+					<li><a href="../">ホーム</a></li>
+					<li><a href="../company/">クラブ概要</a></li>
+					<li><a href="../activity/">活動内容</a></li>
+					<li><a href="../opus/">作品集</a></li>
+					<li><a href="../recruitment.pdf.html">募集要項</a></li>
+					<!--
+			<li><a href="">サービス紹介</a>
+				<ul>
+					<li><a href="service.html">メニュー</a></li>
+					<li><a href="service.html">メニュー</a></li>
+					<li><a href="service.html">メニュー</a></li>
+				</ul>
+			</li>-->
+					<li><a href="../faq.html">FAQ</a></li>
+					<li><a href="../contact.html">お問い合わせ</a></li>
+				</ul>
+			</nav>
+			<div class="sh">
+				<p>長野創造科学クラブのHP案<br>
+					&copy; 2023 Nagano Creative Science Club HP Draft.
+				</p>
+			</div>
+			<!--/.sh-->
+
+		</div>
+		<!--/#menubar-->
+
+		<main>
+
+			<section class="opus">
+
+				<h2>作品集</h2>
+				<p>過去に発明くふう展に出品した作品集です。</p>
+
+				<div class="list-container">
+					<!-- 2023 -->
+					<div class="list blur">
+						<figure><img src="../images/No-Image.webp" alt=""></figure>
+						<div class="text">
+							<h4>Cool my Back(クールマイバック)（高校生）</h4>
+							<p>長野県教育委員会賞</p>
+						</div>
+						<p class="btn"><a href="../images/No-Image.webp" data-lightbox="opus"
+								data-title="Cool my Back">詳しくみる(No Image)</a></p>
+						<span class="new">2023</span>
+					</div>
+
+					<div class="list blur">
+						<figure><img src="../images/No-Image.webp" alt=""></figure>
+						<div class="text">
+							<h4>ウェイターロボ（中学生）</h4>
+							<p>長野県知事賞</p>
+						</div>
+						<p class="btn"><a href="../images/No-Image.webp" data-lightbox="opus" data-title="ウェイターロボ">詳しくみる(No
+								Image)</a></p>
+						<span class="new">2023</span>
+					</div>
+
+					<div class="list blur">
+						<figure><img src="../images/No-Image.webp" alt=""></figure>
+						<div class="text">
+							<h4>本を戻さないと音が鳴る本棚（中学生）</h4>
+							<p>長野県教育委員会賞</p>
+						</div>
+						<p class="btn"><a href="../images/No-Image.webp" data-lightbox="opus"
+								data-title="本を戻さないと音が鳴る本棚">詳しくみる(No Image)</a></p>
+						<span class="new">2023</span>
+					</div>
+					<!-- 2022 -->
+					<div class="list blur">
+						<figure><img src="../images/No-Image.webp" alt=""></figure>
+						<div class="text">
+							<h4>ゴミダンプ（中学生）</h4>
+							<p>関東経済産業局長奨励賞</p>
+						</div>
+						<p class="btn"><a href="../images/opus/gomi_damp.jpg" data-lightbox="opus"
+								data-title="ゴミダンプ">詳しくみる</a></p>
+						<span class="post">2022</span>
+					</div>
+
+					<div class="list blur">
+						<figure><img src="../images/No-Image.webp" alt=""></figure>
+						<div class="text">
+							<h4>手かざしスイッチサーボット（中学生）</h4>
+							<p>長野県知事賞</p>
+						</div>
+						<figure>
+							<p class="btn"><a href="../images/No-Image.webp" data-lightbox="opus"
+									data-title="手かざしスイッチサーボット">詳しくみる(No Image)</a></p>
+						</figure>
+						<p class="btn"><a href="../pamphlet.pdf.html">パンフレット</a></p>
+						<span class="post">2022</span>
+					</div>
+
+					<div class="list blur">
+						<figure><img src="../images/No-Image.webp" alt=""></figure>
+						<div class="text">
+							<h4>どこまでも行くよ！車（小学生）</h4>
+							<p>長野県知事賞</p>
+						</div>
+						<figure>
+							<p class="btn"><a href="../images/No-Image.webp" data-lightbox="opus"
+									data-title="どこまでも行くよ！車">詳しくみる(No Image)</a></p>
+						</figure>
+						<p class="btn"><a href="../pamphlet.pdf.html">パンフレット</a></p>
+						<span class="post">2022</span>
+					</div>
+					<div class="list blur">
+
+						<figure><img src="../images/No-Image.webp" alt=""></figure>
+						<div class="text">
+							<h4>カメラ付きラジコンカー</h4>
+						</div>
+						<p class="btn"><a href="../images/opus/camera_radicon.jpg" data-lightbox="opus"
+								data-title="カメラ付きラジコンカー">詳しくみる</a></p>
+					</div>
+
+					<div class="list blur">
+						<figure><img src="../images/No-Image.webp" alt=""></figure>
+						<div class="text">
+							<h4>音声認識ボイスレコーダー</h4>
+						</div>
+						<p class="btn"><a href="../images/opus/onsei_rokuon.jpg" data-lightbox="opus"
+								data-title="音声認識ボイスレコーダー">詳しくみる</a></p>
+					</div>
+
+					<div class="list blur">
+						<figure><img src="../images/No-Image.webp" alt=""></figure>
+						<div class="text">
+							<h4>リニアカー</h4>
+						</div>
+						<p class="btn"><a href="../images/opus/liniar_car.jpg" data-lightbox="opus"
+								data-title="リニアカー">詳しくみる</a></p>
+					</div>
+
+					<div class="list blur">
+						<figure><img src="../images/No-Image.webp" alt=""></figure>
+						<div class="text">
+							<h4>水車かえる</h4>
+						</div>
+						<p class="btn"><a href="../images/opus/suisya_kaeru.jpg" data-lightbox="opus"
+								data-title="水車かえる">詳しくみる</a></p>
+					</div>
+
+					<div class="list blur">
+						<figure><img src="../images/No-Image.webp" alt=""></figure>
+						<div class="text">
+							<h4>ショルダーバッグ付きラジオ</h4>
+						</div>
+						<p class="btn"><a href="../images/opus/bag_radio.jpg" data-lightbox="opus"
+								data-title="ショルダーバッグ付きラジオ">詳しくみる</a></p>
+					</div>
+
+				</div>
+				<!--/.list-container-->
+				<p class="c"><a href="javascript:history.back()">&lt;&lt; 前のページに戻る</a></p>
+			</section>
+			<!--
+<section class="bg1">
+
+<h2>Service</h2>
+
+<div class="list-container">
+
+<div class="list blur">
+<figure><img src="images/sample1.jpg" alt=""></figure>
+<div class="text">
+<h4>Sample Title</h4>
+<p>ここに説明を入れます。サンプルテキスト。</p>
+</div>
+<p class="btn"><a href="service2.html">詳しくみる</a></p>
+<span class="new">NEW</span>
+</div>
+
+<div class="list blur">
+<figure><img src="images/sample1.jpg" alt=""></figure>
+<div class="text">
+<h4>Sample Title</h4>
+<p>ここに説明を入れます。サンプルテキスト。</p>
+</div>
+<p class="btn"><a href="service2.html">詳しくみる</a></p>
+</div>
+
+<div class="list blur">
+<figure><img src="images/sample1.jpg" alt=""></figure>
+<div class="text">
+<h4>Sample Title</h4>
+<p>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</p>
+</div>
+<p class="btn"><a href="service2.html">詳しくみる</a></p>
+</div>
+
+<div class="list blur">
+<figure><img src="images/sample1.jpg" alt=""></figure>
+<div class="text">
+<h4>Sample Title</h4>
+<p>ここに説明を入れます。サンプルテキスト。</p>
+</div>
+<p class="btn"><a href="service2.html">詳しくみる</a></p>
+<span class="new">NEW</span>
+</div>
+
+<div class="list blur">
+<figure><img src="images/sample1.jpg" alt=""></figure>
+<div class="text">
+<h4>Sample Title</h4>
+<p>ここに説明を入れます。サンプルテキスト。</p>
+</div>
+<p class="btn"><a href="service2.html">詳しくみる</a></p>
+</div>
+
+<div class="list blur">
+<figure><img src="images/sample1.jpg" alt=""></figure>
+<div class="text">
+<h4>Sample Title</h4>
+<p>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</p>
+</div>
+<p class="btn"><a href="service2.html">詳しくみる</a></p>
+</div>
+
+</div>
+/.list-container
+
+</section>
+-->
+		</main>
+
+		<footer>
+
+			<ul id="footermenu">
+				<li><a href="../">ホーム</a></li>
+				<li><a href="../company/">クラブ概要</a></li>
+				<li><a href="../activity/">活動内容</a></li>
+				<li><a href="#">作品集</a></li>
+				<li><a href="../recruitment.pdf.html">募集要項</a></li>
+				<li><a href="http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi" target="_blank">掲示板<span
+							class="material-symbols-outlined">open_in_new</span></a></li>
+				<li><a href="../faq.html">FAQ</a></li>
+				<li><a href="../contact.html">お問い合わせ</a></li>
+			</ul>&#010;
+			<!--reCAPTCHA-->
+			<button class="g-recaptcha" data-sitekey="6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl" data-callback='onSubmit'
+				data-action='submit'></button>
+			<div class="copy">
+				<small>Copyright&copy; 2023 <a href="../">Nagano Creative Science Club HP Draft</a>. All Rights
+					Reserved.</small>
+				<span class="pr">《Web Design:Template-Party》</span>
+			</div>
+
+		</footer>
+
+		<!--開閉ボタン（ハンバーガーアイコン）-->
+		<div id="menubar_hdr">
+			<span></span><span></span><span></span>
+		</div>
+
+	</div>
+	<!--/#container-->
+
+	<!--jQueryの読み込み-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+	<!--パララックス（inview）-->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
+	<script src="../js/jquery.inview_set.js"></script>
+
+	<!--このテンプレート専用のスクリプト-->
+	<script src="../js/main.js"></script>
+
+	<!--ページの上部へ戻るボタン-->
+	<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+</body>
+
+</html>
