@@ -16,11 +16,11 @@
 ### ホーム
 > https://pp-pixel.github.io/csclub/ <br>
 ### 概要
-> https://pp-pixel.github.io/csclub/company.html <br>
+> https://pp-pixel.github.io/csclub/company/ <br>
 ### 活動内容
-> https://pp-pixel.github.io/csclub/activity.html <br>
+> https://pp-pixel.github.io/csclub/activity/ <br>
 ### 作品集
-> https://pp-pixel.github.io/csclub/opus.html
+> https://pp-pixel.github.io/csclub/opus/
 ### 募集要項
 > https://pp-pixel.github.io/csclub/download/r5-recruitment.pdf <br>
 ### FAQ
