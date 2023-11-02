@@ -36,7 +36,7 @@
   <mobile:mobile />
 </url>
 <url>
-  <loc>https://pp-pixel.github.io/csclub/faq.html</loc>
+  <loc>https://pp-pixel.github.io/csclub/faq/</loc>
   <priority>0.5</priority>
   <lastmod>2023-09-03</lastmod>
   <changefreq>always</changefreq>
