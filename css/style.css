@@ -3,6 +3,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
 @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
 @import url("animation.css");
 @import url("inview.css");
 
@@ -393,6 +394,7 @@ footer {
 	border-radius: 20px 20px 0px 0px;
 	width: 95%;
 	margin: 10px auto auto;
+	font-family: 'Comfortaa', sans-serif;
 }
 
 footer a {

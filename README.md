@@ -27,15 +27,14 @@
 > https://pp-pixel.github.io/csclub/faq.html <br>
 ### お問い合わせ
 > https://pp-pixel.github.io/csclub/contact.html <br>
+### サイトマップ
+> https://pp-pixel.github.io/csclub/sitemaps/<br>
 
 # Google Search（Yahoo!Japan Search）
-※検索結果に表示されません<br>
-ただいま、Google , Yahoo!Japan 検索で公式HPサイト( http://4d3.gmobb.jp/dcm8wdyx8bibu/ )とHP案サイト( https://pp-pixel.github.io/csclub/ )がいい勝負をしています。<br>
 - https://www.google.com/search?q=長野創造科学クラブ
 - https://search.yahoo.co.jp/search?p=長野創造科学クラブ
 
 # Bing Search
-Google Search への登録だけでなく、Microsoft Bing の検索にも申請しています。<br>
 - https://www.bing.com/search?q=長野創造科学クラブ
 
 ### Copyright© 2023 Nagano Creative Science Club HP Draft.
