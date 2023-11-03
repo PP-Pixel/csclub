@@ -4,7 +4,7 @@
 
 <head prefix="og: https://ogp.me/ns#">
 	<meta charset="UTF-8">
-	<meta http-equiv="Refresh" content="0;URL=opus/">
+	<!-- <meta http-equiv="Refresh" content="0;URL=opus/"> -->
 	<!-- ホームページの正式なURL -->
 	<link rel="canonical" href="https://pp-pixel.github.io/csclub/">
 	<!-- アイコンの設定 -->
@@ -35,8 +35,8 @@
 		}
 	</script>
 	<script src="https://unpkg.com/budoux/bundle/budoux-ja.min.js"></script>
-	<script
-		src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
+	<!-- <script
+		src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script> -->
 	<!-- ServiceWorker -->
 	<link rel="manifest" href="https://pp-pixel.github.io/csclub/manifest.json">
 	<script>
@@ -54,7 +54,7 @@
 	<link rel="stylesheet" href="link.css">
 	<link rel="stylesheet" href="css/scroll-bar.css">
 	<style>
-		footer {
+		/* footer {
 			margin-top: 10px;
 		}
 
@@ -83,7 +83,19 @@
 
 		.material-symbols-outlined {
 			font-size: 100%;
-		}
+		} */
+		* {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            height: 100vh;
+        }
+
+        iframe {
+            border: none;
+            width: 100%;
+            height: 100%;
+        }
 	</style>
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -92,7 +104,8 @@
 </head>
 
 <body>
-
+<iframe src="opus/"></iframe>
+<!--
 	<div id="container">
 
 		<header>
@@ -101,9 +114,9 @@
 				<h1><a href="index.html"><img src="logo/logo.webp" alt="長野創造科学クラブ"></a></h1>
 			</div>
 
-		</header>
+		</header>-->
 
-		<!--開閉ブロック-->
+		<!--開閉ブロック--><!--
 		<div id="menubar">
 
 			<nav>
@@ -113,14 +126,6 @@
 					<li><a href="activity/">活動内容</a></li>
 					<li><a href="opus/">作品集</a></li>
 					<li><a href="recruitment.pdf.html">募集要項</a></li>
-					<!--
-			<li><a href="">サービス紹介</a>
-				<ul>
-					<li><a href="service.html">メニュー</a></li>
-					<li><a href="service.html">メニュー</a></li>
-					<li><a href="service.html">メニュー</a></li>
-				</ul>
-			</li>-->
 					<li><a href="faq/">FAQ</a></li>
 					<li><a href="contact.html">お問い合わせ</a></li>
 				</ul>
@@ -129,12 +134,12 @@
 				<p>長野創造科学クラブのHP案<br>
 					&copy; 2023 Nagano Creative Science Club HP Draft.
 				</p>
-			</div>
-			<!--/.sh-->
+			</div>-->
+			<!--/.sh--><!--
 
-		</div>
+		</div>-->
 		<!--/#menubar-->
-
+<!--
 		<main>
 
 			<section class="opus">
@@ -142,8 +147,8 @@
 				<h2>作品集</h2>
 				<p>過去に発明くふう展に出品した作品集です。</p>
 
-				<div class="list-container">
-					<!-- 2023 -->
+				<div class="list-container">-->
+					<!-- 2023 --><!--
 					<div class="list blur">
 						<figure><img src="images/No-Image.webp" alt=""></figure>
 						<div class="text">
@@ -175,8 +180,8 @@
 						<p class="btn"><a href="images/No-Image.webp" data-lightbox="opus"
 								data-title="本を戻さないと音が鳴る本棚">詳しくみる(No Image)</a></p>
 						<span class="new">2023</span>
-					</div>
-					<!-- 2022 -->
+					</div>-->
+					<!-- 2022 --><!--
 					<div class="list blur">
 						<figure><img src="images/No-Image.webp" alt=""></figure>
 						<div class="text">
@@ -261,78 +266,11 @@
 								data-title="ショルダーバッグ付きラジオ">詳しくみる</a></p>
 					</div>
 
-				</div>
-				<!--/.list-container-->
+				</div>-->
+				<!--/.list-container--><!--
 				<p class="c"><a href="javascript:history.back()">&lt;&lt; 前のページに戻る</a></p>
 			</section>
-			<!--
-<section class="bg1">
-
-<h2>Service</h2>
-
-<div class="list-container">
-
-<div class="list blur">
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<div class="text">
-<h4>Sample Title</h4>
-<p>ここに説明を入れます。サンプルテキスト。</p>
-</div>
-<p class="btn"><a href="service2.html">詳しくみる</a></p>
-<span class="new">NEW</span>
-</div>
-
-<div class="list blur">
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<div class="text">
-<h4>Sample Title</h4>
-<p>ここに説明を入れます。サンプルテキスト。</p>
-</div>
-<p class="btn"><a href="service2.html">詳しくみる</a></p>
-</div>
-
-<div class="list blur">
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<div class="text">
-<h4>Sample Title</h4>
-<p>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</p>
-</div>
-<p class="btn"><a href="service2.html">詳しくみる</a></p>
-</div>
-
-<div class="list blur">
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<div class="text">
-<h4>Sample Title</h4>
-<p>ここに説明を入れます。サンプルテキスト。</p>
-</div>
-<p class="btn"><a href="service2.html">詳しくみる</a></p>
-<span class="new">NEW</span>
-</div>
-
-<div class="list blur">
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<div class="text">
-<h4>Sample Title</h4>
-<p>ここに説明を入れます。サンプルテキスト。</p>
-</div>
-<p class="btn"><a href="service2.html">詳しくみる</a></p>
-</div>
-
-<div class="list blur">
-<figure><img src="images/sample1.jpg" alt=""></figure>
-<div class="text">
-<h4>Sample Title</h4>
-<p>ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。ここに説明を入れます。サンプルテキスト。</p>
-</div>
-<p class="btn"><a href="service2.html">詳しくみる</a></p>
-</div>
-
-</div>
-/.list-container
-
-</section>
--->
+			
 		</main>
 
 		<footer>
@@ -347,8 +285,8 @@
 							class="material-symbols-outlined">open_in_new</span></a></li>
 				<li><a href="faq/">FAQ</a></li>
 				<li><a href="contact.html">お問い合わせ</a></li>
-			</ul>&#010;
-			<!--reCAPTCHA-->
+			</ul>&#010;-->
+			<!--reCAPTCHA--><!--
 			<button class="g-recaptcha" data-sitekey="6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl" data-callback='onSubmit'
 				data-action='submit'></button>
 			<div class="copy">
@@ -357,29 +295,29 @@
 				<span class="pr">《Web Design:Template-Party》</span>
 			</div>
 
-		</footer>
+		</footer>-->
 
-		<!--開閉ボタン（ハンバーガーアイコン）-->
+		<!--開閉ボタン（ハンバーガーアイコン）--><!--
 		<div id="menubar_hdr">
 			<span></span><span></span><span></span>
 		</div>
 
-	</div>
+	</div>-->
 	<!--/#container-->
 
-	<!--jQueryの読み込み-->
+	<!--jQueryの読み込み--><!--
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-	<!--パララックス（inview）-->
+-->
+	<!--パララックス（inview）--><!--
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
 	<script src="js/jquery.inview_set.js"></script>
-
-	<!--このテンプレート専用のスクリプト-->
+-->
+	<!--このテンプレート専用のスクリプト--><!--
 	<script src="js/main.js"></script>
-
-	<!--ページの上部へ戻るボタン-->
+-->
+	<!--ページの上部へ戻るボタン--><!--
 	<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
-
+-->
 </body>
 
 </html>
