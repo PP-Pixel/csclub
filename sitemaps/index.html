@@ -54,70 +54,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
     </style>
     <style>
-        body {
-            text-align: center;
-        }
-
-        header {
-            width: 95%;
-            margin: 10px auto auto;
-            border-radius: 50px;
-            background-color: #4d7fae;
-            font-family: 'Comfortaa', sans-serif;
-        }
-
-        footer {
-            background-color: #4d7fae;
-            border-radius: 50px;
-            margin: 10px auto auto;
-            font-family: 'Comfortaa', sans-serif;
-        }
-
-        /* パソコンで見たときは"pc"のclassがついた画像が表示される */
-        .pc {
-            display: block !important;
-        }
-
-        .sp {
-            display: none !important;
-        }
-
-        /* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
-        @media only screen and (max-width: 750px) {
-            .pc {
-                display: none !important;
-            }
-
-            .sp {
-                display: block !important;
-            }
-        }
-
-        img .notLogo {
-            width: 450px;
-            vertical-align: bottom;
-        }
-
-        article {
-            background-color: white;
-            border-radius: 50px;
-            width: 90%;
-            margin: auto;
-            margin-top: 10px;
-        }
-
-        th {
-            display: none;
-        }
-
-        td {
-            font-size: 110%;
-            text-align: left;
-        }
-
-        .material-symbols-outlined {
-            font-size: 100%;
-        }
+        @import url('./style.css');
     </style>
     <meta name="twitter:card" content="summary_large_image" />
 </head>
@@ -275,10 +212,16 @@
                                 <td><a href="../contact.html">お問い合わせ<br>https://pp-pixel.github.io/csclub/contact<span
                                             class="material-symbols-outlined">link</span></a></td>
                             </tr>
-                        </table>
-                        <div class="out2">
-                            <table class="ta1">
-
+                            <tr>
+                                <th></th>
+                                <td><a href="../gtag.html">データ送信について<br>https://pp-pixel.github.io/csclub/gtag.html<span
+                                            class="material-symbols-outlined">link</span></a></td>
+                            </tr>
+                            <div class="out2">
+                                <tr style="color: white;">
+                                    <th>空白</th>
+                                    <td style="user-select: none;">空白</td>
+                                </tr>
                                 <tr>
                                     <th>公式ホームページ</th>
                                     <td><a href="http://4b3.gmobb.jp/dcm8wdyx8bibu/"
@@ -310,30 +253,11 @@
                                             target="_blank">Googleカレンダー<span class="material-symbols-outlined"
                                                 style="font-size: 100%;">open_in_new</span></a></td>
                                 </tr>
-                                <tr style="color: white;">
-                                    <th>空白</th>
-                                    <td style="user-select: none;">空白</td>
-                                </tr>
-                                <tr>
-                                    <th></th>
-                                    <td><a href="../gtag.html">データ送信について<br>https://pp-pixel.github.io/csclub/gtag.html<span
-                                                class="material-symbols-outlined">link</span></a></td>
-                                </tr>
+                            </div>
+                        </table>
 
-                            </table>
-                        </div>
                     </div>
                     <!-- /スマホ画面 -->
-
-                    <p style="font-size: 150%;">
-                        &emsp;
-                        &emsp;
-                        <br>
-                        &emsp;&emsp;
-                        </a><br>
-                        &emsp;&emsp;
-
-                    </p>
 
                 </div>
                 <p class="c"><a href="javascript:history.back()">&lt;&lt; 前のページに戻る</a></p>
@@ -346,7 +270,8 @@
                 data-action='submit'></button>
             <div class="copy" style="font-family: 'Comfortaa', sans-serif;">
                 <p style="font-size: 130%;"><span style="font-size: 120%;">&copy;</span>opyright 2023 <a
-                        href="../">Nagano Creative
+                        href="../">Nagano
+                        Creative
                         Science Club HP Draft</a>. All Rights Reserved.</p>
         </footer><br>
         <!--開閉ボタン（ハンバーガーアイコン）-->

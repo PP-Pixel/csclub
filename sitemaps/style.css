@@ -1,0 +1,64 @@
+body {
+    text-align: center;
+}
+
+header {
+    width: 95%;
+    margin: 10px auto auto;
+    border-radius: 50px;
+    background-color: #4d7fae;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+footer {
+    background-color: #4d7fae;
+    border-radius: 50px;
+    margin: 10px auto auto;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.pc {
+    display: block !important;
+}
+
+.sp {
+    display: none !important;
+}
+
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 750px) {
+    .pc {
+        display: none !important;
+    }
+
+    .sp {
+        display: block !important;
+    }
+}
+
+img .notLogo {
+    width: 450px;
+    vertical-align: bottom;
+}
+
+article {
+    background-color: white;
+    border-radius: 50px;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+th {
+    display: none;
+}
+
+td {
+    font-size: 110%;
+    text-align: left;
+}
+
+.material-symbols-outlined {
+    font-size: 100%;
+}
