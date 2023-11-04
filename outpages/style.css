@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    background-color: #202124;
+    color: #9aa0a6;
+    user-select: none;
+    font-family: 'Roboto','Noto Sans JP', sans-serif;
+}
+
+.bun {
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.bun2 {
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* パソコンで見たときは"pc"のclassがついた画像が表示される */
+.pc {
+    display: block !important;
+}
+
+.sp {
+    display: none !important;
+}
+
+/* スマートフォンで見たときは"sp"のclassがついた画像が表示される */
+@media only screen and (max-width: 750px) {
+    .pc {
+        display: none !important;
+    }
+
+    .sp {
+        display: block !important;
+    }
+}
+
+.cp_box *, .cp_box *:before, .cp_box *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.cp_box {
+	width: auto;
+}
+.cp_box label {
+	position: relative;
+	cursor: pointer;
+	transition: all 0.3s;
+	color: #0f60ad;
+}
+.cp_box input {
+	display: none;
+}
+.cp_box .cp_container {
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+	height: 0;
+	margin-top: -1px;
+	transition: height 0.3s ease-in-out,box-shadow 0.6s linear;
+}
+.cp_box input:checked ~ div {
+	transition: height 0.5s ease-in-out,box-shadow 0.1s linear;
+}
+/* 続きを読むを押すと表示されるテキストの高さ */
+.cp_box input:checked ~ div.cp_container {
+	height: 300px;
+}
+
+label {
+    font-family: 'Roboto','Noto Sans JP', sans-serif;
+}
+
+button {
+    margin-top: 50px;
+    display:inline-block;
+    cursor: pointer;
+    height: 45px;
+}
+
+.button {
+    text-align: center;
+}
+.left {
+    text-align: left;
+    float: left;
+}
+.right {
+    text-align: right;
+}
+.idou {
+    background-color: #202124;
+    color: #6ca3f0;
+    border-style: solid;
+    border-color: #9aa0a6;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: 'Roboto','Noto Sans JP', sans-serif;
+    cursor: pointer;
+}
+.modoru {
+    background-color: #8ab4f1;
+    color: #202124;
+    border-style: solid;
+    border-color: #8ab4f1;
+    border-radius: 50px;
+    font-weight: bold;
+    font-family: 'Roboto','Noto Sans JP', sans-serif;
+    cursor: pointer;
+}
+.help {
+    color: #202020;
+}
