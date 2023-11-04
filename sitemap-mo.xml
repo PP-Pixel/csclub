@@ -50,7 +50,7 @@
   <mobile:mobile />
 </url>
 <url>
-  <loc>https://pp-pixel.github.io/csclub/recruitment.pdf.html</loc>
+  <loc>https://pp-pixel.github.io/csclub/recruitment.pdf/</loc>
   <priority>0.7</priority>
   <lastmod>2023-08-02</lastmod>
   <changefreq>yearly</changefreq>
