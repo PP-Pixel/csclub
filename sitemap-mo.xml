@@ -7,13 +7,13 @@
   <changefreq>always</changefreq>
   <mobile:mobile />
 </url>
-<url>
+<!-- <url>
   <loc>https://pp-pixel.github.io/csclub/index.html</loc>
   <priority>1.0</priority>
   <lastmod>2023-10-30</lastmod>
   <changefreq>always</changefreq>
   <mobile:mobile />
-</url>
+</url> -->
 <url>
   <loc>https://pp-pixel.github.io/csclub/company/</loc>
   <priority>0.8</priority>
@@ -57,17 +57,10 @@
   <mobile:mobile />
 </url>
 <url>
-  <loc>https://pp-pixel.github.io/csclub/event.html</loc>
-  <priority>0.7</priority>
-  <lastmod>2023-08-02</lastmod>
-  <changefreq>always</changefreq>
-  <mobile:mobile />
-</url>
-<url>
-  <loc>https://pp-pixel.github.io/csclub/event-view.html</loc>
-  <priority>0.7</priority>
-  <lastmod>2023-08-02</lastmod>
-  <changefreq>always</changefreq>
+  <loc>https://pp-pixel.github.io/csclub/sitemap/</loc>
+  <priority>0.5</priority>
+  <lastmod>2023-11-04</lastmod>
+  <changefreq>yearly</changefreq>
   <mobile:mobile />
 </url>
 
