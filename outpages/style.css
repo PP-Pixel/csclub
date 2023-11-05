@@ -68,7 +68,7 @@ body {
 }
 /* 続きを読むを押すと表示されるテキストの高さ */
 .cp_box input:checked ~ div.cp_container {
-	height: 300px;
+	height: 320px;
 }
 
 label {
@@ -76,13 +76,14 @@ label {
 }
 
 button {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     display:inline-block;
     cursor: pointer;
     height: 45px;
 }
 
 .button {
+    margin-top: 50px;
     text-align: center;
 }
 .left {
@@ -94,7 +95,7 @@ button {
 }
 .idou {
     background-color: #202124;
-    color: #6ca3f0;
+    color: #8ab4f5;
     border-style: solid;
     border-color: #9aa0a6;
     border-radius: 50px;
@@ -103,10 +104,10 @@ button {
     cursor: pointer;
 }
 .modoru {
-    background-color: #8ab4f1;
+    background-color: #8ab4f5;
     color: #202124;
     border-style: solid;
-    border-color: #8ab4f1;
+    border-color: #8ab4f5;
     border-radius: 50px;
     font-weight: bold;
     font-family: 'Roboto','Noto Sans JP', sans-serif;
@@ -114,4 +115,45 @@ button {
 }
 .help {
     color: #202020;
+}
+.grecaptcha-badge {
+    display: none;
+    
+}
+
+.button2 {
+    width: 80%;
+    margin-left: -1.5%;
+    text-align: center;
+    bottom: 20px;
+    position: fixed;
+}
+/* .sita {
+    width: 100%;
+}
+.ue {
+    width: 100%;
+} */
+.idou2 {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #202124;
+    color: #8ab4f5;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'Roboto','Noto Sans JP', sans-serif;
+    cursor: pointer;
+}
+.modoru2 {
+    width: 100%;
+    background-color: #8ab4f5;
+    color: #202124;
+    border-style: solid;
+    border-color: #8ab4f1;
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'Roboto','Noto Sans JP', sans-serif;
+    cursor: pointer;
 }
