@@ -30,11 +30,11 @@ workbox.routing.registerRoute(
   new workbox.strategies.NetworkFirst()
 );
 workbox.routing.registerRoute(
-  new RegExp('activity.html'),
+  new RegExp('activity/'),
   new workbox.strategies.NetworkFirst()
 );
 workbox.routing.registerRoute(
-  new RegExp('company.html'),
+  new RegExp('company/'),
   new workbox.strategies.NetworkFirst()
 );
 workbox.routing.registerRoute(
@@ -42,15 +42,11 @@ workbox.routing.registerRoute(
   new workbox.strategies.NetworkFirst()
 );
 workbox.routing.registerRoute(
-  new RegExp('faq.html'),
+  new RegExp('faq/'),
   new workbox.strategies.NetworkFirst()
 );
 workbox.routing.registerRoute(
   new RegExp('404.html'),
-  new workbox.strategies.NetworkFirst()
-);
-workbox.routing.registerRoute(
-  new RegExp('http://4d3.gmobb.jp/dcm8wdyx8bibu/cgi/joyful/joyful.cgi'),
   new workbox.strategies.NetworkFirst()
 );
 //font
@@ -81,7 +77,7 @@ workbox.routing.registerRoute(
     'images/logo.png',
     'images/logo.psd',
     'images/logo.webp',
-    'images/mainimg_simple.webm',
+    'images/mainimg.mp4',
     //icon,ogp
     'favicon/favicon.ico',
     'favicon/favicon.png',
