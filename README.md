@@ -22,9 +22,9 @@
 ### 作品集
 > https://pp-pixel.github.io/csclub/opus/
 ### 募集要項
-> https://pp-pixel.github.io/csclub/download/r5-recruitment.pdf <br>
+> https://pp-pixel.github.io/csclub/recruitment.pdf/ <br>
 ### FAQ
-> https://pp-pixel.github.io/csclub/faq.html <br>
+> https://pp-pixel.github.io/csclub/faq/ <br>
 ### お問い合わせ
 > https://pp-pixel.github.io/csclub/contact.html <br>
 ### サイトマップ
