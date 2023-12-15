@@ -7,6 +7,14 @@
 @import url("animation.css");
 @import url("inview.css");
 
+/* 日本語フレーズの改行: word-break: auto-phrase Chrome119~ */
+.ja-word {
+	word-break: auto-phrase;
+}
+/* body {
+	text-autospace: no-autospace;
+} */
+
 html,
 body {
 	margin: 0px;
