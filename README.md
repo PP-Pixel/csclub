@@ -1,4 +1,6 @@
-## ⚠ フォーク禁止 🚫 Forks are prohibited ⚠
+> [!CAUTION]
+> ## ⚠ フォーク禁止 🚫 Forks are prohibited ⚠
+
 # 長野創造科学クラブのHP案
 ## Nagano Creative Science Club HP Draft
 
