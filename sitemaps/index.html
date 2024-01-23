@@ -30,6 +30,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../link.css">
     <link rel="stylesheet" href="../css/scroll-bar.css">
+    <link rel="stylesheet" href="../css/loading.css">
     <link rel="manifest" href="../manifest.json">
     <script>
         function onSubmit(token) {
@@ -53,13 +54,15 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
     </style>
-    <style>
-        @import url('./style.css');
-    </style>
+    <link rel="stylesheet" href="style.css">
     <meta name="twitter:card" content="summary_large_image" />
 </head>
 
 <body>
+    <div id="splash">
+        <div id="splash_logo"><img src="../favicon/csclub-logo_white.svg" alt="" class="fadeUp"></div><!--画像部分は適宜差し換えてください-->
+    </div>
+	
     <div id="container">
 
         <header>
@@ -299,6 +302,10 @@
 
     <!--ページの上部へ戻るボタン-->
     <div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+    <!--loading画面-->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="../js/loading.js"></script>
 
 </body>
 
