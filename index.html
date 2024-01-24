@@ -78,13 +78,14 @@
 			font-size: 100%;
 		}
 	</style>
-	
+
 </head>
 
 <body class="home">
 	<div id="splash">
-        <div id="splash_logo"><img src="./favicon/csclub-logo_white.svg" alt="" class="fadeUp"></div><!--画像部分は適宜差し換えてください-->
-    </div>
+		<div id="splash_logo"><img src="./favicon/csclub-logo_white.svg" alt="" class="fadeUp"></div>
+		<!--画像部分は適宜差し換えてください-->
+	</div>
 	<!---画面遷移用-->
 	<div id="container">
 
@@ -105,7 +106,7 @@
 		</header>
 
 		<!--開閉ブロック-->
-		<div id="menubar">
+		<!-- <div id="menubar">
 
 			<nav>
 				<ul>
@@ -114,17 +115,17 @@
 					<li><a href="activity/">活動内容</a></li>
 					<li><a href="opus/">作品集</a></li>
 					<li><a href="recruitment.pdf/">募集要項</a></li>
-					<!--
+					
 		<li><a href="">サービス紹介</a>
 			<ul>
 				<li><a href="service.html">メニュー</a></li>
 				<li><a href="service.html">メニュー</a></li>
 				<li><a href="service.html">メニュー</a></li>
 			</ul>
-		</li>-->
+		</li>
 					<li><a href="faq/">FAQ</a></li>
 					<li><a href="contact.html">お問い合わせ</a></li>
-					<!-- <li><a href="../sitemaps/">サイトマップ</a></li> -->
+					<li><a href="../sitemaps/">サイトマップ</a></li>
 				</ul>
 			</nav>
 			<div class="sh">
@@ -132,10 +133,25 @@
 					&copy; 2023 <a href="sitemaps/">Nagano Creative Science Club HP Draft.</a>
 				</p>
 			</div>
-			<!--/.sh-->
 
-		</div>
+		</div> -->
 		<!--/#menubar-->
+
+		<div class="openbtn"><div class="openbtn-area"><span></span><span></span><span></span></div></div>
+		<nav id="g-nav">
+			<div id="g-nav-list">
+				<ul>
+					<li><a href="./">ホーム</a></li>
+					<li><a href="company/">クラブ概要</a></li>
+					<li><a href="activity/">活動内容</a></li>
+					<li><a href="opus/">作品集</a></li>
+					<li><a href="recruitment.pdf/">募集要項</a></li>
+					<li><a href="faq/">FAQ</a></li>
+					<li><a href="contact.html">お問い合わせ</a></li>
+					<li><a href="sitemaps/">サイトマップ</a></li>
+				</ul>
+			</div>
+		</nav>
 
 		<main>
 
@@ -169,10 +185,11 @@
 					<section>
 
 						<h2 style="font-size: xx-large;" class="ja-word">長野創造科学クラブ<wbr>のコンセプト</h2>
-						<p style="font-size: large;" class="ja-word">自由工作を基本として、<wbr>意欲が&zwj;あればどんなに高度な&zwj;テクノロジーも<wbr>学べる&zwj;クラブ</p>
+						<p style="font-size: large;" class="ja-word">自由工作を基本として、<wbr>意欲が&zwj;あればどんなに高度な&zwj;テクノロジーも<wbr>学べる&zwj;クラブ
+						</p>
 
-						<h2 style="font-size: xx-large;">最新のお知らせ</h2>
-						<p style="font-size: large;">&nbsp;12月24日のクラブはお休みです。<wbr>&nbsp;&nbsp;[<a href="https://calendar.google.com/calendar/event?eid=Nmo2dmpmajZpb2dhODF2ODFzMDRycWoyNzIgYWp0cXNoajY5NXI1b2lyNTN1ZTdobnE2cW9AZw&ctz=Asia/Tokyo" target="_blank">詳細<span class="material-symbols-outlined" style="font-size: 70%;">open_in_new</span></a>]</p>
+						<!-- <h2 style="font-size: xx-large;">最新のお知らせ</h2>
+						<p style="font-size: large;">&nbsp;12月24日のクラブはお休みです。<wbr>&nbsp;&nbsp;[<a href="https://calendar.google.com/calendar/event?eid=Nmo2dmpmajZpb2dhODF2ODFzMDRycWoyNzIgYWp0cXNoajY5NXI1b2lyNTN1ZTdobnE2cW9AZw&ctz=Asia/Tokyo" target="_blank">詳細<span class="material-symbols-outlined" style="font-size: 70%;">open_in_new</span></a>]</p> -->
 
 					</section>
 
@@ -344,9 +361,9 @@
 		</footer>
 
 		<!--開閉ボタン（ハンバーガーアイコン）-->
-		<div id="menubar_hdr">
+		<!-- <div id="menubar_hdr">
 			<span></span><span></span><span></span>
-		</div>
+		</div> -->
 
 	</div>
 	<!--/#container-->
@@ -357,7 +374,8 @@
 			document.getElementById("demo-form").submit();
 		}
 	</script>
-	<script src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
+	<script
+		src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
 
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-PXVGS9WW5H"></script>
@@ -383,8 +401,9 @@
 	<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
 
 	<!--loading画面-->
-	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="./js/loading.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+		integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="./js/loading.js"></script>
 </body>
 
 </html>
