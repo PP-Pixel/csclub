@@ -101,6 +101,36 @@ $("#g-nav a").click(function () {//ナビゲーションのリンクがクリッ
 	$("#g-nav").removeClass('panelactive');//ナビゲーションのpanelactiveクラスも除去
 });
 
+// keydownイベントの処理を追加
+document.addEventListener("keydown", function (event) {
+	// 押されたキーのコード
+	let keyCode = event.keyCode;
+
+	// キーコードが「enter」の場合
+	if (keyCode === 13) {
+		$(this).toggleClass('active');
+		$("#g-nav").toggleClass('panelactive');
+	}
+});
+
+document.addEventListener("keydown", function (event) {
+	let keyCode = event.keyCode;
+	// esc
+	if (keyCode === 27) {
+		$(this).toggleClass('active');
+		$("#g-nav").toggleClass('panelactive');
+	}
+});
+
+$(function () {
+	// 対象の要素を取得
+	$('#menubar a[href^="#"]').click(function () {
+		// メニューバーを閉じる
+		$(".openbtn").removeClass('active');
+		$("#g-nav").removeClass('panelactive');
+	});
+});
+
 //pagetop
 $(function () {
 	var scroll = $('.pagetop');
