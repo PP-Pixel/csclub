@@ -141,7 +141,7 @@ button {
     color: #8ab4f5;
     border: none;
     outline: none;
-    border-radius: 20px;
+    border-radius: 50px;
     font-weight: bold;
     font-family: 'Roboto','Noto Sans JP', sans-serif;
     cursor: pointer;
@@ -152,7 +152,7 @@ button {
     color: #202124;
     border-style: solid;
     border-color: #8ab4f1;
-    border-radius: 20px;
+    border-radius: 50px;
     font-weight: bold;
     font-family: 'Roboto','Noto Sans JP', sans-serif;
     cursor: pointer;
