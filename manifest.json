@@ -5,6 +5,7 @@
   "start_url"         : "https://pp-pixel.github.io/csclub/",
   "id"         : "csclub",
   "display"           : "standalone",
+  "display_override": ["window-controls-overlay"],
   "background_color"  : "#164263",
   "theme_color"       : "#164263",
   "icons": [{
