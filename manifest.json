@@ -1,7 +1,7 @@
 {
   "name"              : "CSClub",
   "short_name"        : "CSClub",
-  "description"       : "長野創造科学クラブのホームページ案です",
+  "description"       : "長野創造科学クラブの非公式ホームページ案です",
   "start_url"         : "https://pp-pixel.github.io/csclub/",
   "id"         : "csclub",
   "display"           : "standalone",

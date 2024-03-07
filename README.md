@@ -1,10 +1,10 @@
 > [!CAUTION]
 > ## ⚠ フォーク禁止 🚫 Forks are prohibited ⚠
 
-# 長野創造科学クラブのHP案
+# 長野創造科学クラブの非公式HP案
 ## Nagano Creative Science Club HP Draft
 
-長野創造科学クラブのHP案です。
+長野創造科学クラブの非公式HP案です。
   URLは https://pp-pixel.github.io/csclub/ です。
 - 公式サイトはこちら( http://4d3.gmobb.jp/dcm8wdyx8bibu/ )です。
 - このサイトのみで使用するために最適化されている為、このコードを外部へフォークするとバグります。
