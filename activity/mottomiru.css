@@ -1,0 +1,87 @@
+.cp_box *,
+.cp_box *:before,
+.cp_box *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.cp_box {
+	width: auto;
+}
+
+.cp_box label {
+	position: relative;
+	cursor: pointer;
+	transition: all 0.3s;
+	color: #0f60ad;
+}
+
+.cp_box input {
+	cursor: pointer;
+	height: 10px;
+	/* display: none; */
+}
+
+.cp_box .cp_container {
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+	height: 0;
+	margin-top: -1px;
+	transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+}
+
+.cp_box input:checked~div {
+	transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+}
+
+/* 続きを読むを押すと表示されるテキストの高さ */
+.cp_box input:checked~div.cp_container {
+	height: 600px;
+}
+
+label {
+	font-family: 'Roboto', 'Noto Sans JP', sans-serif;
+}
+
+.cp_box2 *,
+.cp_box2 *:before,
+.cp_box2 *:after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.cp_box2 {
+	width: auto;
+}
+
+.cp_box2 label {
+	position: relative;
+	cursor: pointer;
+	transition: all 0.3s;
+	color: #0f60ad;
+}
+
+.cp_box2 input {
+	cursor: pointer;
+	height: 10px;
+	/* display: none; */
+}
+
+.cp_box2 .cp_container2 {
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+	height: 0;
+	margin-top: -1px;
+	transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
+}
+
+.cp_box2 input:checked~div {
+	transition: height 0.5s ease-in-out, box-shadow 0.1s linear;
+}
+
+/* 続きを読むを押すと表示されるテキストの高さ */
+.cp_box2 input:checked~div.cp_container2 {
+	height: 400px;
+}
