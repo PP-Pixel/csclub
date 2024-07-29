@@ -63,7 +63,7 @@ workbox.routing.registerRoute(
   new workbox.strategies.StaleWhileRevalidate()
 );
 workbox.routing.registerRoute(
-  new RegExp('https://pp-pixel.github.io/csclub/manifest.json'),
+  new RegExp('https://ngn-csclub.pages.dev/manifest.json'),
   new workbox.strategies.StaleWhileRevalidate()
 );
 

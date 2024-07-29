@@ -9,14 +9,14 @@
 <head prefix="og: https://ogp.me/ns#">
 	<meta charset="UTF-8">
 	<!-- ホームページの正式なURL -->
-	<link rel="canonical" href="https://pp-pixel.github.io/csclub/">
+	<link rel="canonical" href="https://ngn-csclub.pages.dev/">
 	<!-- アイコンの設定 -->
 	<link rel="icon" href="../favicon/favicon.png" sizes="500x500" type="image/png">
 	<!-- スマホの待受で表示するアイコンの設定 -->
 	<link rel="apple-touch-icon" href="../favicon/icon-192.png" sizes="192x192">
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 	<!-- SNSに埋め込みしたときのURL -->
-	<meta property="og:url" content="https://pp-pixel.github.io/csclub/faq/" />
+	<meta property="og:url" content="https://ngn-csclub.pages.dev/faq/" />
 	<!-- ページの種類 -->
 	<meta property="og:type" content="website" />
 	<!-- SNSに埋め込みしたときのタイトル -->
@@ -26,7 +26,7 @@
 	<!-- SNSに埋め込みしたときのサイトの名前 タイトルとはまた別で団体名みたいな -->
 	<meta property="og:site_name" content="Nagano Creative Science Club HP Draft" />
 	<!-- SNSに埋め込みしたときのイメージ画像 -->
-	<meta property="og:image" content="https://pp-pixel.github.io/csclub/images/ogp-image.png" />
+	<meta property="og:image" content="https://ngn-csclub.pages.dev/images/ogp-image.png" />
 	<meta name="theme-color" content="#164263">
 	<title>FAQ｜長野創造科学クラブのHP案</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -55,7 +55,7 @@
 		}
 	</style>
 	<meta name="twitter:card" content="summary_large_image" />
-	<link rel="manifest" href="https://pp-pixel.github.io/csclub/manifest.json">
+	<link rel="manifest" href="https://ngn-csclub.pages.dev/manifest.json">
 	<script>
 		function onSubmit(token) {
 			document.getElementById("demo-form").submit();
@@ -71,8 +71,37 @@
 		}
 	</script>
 	<script
-		src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
+		src="https://www.google.com/recaptcha/enterprise.js?render=6LfLsBoqAAAAABGxTUsqGrtwVvWMlG1alTMeReqg"></script>
 	<script src="https://unpkg.com/budoux/bundle/budoux-ja.min.js"></script>
+	<script>
+		// 汎用リダイレクト用のスクリプト
+		(function () {
+			var currentHost = window.location.hostname;
+			var currentPath = window.location.pathname;
+			var sourceHost = 'pp-pixel.github.io';
+			var sourcePath = '/csclub';
+			var targetHost = 'ngn-csclub.pages.dev';
+
+			if (currentHost === sourceHost && currentPath.startsWith(sourcePath)) {
+				// sourcePathが '/csclub' で終わっていない場合は追加
+				if (!sourcePath.endsWith('/')) {
+					sourcePath += '/';
+				}
+
+				// 現在のパスからsourcePathを除去
+				var newPath = currentPath.startsWith(sourcePath)
+					? currentPath.slice(sourcePath.length - 1)
+					: currentPath;
+
+				// 新しいURLを構築
+				var newUrl = 'https://' + targetHost + newPath + window.location.search + window.location.hash;
+
+				// リダイレクト
+				window.location.replace(newUrl);
+			}
+			// 他のケースでは何もしない
+		})();
+	</script>
 </head>
 
 <body>
@@ -149,7 +178,7 @@
 						<dd><div class="ja-word">メールアドレス&zwj;は<wbr>&nbsp;<a href="mailto:nagano.science.creation.club@gmail.com"
 									target="_blank"
 									style="color: black;">nagano.science.creation.club@gmail.com</a>&nbsp;です。代表電話番号は
-									<a href="https://pp-pixel.github.io/csclub/recruitment.pdf.html" target="_blank"
+									<a href="https://ngn-csclub.pages.dev/recruitment.pdf.html" target="_blank"
 									style="color: black;">募集要項</a>にある代表電話番号に電話してください。<br>詳しくは
 									<a href="../contact.html#contact" target="_blank"
 									style="color: black;">お問い合わせ</a>をご確認ください。</div></dd>
@@ -199,7 +228,7 @@
 				<li><a href="../contact.html">お問い合わせ</a></li>
 			</ul>&#010;
 			<!--reCAPTCHA-->
-			<button class="g-recaptcha" data-sitekey="6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl" data-callback='onSubmit'
+			<button class="g-recaptcha" data-sitekey="6LfLsBoqAAAAABGxTUsqGrtwVvWMlG1alTMeReqg" data-callback='onSubmit'
 				data-action='submit'></button>
 			<div class="copy">
 				<small>Copyright&copy; 2023-2024 <a href="../">Nagano Creative Science Club HP Draft</a>. All Rights

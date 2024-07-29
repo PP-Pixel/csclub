@@ -5,14 +5,14 @@
 <head prefix="og: https://ogp.me/ns#">
 	<meta charset="UTF-8">
 	<!-- ホームページの正式なURL -->
-	<link rel="canonical" href="https://pp-pixel.github.io/csclub/">
+	<link rel="canonical" href="https://ngn-csclub.pages.dev/">
 	<!-- アイコンの設定 -->
-	<link rel="icon" href="https://pp-pixel.github.io/csclub/favicon/favicon.png" sizes="500x500" type="image/png">
+	<link rel="icon" href="https://ngn-csclub.pages.dev/favicon/favicon.png" sizes="500x500" type="image/png">
 	<!-- スマホの待受で表示するアイコンの設定 -->
-	<link rel="apple-touch-icon" href="https://pp-pixel.github.io/csclub/favicon/icon-192.png" sizes="192x192">
+	<link rel="apple-touch-icon" href="https://ngn-csclub.pages.dev/favicon/icon-192.png" sizes="192x192">
 	<meta name=”viewport” content=”width=device-width,initial-scale=1″ />
 	<!-- SNSに埋め込みしたときのURL -->
-	<meta property="og:url" content="https://pp-pixel.github.io/csclub/404.html" />
+	<meta property="og:url" content="https://ngn-csclub.pages.dev/404.html" />
 	<!-- ページの種類 -->
 	<meta property="og:type" content="website" />
 	<!-- SNSに埋め込みしたときのタイトル -->
@@ -22,17 +22,17 @@
 	<!-- SNSに埋め込みしたときのサイトの名前 タイトルとはまた別で団体名みたいな -->
 	<meta property="og:site_name" content="Nagano Creative Science Club HP Draft" />
 	<!-- SNSに埋め込みしたときのイメージ画像 -->
-	<meta property="og:image" content="https://pp-pixel.github.io/csclub/images/No-Image.png" />
+	<meta property="og:image" content="https://ngn-csclub.pages.dev/images/No-Image.png" />
 	<meta name="theme-color" content="#164263">
 	<title>404 not found Error｜長野創造科学クラブのHP案</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="長野創造科学クラブのホームページ案の 404 not found error ページです。">
 	<meta name="robots" content="noindex">
-	<link rel="stylesheet" href="https://pp-pixel.github.io/csclub/css/style.css">
-	<link rel="stylesheet" href="https://pp-pixel.github.io/csclub/link.css">
-	<link rel="stylesheet" href="https://pp-pixel.github.io/csclub/css/scroll-bar.css">
-	<link rel="stylesheet" href="https://pp-pixel.github.io/csclub/css/loading.css">
-	<link rel="manifest" href="https://pp-pixel.github.io/csclub/manifest.json">
+	<link rel="stylesheet" href="https://ngn-csclub.pages.dev/css/style.css">
+	<link rel="stylesheet" href="https://ngn-csclub.pages.dev/link.css">
+	<link rel="stylesheet" href="https://ngn-csclub.pages.dev/css/scroll-bar.css">
+	<link rel="stylesheet" href="https://ngn-csclub.pages.dev/css/loading.css">
+	<link rel="manifest" href="https://ngn-csclub.pages.dev/manifest.json">
 	<script>
 		function onSubmit(token) {
 			document.getElementById("demo-form").submit();
@@ -41,7 +41,7 @@
 	<script>
 		if ("serviceWorker" in navigator) {
 			window.addEventListener("load", function () {
-				navigator.serviceWorker.register("https://pp-pixel.github.io/csclub/sw.js").then(
+				navigator.serviceWorker.register("https://ngn-csclub.pages.dev/sw.js").then(
 					function (registration) {/* Registration was successful*/console.log("ServiceWorker registration successful with scope: ", registration.scope); },
 					function (err) {/* registration failed :(*/console.log("ServiceWorker registration failed: ", err); });
 			});
@@ -50,7 +50,7 @@
 	<script src="https://unpkg.com/budoux/bundle/budoux-ja.min.js"></script>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 	<script
-		src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
+		src="https://www.google.com/recaptcha/enterprise.js?render=6LfLsBoqAAAAABGxTUsqGrtwVvWMlG1alTMeReqg"></script>
 	<style>
 		body {
 			text-align: center;
@@ -74,17 +74,46 @@
 		}
 	</style>
 	<meta name="twitter:card" content="summary_large_image" />
+	<script>
+		// 汎用リダイレクト用のスクリプト
+		(function () {
+			var currentHost = window.location.hostname;
+			var currentPath = window.location.pathname;
+			var sourceHost = 'pp-pixel.github.io';
+			var sourcePath = '/csclub';
+			var targetHost = 'ngn-csclub.pages.dev';
+
+			if (currentHost === sourceHost && currentPath.startsWith(sourcePath)) {
+				// sourcePathが '/csclub' で終わっていない場合は追加
+				if (!sourcePath.endsWith('/')) {
+					sourcePath += '/';
+				}
+
+				// 現在のパスからsourcePathを除去
+				var newPath = currentPath.startsWith(sourcePath)
+					? currentPath.slice(sourcePath.length - 1)
+					: currentPath;
+
+				// 新しいURLを構築
+				var newUrl = 'https://' + targetHost + newPath + window.location.search + window.location.hash;
+
+				// リダイレクト
+				window.location.replace(newUrl);
+			}
+			// 他のケースでは何もしない
+		})();
+	</script>
 </head>
 
 <body>
-	<div id="splash"><div id="splash_logo"><img src="https://pp-pixel.github.io/csclub/logo/logo.svg" alt="長野創造科学クラブ" class="fadeUp"></div></div>
+	<div id="splash"><div id="splash_logo"><img src="https://ngn-csclub.pages.dev/logo/logo.svg" alt="長野創造科学クラブ" class="fadeUp"></div></div>
 	
 	<div id="container">
 
 		<header>
 
 			<div id="logo">
-				<h1><a href="https://pp-pixel.github.io/csclub/index.html"><img src="https://pp-pixel.github.io/csclub/logo/logo.svg" alt="長野創造科学クラブ"></a></h1>
+				<h1><a href="https://ngn-csclub.pages.dev/index.html"><img src="https://ngn-csclub.pages.dev/logo/logo.svg" alt="長野創造科学クラブ"></a></h1>
 			</div>
 
 		</header>
@@ -115,37 +144,37 @@
 					<img class="404LogobySawaratsuki" src="./images/NotFound.png" alt="404 Logo is Made by SAWARATSUKI" width="500px" style="filter: drop-shadow(0px 0px 10px #aaa);">
 					<p class="big">ページが見つかりませんでした。下記のページへ移動してください。</p>
 					<p>
-						<a href="https://pp-pixel.github.io/csclub/index.html">ホーム</a>&emsp;
-						<a href="https://pp-pixel.github.io/csclub/company/">クラブ概要</a>&emsp;
-						<a href="https://pp-pixel.github.io/csclub/activity/">活動内容</a><br>
-						<a href="https://pp-pixel.github.io/csclub/recruitment.pdf/">募集要項</a>&emsp;&emsp;
+						<a href="https://ngn-csclub.pages.dev/index.html">ホーム</a>&emsp;
+						<a href="https://ngn-csclub.pages.dev/company/">クラブ概要</a>&emsp;
+						<a href="https://ngn-csclub.pages.dev/activity/">活動内容</a><br>
+						<a href="https://ngn-csclub.pages.dev/recruitment.pdf/">募集要項</a>&emsp;&emsp;
 						<a href="outpages/bulletin-board.html" target="_blank">掲示板<span class="material-symbols-outlined">open_in_new</span></a><br>
-						<a href="https://pp-pixel.github.io/csclub/faq/">FAQ</a>&emsp;&emsp;
-						<a href="https://pp-pixel.github.io/csclub/contact.html">お問い合わせ</a><br>
-						<a href="https://pp-pixel.github.io/csclub/sitemaps/">サイトマップ</a>
+						<a href="https://ngn-csclub.pages.dev/faq/">FAQ</a>&emsp;&emsp;
+						<a href="https://ngn-csclub.pages.dev/contact.html">お問い合わせ</a><br>
+						<a href="https://ngn-csclub.pages.dev/sitemaps/">サイトマップ</a>
 					</p>
-					<p><a href="https://pp-pixel.github.io/csclub/">
-						<img class="notLogo" src="https://pp-pixel.github.io/csclub/images/ogp-image_Touka.webp" width="200px"></a></p>
+					<p><a href="https://ngn-csclub.pages.dev/">
+						<img class="notLogo" src="https://ngn-csclub.pages.dev/images/ogp-image_Touka.webp" width="200px"></a></p>
 				</div>
 			</article>
 
 		</main>
 		<footer>
 			<ul id="footermenu">
-				<li><a href="https://pp-pixel.github.io/csclub/index.html">ホーム</a></li>
-				<li><a href="https://pp-pixel.github.io/csclub/company/">クラブ概要</a></li>
-				<li><a href="https://pp-pixel.github.io/csclub/activity/">活動内容</a></li>
-				<li><a href="https://pp-pixel.github.io/csclub/opus/">作品集</a></li>
-				<li><a href="https://pp-pixel.github.io/csclub/download/recruitment.pdf/">募集要項</a></li>
+				<li><a href="https://ngn-csclub.pages.dev/index.html">ホーム</a></li>
+				<li><a href="https://ngn-csclub.pages.dev/company/">クラブ概要</a></li>
+				<li><a href="https://ngn-csclub.pages.dev/activity/">活動内容</a></li>
+				<li><a href="https://ngn-csclub.pages.dev/opus/">作品集</a></li>
+				<li><a href="https://ngn-csclub.pages.dev/download/recruitment.pdf/">募集要項</a></li>
 				<li><a href="outpages/bulletin-board.html" target="_blank">掲示板<span class="material-symbols-outlined">open_in_new</span></a></li>
-				<li><a href="https://pp-pixel.github.io/csclub/faq/">FAQ</a></li>
-				<li><a href="https://pp-pixel.github.io/csclub/contact.html">お問い合わせ</a></li>
+				<li><a href="https://ngn-csclub.pages.dev/faq/">FAQ</a></li>
+				<li><a href="https://ngn-csclub.pages.dev/contact.html">お問い合わせ</a></li>
 			</ul>&#010;
 			<!--reCAPTCHA-->
-			<button class="g-recaptcha" data-sitekey="6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl" data-callback='onSubmit'
+			<button class="g-recaptcha" data-sitekey="6LfLsBoqAAAAABGxTUsqGrtwVvWMlG1alTMeReqg" data-callback='onSubmit'
 				data-action='submit'></button>
 			<div class="copy">
-				<small>Copyright&copy; 2023-2024 <a href="https://pp-pixel.github.io/csclub/index.html">Nagano Creative
+				<small>Copyright&copy; 2023-2024 <a href="https://ngn-csclub.pages.dev/index.html">Nagano Creative
 						Science Club HP Draft</a>. All Rights Reserved.<br>
 					《Web Design:Template-Party》<wbr>《<a href="https://github.com/SAWARATSUKI/ServiceLogos/" target="_blank" rel="nofollow">NotFound Logo is Made by SAWARATSUKI</a>》</small>
 		</footer>
@@ -162,9 +191,9 @@
 
 	<!--パララックス（inview）-->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/protonet-jquery.inview/1.1.2/jquery.inview.min.js"></script>
-	<script src="https://pp-pixel.github.io/csclub/js/jquery.inview_set.js"></script>
+	<script src="https://ngn-csclub.pages.dev/js/jquery.inview_set.js"></script>
 
-	<script src="https://pp-pixel.github.io/csclub/js/main.js"></script>
+	<script src="https://ngn-csclub.pages.dev/js/main.js"></script>
 
 	<!--ページの上部へ戻るボタン-->
 	<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>

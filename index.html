@@ -5,14 +5,14 @@
 <head prefix="og: https://ogp.me/ns#">
 	<meta charset="UTF-8">
 	<!-- ホームページの正式なURL -->
-	<link rel="canonical" href="https://pp-pixel.github.io/csclub/">
+	<link rel="canonical" href="https://ngn-csclub.pages.dev/">
 	<!-- アイコンの設定 -->
 	<link rel="icon" href="favicon/favicon.png" sizes="500x500" type="image/png">
 	<!-- スマホの待受で表示するアイコンの設定 -->
 	<link rel="apple-touch-icon" href="favicon/icon-192.png" sizes="192x192">
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 	<!-- SNSに埋め込みしたときのURL -->
-	<meta property="og:url" content="https://pp-pixel.github.io/csclub/" />
+	<meta property="og:url" content="https://ngn-csclub.pages.dev/" />
 	<!-- ページの種類 -->
 	<meta property="og:type" content="website" />
 	<!-- SNSに埋め込みしたときのタイトル -->
@@ -23,7 +23,7 @@
 	<!-- SNSに埋め込みしたときのサイトの名前 タイトルとはまた別で団体名みたいな -->
 	<meta property="og:site_name" content="Nagano Creative Science Club HP Draft" />
 	<!-- SNSに埋め込みしたときのイメージ画像 -->
-	<meta property="og:image" content="https://pp-pixel.github.io/csclub/images/ogp-image.png" />
+	<meta property="og:image" content="https://ngn-csclub.pages.dev/images/ogp-image.png" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<meta name="theme-color" content="#19425f">
 	<title>長野創造科学クラブのHP案</title>
@@ -32,7 +32,7 @@
 		content="長野創造科学クラブの非公式HP案です。活動内容や所在地,お問い合わせ,FAQなどの概要を掲載中です。令和5年度の新規クラブ員を募集しています。募集要項はクラブのHP案で確認できます。">
 	<meta name="google-site-verification" content="N9RQwarTPDjSSkKVQq9R28VHOnx6TvFhpUW6ot1II7E" />
 	<!-- ServiceWorker -->
-	<link rel="manifest" href="https://pp-pixel.github.io/csclub/manifest.json">
+	<link rel="manifest" href="https://ngn-csclub.pages.dev/manifest.json">
 	<script>
 		if ("serviceWorker" in navigator) {
 			window.addEventListener("load", function () {
@@ -78,6 +78,24 @@
 			font-size: 100%;
 		}
 	</style>
+	<script>
+		// リダイレクト用のスクリプト
+		(function () {
+			var currentHost = window.location.hostname;
+			var currentPath = window.location.pathname;
+			var sourceHost = 'pp-pixel.github.io';
+			var sourcePath = '/csclub/';
+			var targetHost = 'ngn-csclub.pages.dev'; // Cloudflare Pagesのドメインに置き換えてください
+
+			if (currentHost === sourceHost && currentPath.startsWith(sourcePath)) {
+				// pp-pixel.github.io/csclub/の場合、ngn-csclub.pages.devにリダイレクト
+				var newPath = currentPath.replace(sourcePath, '/');
+				var newUrl = 'https://' + targetHost + newPath + window.location.search + window.location.hash;
+				window.location.replace(newUrl);
+			}
+			// 他のケースでは何もしない
+		})();
+	</script>
 
 </head>
 
@@ -202,7 +220,9 @@
 								<span class="material-symbols-outlined">link</span></a>
 						</p>
 
-						<h2 style="font-size: xx-large;" class="ja-word"><a href="outpages/bulletin-board.html" target="_blank">掲示板<span class="material-symbols-outlined" style="font-size: 60%;">open_in_new</span></a>について</h2>
+						<h2 style="font-size: xx-large;" class="ja-word"><a href="outpages/bulletin-board.html"
+								target="_blank">掲示板<span class="material-symbols-outlined"
+									style="font-size: 60%;">open_in_new</span></a>について</h2>
 						<p style="font-size: large;" class="ja-word">
 							掲示板への不適切な書き込みが頻発しているため、掲示板を閉鎖いたします。<br>今後は、クラブ員への連絡はSlackで行わせていただきますので、ご確認ください。</a>
 						</p>
@@ -267,12 +287,17 @@
 					</div>
 
 					<div class="list blur">
-						<figure><a href="https://www.shinshu-u.ac.jp/YSF/images/adb5a9cf36306fcaa9270be7d37fa6d2.pdf" target="_blank" rel="nofollow"><img src="images/camera.radi-con.png" alt="科学の祭典"></a>
+						<figure><a href="https://www.shinshu-u.ac.jp/YSF/images/adb5a9cf36306fcaa9270be7d37fa6d2.pdf"
+								target="_blank" rel="nofollow"><img src="images/camera.radi-con.png" alt="科学の祭典"></a>
 						</figure>
-						<div class="text"><a href="https://www.shinshu-u.ac.jp/YSF/images/adb5a9cf36306fcaa9270be7d37fa6d2.pdf" target="_blank" rel="nofollow">
-								<h4>科学の祭典&nbsp;へ出展します<span class="material-symbols-outlined"><!--link-->open_in_new</span></h4>
+						<div class="text"><a
+								href="https://www.shinshu-u.ac.jp/YSF/images/adb5a9cf36306fcaa9270be7d37fa6d2.pdf"
+								target="_blank" rel="nofollow">
+								<h4>科学の祭典&nbsp;へ出展します<span
+										class="material-symbols-outlined"><!--link-->open_in_new</span></h4>
 							</a>
-							<a href="https://www.shinshu-u.ac.jp/YSF/images/adb5a9cf36306fcaa9270be7d37fa6d2.pdf" target="_blank" rel="nofollow" style="color: #999999;text-decoration: none;">
+							<a href="https://www.shinshu-u.ac.jp/YSF/images/adb5a9cf36306fcaa9270be7d37fa6d2.pdf"
+								target="_blank" rel="nofollow" style="color: #999999;text-decoration: none;">
 								<p>科学の祭典&nbsp;８月６日（火）<br>カメラ付きのラジコンロボットを操作してみよう！
 							</a><br>
 							<a href="https://www.shinshu-u.ac.jp/YSF/" style="color: #999999;" target="_blank"
@@ -284,8 +309,8 @@
 					</div>
 
 					<div class="list blur">
-						<figure><a href="https://n-hatsumei.jp/pages/9/#block434" target="_blank"
-								rel="nofollow"><img src="images/ngn-hkten-w.webp" alt="長野県発明くふう展"></a></figure>
+						<figure><a href="https://n-hatsumei.jp/pages/9/#block434" target="_blank" rel="nofollow"><img
+									src="images/ngn-hkten-w.webp" alt="長野県発明くふう展"></a></figure>
 						<div class="text"><a href="https://n-hatsumei.jp/pages/9/#block434" target="_blank"
 								rel="nofollow">
 								<h4>第51回&nbsp;長野県発明くふう展&nbsp;があります<span
@@ -295,13 +320,14 @@
 								style="color: #999999;text-decoration: none;" target="_blank" rel="nofollow">
 								<p>
 									作品募集期間:令和6年7月1日(月)～9月13日(金)<br>表彰式:令和6年10月26日(土)<br>応募作品の展示:令和6年10月25日(金)～26日(土)
-								</p></a>
-								<a href="pamphlet.pdf.html" style="color: #999999;">パンフレット<span
+								</p>
+							</a>
+							<a href="pamphlet.pdf.html" style="color: #999999;">パンフレット<span
 									class="material-symbols-outlined">link</span></a>
-								<p>昨年の実績<br>・長野県教育委員会賞（高校生） 『Cool my Back』<br>
-									・長野県知事賞（中学生）『ウェイターロボ』<br>
-									・長野県教育委員会賞（中学生）『本を戻さないと音が鳴る本&zwj;棚』<br>
-							<a href="opus/#2023" style="color: #999999;">受賞作品はこちら</a><a>&emsp;</a>
+							<p>昨年の実績<br>・長野県教育委員会賞（高校生） 『Cool my Back』<br>
+								・長野県知事賞（中学生）『ウェイターロボ』<br>
+								・長野県教育委員会賞（中学生）『本を戻さないと音が鳴る本&zwj;棚』<br>
+								<a href="opus/#2023" style="color: #999999;">受賞作品はこちら</a><a>&emsp;</a>
 							</p>
 						</div>
 						<!-- <span class="new">NEW</span> -->
@@ -322,21 +348,20 @@
 					<p>掲示板への不適切な書き込みが頻発しているため、掲示板を閉鎖いたします。<wbr>今後は、クラブ員への連絡はSlackで行わせていただきますので、ご確認ください。</p>
 
 					<div class="list blur">
-						<figure><a href="outpages/bulletin-board.html" target="_blank"
-								rel="nofollow"><img src="images/osirase.webp" alt="お知らせ"></a></figure>
-						<div class="text"><a href="outpages/bulletin-board.html" target="_blank"
-								rel="nofollow">
+						<figure><a href="outpages/bulletin-board.html" target="_blank" rel="nofollow"><img
+									src="images/osirase.webp" alt="お知らせ"></a></figure>
+						<div class="text"><a href="outpages/bulletin-board.html" target="_blank" rel="nofollow">
 								<h4>お知らせ<span class="material-symbols-outlined">open_in_new</span></h4>
 							</a>
-							<p><s><a href="outpages/bulletin-board.html"
-										style="text-decoration: none;color: #999999;" target="_blank" rel="nofollow">
+							<p><s><a href="outpages/bulletin-board.html" style="text-decoration: none;color: #999999;"
+										target="_blank" rel="nofollow">
 										クラブ員の方への連絡はSlackでお知らせしますが、<wbr>外部の方も見&zwj;られる情報は掲示板でお知らせします。<br>
 									</a>
 									<a href="outpages/bulletin-board.html" target="_blank" style="color: #999999;"
 										rel="nofollow">掲示板はこちら<span
 											class="material-symbols-outlined">open_in_new</span></a>
 								</s></p>
-								<p>掲示板への不適切な書き込みが頻発しているため、掲示板を閉鎖いたします。<wbr>今後は、クラブ員への連絡はSlackで行わせていただきますので、ご確認ください。</p>
+							<p>掲示板への不適切な書き込みが頻発しているため、掲示板を閉鎖いたします。<wbr>今後は、クラブ員への連絡はSlackで行わせていただきますので、ご確認ください。</p>
 						</div>
 						<!-- <span class="post">POST</span> -->
 					</div>
@@ -416,7 +441,7 @@
 				<li><a href="sitemaps/">サイトマップ</a></li>
 			</ul>&#010;
 			<!--reCAPTCHA-->
-			<button class="g-recaptcha" data-sitekey="6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl" data-callback='onSubmit'
+			<button class="g-recaptcha" data-sitekey="6LfLsBoqAAAAABGxTUsqGrtwVvWMlG1alTMeReqg" data-callback='onSubmit'
 				data-action='submit'></button>
 			<div class="copy">
 				<small>Copyright&copy; 2023-2024 <a href="index.html">Nagano Creative Science Club HP Draft</a>. All
@@ -441,7 +466,7 @@
 		}
 	</script>
 	<script
-		src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
+		src="https://www.google.com/recaptcha/enterprise.js?render=6LfLsBoqAAAAABGxTUsqGrtwVvWMlG1alTMeReqg"></script>
 
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-PXVGS9WW5H"></script>

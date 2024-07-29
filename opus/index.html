@@ -6,14 +6,14 @@
 	<meta charset="UTF-8">
 	<meta name="robots" content="noindex">
 	<!-- ホームページの正式なURL -->
-	<link rel="canonical" href="https://pp-pixel.github.io/csclub/">
+	<link rel="canonical" href="https://ngn-csclub.pages.dev/">
 	<!-- アイコンの設定 -->
 	<link rel="icon" href="../favicon/favicon.png" sizes="500x500" type="image/png">
 	<!-- スマホの待受で表示するアイコンの設定 -->
 	<link rel="apple-touch-icon" href="../favicon/icon-192.png" sizes="192x192">
 	<meta name=”viewport” content=”width=device-width,initial-scale=1″ />
 	<!-- SNSに埋め込みしたときのURL -->
-	<meta property="og:url" content="https://pp-pixel.github.io/csclub/recruitment.pdf/" />
+	<meta property="og:url" content="https://ngn-csclub.pages.dev/recruitment.pdf/" />
 	<!-- ページの種類 -->
 	<meta property="og:type" content="website" />
 	<!-- SNSに埋め込みしたときのタイトル -->
@@ -23,7 +23,7 @@
 	<!-- SNSに埋め込みしたときのサイトの名前 タイトルとはまた別で団体名みたいな -->
 	<meta property="og:site_name" content="Nagano Creative Science Club HP Draft" />
 	<!-- SNSに埋め込みしたときのイメージ画像 -->
-	<meta property="og:image" content="https://pp-pixel.github.io/csclub/images/ogp-image2.webp" />
+	<meta property="og:image" content="https://ngn-csclub.pages.dev/images/ogp-image2.webp" />
 	<meta name="twitter:card" content="summary_large_image" />
 	<title>作品集|307 Temporary Redirect｜長野創造科学クラブのHP案</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,9 +37,9 @@
 	</script>
 	<script src="https://unpkg.com/budoux/bundle/budoux-ja.min.js"></script>
 	<script
-		src="https://www.google.com/recaptcha/enterprise.js?render=6LeoDWgmAAAAAGwPsVvUHB8UzQsZj-w6wxO_Ccxl"></script>
+		src="https://www.google.com/recaptcha/enterprise.js?render=6LfLsBoqAAAAABGxTUsqGrtwVvWMlG1alTMeReqg"></script>
 	<!-- ServiceWorker -->
-	<link rel="manifest" href="https://pp-pixel.github.io/csclub/manifest.json">
+	<link rel="manifest" href="https://ngn-csclub.pages.dev/manifest.json">
 	<script>
 		if ("serviceWorker" in navigator) {
 			window.addEventListener("load", function () {
@@ -68,6 +68,35 @@
 			background-color: #28292a;
 		}
 	</style>
+	<script>
+		// 汎用リダイレクト用のスクリプト
+		(function () {
+			var currentHost = window.location.hostname;
+			var currentPath = window.location.pathname;
+			var sourceHost = 'pp-pixel.github.io';
+			var sourcePath = '/csclub';
+			var targetHost = 'ngn-csclub.pages.dev';
+
+			if (currentHost === sourceHost && currentPath.startsWith(sourcePath)) {
+				// sourcePathが '/csclub' で終わっていない場合は追加
+				if (!sourcePath.endsWith('/')) {
+					sourcePath += '/';
+				}
+
+				// 現在のパスからsourcePathを除去
+				var newPath = currentPath.startsWith(sourcePath)
+					? currentPath.slice(sourcePath.length - 1)
+					: currentPath;
+
+				// 新しいURLを構築
+				var newUrl = 'https://' + targetHost + newPath + window.location.search + window.location.hash;
+
+				// リダイレクト
+				window.location.replace(newUrl);
+			}
+			// 他のケースでは何もしない
+		})();
+	</script>
 </head>
 
 <body>

@@ -2,18 +2,18 @@
   "name"              : "CSClub",
   "short_name"        : "CSClub",
   "description"       : "長野創造科学クラブの非公式ホームページ案です",
-  "start_url"         : "https://pp-pixel.github.io/csclub/",
+  "start_url"         : "https://ngn-csclub.pages.dev/",
   "id"         : "csclub",
   "display"           : "standalone",
   "display_override": ["window-controls-overlay"],
   "background_color"  : "#164263",
   "theme_color"       : "#164263",
   "icons": [{
-      "src"           : "https://pp-pixel.github.io/csclub/favicon/icon-192.png",
+      "src"           : "https://ngn-csclub.pages.dev/favicon/icon-192.png",
       "sizes"         : "192x192",
       "type"          : "image/png"
     }, {
-      "src"           : "https://pp-pixel.github.io/csclub/favicon/icon-256.png",
+      "src"           : "https://ngn-csclub.pages.dev/favicon/icon-256.png",
       "sizes"         : "256x256",
       "type"          : "image/png"
   }]
