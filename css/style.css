@@ -997,3 +997,7 @@ p.btn {
 		display: block;
 	}
 }
+
+.grecaptcha-badge {
+  display: none;
+}
