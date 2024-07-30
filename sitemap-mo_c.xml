@@ -3,63 +3,63 @@
 <url>
   <loc>https://ngn-csclub.pages.dev/</loc>
   <priority>1.0</priority>
-  <lastmod>2024-07-30T02:00:+09:00</lastmod>
+  <lastmod>2024-07-30T02:00:00+09:00</lastmod>
   <changefreq>always</changefreq>
   <mobile:mobile />
 </url>
 <!-- <url>
   <loc>https://ngn-csclub.pages.dev/index.html</loc>
   <priority>1.0</priority>
-  <lastmod>2024-07-30T02:00:+09:00</lastmod>
+  <lastmod>2024-07-30T02:00:00+09:00</lastmod>
   <changefreq>always</changefreq>
   <mobile:mobile />
 </url> -->
 <url>
   <loc>https://ngn-csclub.pages.dev/company/</loc>
   <priority>0.8</priority>
-  <lastmod>2024-07-30T02:00:+09:00</lastmod>
+  <lastmod>2024-07-30T02:00:00+09:00</lastmod>
   <changefreq>always</changefreq>
   <mobile:mobile />
 </url>
 <url>
   <loc>https://ngn-csclub.pages.dev/activity/</loc>
   <priority>0.8</priority>
-  <lastmod>2024-07-30T02:00:+09:00</lastmod>
+  <lastmod>2024-07-30T02:00:00+09:00</lastmod>
   <changefreq>always</changefreq>
   <mobile:mobile />
 </url>
 <url>
   <loc>https://ngn-csclub.pages.dev/download/opus/</loc>
   <priority>0.7</priority>
-  <lastmod>2024-07-30T02:00:+09:00</lastmod>
+  <lastmod>2024-07-30T02:00:00+09:00</lastmod>
   <changefreq>yearly</changefreq>
   <mobile:mobile />
 </url>
 <url>
   <loc>https://ngn-csclub.pages.dev/faq/</loc>
   <priority>0.5</priority>
-  <lastmod>2024-07-30T02:00:+09:00</lastmod>
+  <lastmod>2024-07-30T02:00:00+09:00</lastmod>
   <changefreq>always</changefreq>
   <mobile:mobile />
 </url>
 <url>
   <loc>https://ngn-csclub.pages.dev/contact.html</loc>
   <priority>0.5</priority>
-  <lastmod>2024-07-30T02:00:+09:00T02:00:+09:00</lastmod>
+  <lastmod>2024-07-30T02:00:00+09:00T02:00:+09:00</lastmod>
   <changefreq>always</changefreq>
   <mobile:mobile />
 </url>
 <url>
   <loc>https://ngn-csclub.pages.dev/recruitment.pdf/</loc>
   <priority>0.7</priority>
-  <lastmod>2024-07-30T02:00:+09:00</lastmod>
+  <lastmod>2024-07-30T02:00:00+09:00</lastmod>
   <changefreq>yearly</changefreq>
   <mobile:mobile />
 </url>
 <url>
   <loc>https://ngn-csclub.pages.dev/sitemap/</loc>
   <priority>0.5</priority>
-  <lastmod>2024-07-30T02:00:+09:00</lastmod>
+  <lastmod>2024-07-30T02:00:00+09:00</lastmod>
   <changefreq>yearly</changefreq>
   <mobile:mobile />
 </url>
